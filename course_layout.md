@@ -2,6 +2,7 @@
 * 00 - Overview
     * Tensorflow Keras
     * Getting setup/Getting course materials
+* L00 - Introduction to notebooks
 * 01 - Introduction to Deep Learning
     * What is it used for? Who's using it?
         * Examples of applications of DL

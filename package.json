@@ -1,0 +1,21 @@
+{
+  "name": "jade-dl-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.md",
+  "scripts": {
+    "start": "reveal-md 00_overview.md -w",
+    "slide:0": "reveal-md 00_overview.md -w --css slide-style.css",
+    "slide:1": "reveal-md 01_introduction_to_deep_learning.md -w --css slide-style.css --template reveal.html --preprocessor preproc.js",
+    "slide:2": "reveal-md 02_neural_networks.md -w --css slide-style.css",
+    "build": "reveal-md index.md --static _site --static-dirs media",
+    "build:docs": "reveal-md index.md --static docs --static-dirs media"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jsdom": "^16.2.2",
+    "reveal-md": "^3.4.7"
+  }
+}
