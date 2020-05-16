@@ -66,6 +66,19 @@ Mars mission
 
 Statistical models that learns from data 
 
+---
+
+## A simple ML model
+
+<object type="image/svg+xml" data="assets/img/ml-model.svg"></object>
+
+e.g. predicting house price from no. of bedrooms <!-- .element: class="fragment" -->
+
+
+<object type="image/svg+xml" data="assets/img/ml-model-houseprice.svg">
+<param id="layer1" class="fragment" />
+</object>
+
 
 
 ---
@@ -73,23 +86,40 @@ Statistical models that learns from data
 ## Learning by examples
 ML models learn by being shown many examples. Each example is a pair of Feature (input) and Label (desired output).
 
+<table>
+<tr><th>Feature (No. of bedrooms)</th><th>Label (Sale Price)</th></tr>
+<tr><td>3</td><td>185,000</td></tr>
+<tr><td>1</td><td>70,000</td></tr>
+<tr><td>4</td><td>250,000</td></tr>
+</table>
+<br/>
 <object type="image/svg+xml" data="assets/img/feature-label.svg">
-<param id="layer1" class="fragment" data-fragment-index="1" >
-<param id="layer2" class="fragment" data-fragment-index="2">
+<param id="layer1" class="fragment" data-fragment-index="1" />
+<param id="layer2" class="fragment" data-fragment-index="2" />
 </object>
+
 
 
 
 ---
 
 ## Feature engineering
+Real-world applications often does not map neatly to a single feature
 
+e.g. here's what happens when we plot using real data:
+<img src="assets/img/bedroom-saleprice.png" class="plain" style="background: white; width: 50%" />
 
+What other features should we collect?
+
+---
+
+## Feature engineering
+What about images?
 
 ---
 
 
-## Machine Learning - Methodologies
+## ML Methodologies
 
 * Decision trees
 * State vector machines
