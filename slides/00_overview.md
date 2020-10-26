@@ -17,7 +17,7 @@ Twin Karmakharm
 
 ---
 
-## Overview
+## Contents Overview
 
 * Introduction to Deep Learning
 * Neural Networks
@@ -48,8 +48,6 @@ A platform to run lab code interactively
 `Shift+Enter` to run code
 
 `Tab` to get code suggestion
-
----
 
 
 
