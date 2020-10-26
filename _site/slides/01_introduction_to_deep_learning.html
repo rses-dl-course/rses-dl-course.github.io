@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="stylesheet" href="./css/reveal.css" />
+    <link rel="stylesheet" href="./css/theme/league.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"># 1. Introduction to Deep Learning
+</script></section><section  data-markdown><script type="text/template">
+## Examples of deep learning
+</script></section><section  data-markdown><script type="text/template">
+Self-driving cars
+ 
+![LIDAR DNN](assets/img/lidar-dnn.png)
+
+<span class="small-note">[https://blogs.nvidia.com/blog/2020/03/11/drive-labs-multi-view-lidarnet-self-driving-cars/](https://blogs.nvidia.com/blog/2020/03/11/drive-labs-multi-view-lidarnet-self-driving-cars/)</span>
+</script></section><section  data-markdown><script type="text/template">
+Playing GO
+
+![LIDAR DNN](assets/img/alphago.jpg)
+
+<span class="small-note">[https://www.bbc.co.uk/news/technology-35785875](https://www.bbc.co.uk/news/technology-35785875)</span>
+</script></section><section  data-markdown><script type="text/template">
+Impersonating celebrities
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cQ54GDm1eL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</script></section><section  data-markdown><script type="text/template">
+Mars mission
+
+<span class="medium-note">Terrain classification, navigation, autonomous rover, etc.</span>
+
+<img src="assets/img/mars-rover.png" style="width:45%"/>
+
+<span class="small-note">DeepTerramechanics: Terrain Classification and Slip Estimation for Ground Robots via Deep Learning, R. Gonzalez, K. Iagnemma</span>
+</script></section><section  data-markdown><script type="text/template">
+## More examples of deep learning
+
+* Cancer detection
+* Auto-recommendation (videos, shopping preferences, etc.)
+* Digital assistants (Google Assistant, Siri, Echo)
+* Language translation
+* And many more...
+</script></section><section  data-markdown><script type="text/template">
+## Definitions
+
+<img src="assets/img/ai-definition.svg" class="plain" style="width:70%"/>
+</script></section><section  data-markdown><script type="text/template">
+## Machine Learning (ML)
+
+Statistical models that learns from data 
+</script></section><section  data-markdown><script type="text/template">
+## A simple ML model
+
+<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="185.13777mm" height="28.625397mm" viewBox="0 0 656 101.42857" id="svg4908" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="ml-model.svg">
+  <defs id="defs4910">
+    <linearGradient id="linearGradient6533" osb:paint="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop6535"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient6499" osb:paint="solid">
+      <stop style="stop-color:#dcdcdc;stop-opacity:1;" offset="0" id="stop6501"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient6449" osb:paint="solid">
+      <stop style="stop-color:#ffffff;stop-opacity:1;" offset="0" id="stop6451"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient6431" osb:paint="solid">
+      <stop style="stop-color:#dcdcdc;stop-opacity:1;" offset="0" id="stop6433"></stop>
+    </linearGradient>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend" style="overflow:visible" inkscape:isstock="true">
+      <path id="path5677" d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z" style="fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:#dcdcdc;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.4,0,0,-0.4,-4,0)" inkscape:connector-curvature="0"></path>
+    </marker>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4813" id="linearGradient4887" gradientUnits="userSpaceOnUse" gradientTransform="translate(35,-41.428571)" x1="201.67126" y1="355.04117" x2="459.65628" y2="355.04117"></linearGradient>
+    <linearGradient id="linearGradient4813" osb:paint="solid">
+      <stop style="stop-color:#474747;stop-opacity:1;" offset="0" id="stop4815"></stop>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4813" id="linearGradient4885" gradientUnits="userSpaceOnUse" gradientTransform="translate(67.142857,-37.5)" x1="257.51328" y1="402.90598" x2="469.19739" y2="402.90598"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4813" id="linearGradient4883" gradientUnits="userSpaceOnUse" gradientTransform="translate(-0.71428572,-2.5)" x1="161.9369" y1="274.72742" x2="465.4957" y2="274.72742"></linearGradient>
+    <linearGradient id="linearGradient4799" osb:paint="solid">
+      <stop style="stop-color:#f5a883;stop-opacity:1;" offset="0" id="stop4801"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient4781" osb:paint="solid">
+      <stop style="stop-color:#dde0b6;stop-opacity:1;" offset="0" id="stop4783"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient4787" osb:paint="solid">
+      <stop style="stop-color:#b7c06f;stop-opacity:1;" offset="0" id="stop4789"></stop>
+    </linearGradient>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend-9" style="overflow:visible" inkscape:isstock="true">
+      <path inkscape:connector-curvature="0" id="path5677-9" d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z" style="fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:#dcdcdc;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.4,0,0,-0.4,-4,0)"></path>
+    </marker>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6431" id="linearGradient6453" x1="194.35715" y1="215.21935" x2="248.90721" y2="215.21935" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6431" id="linearGradient6455" x1="432.72498" y1="215.3622" x2="487.27505" y2="215.3622" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6499" id="linearGradient6503" x1="432.72498" y1="215.3622" x2="487.27505" y2="215.3622" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6499" id="linearGradient6505" x1="194.35715" y1="215.21935" x2="248.90721" y2="215.21935" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6431" id="linearGradient6545" gradientUnits="userSpaceOnUse" x1="115.77928" y1="-570.7168" x2="126.30663" y2="-570.7168"></linearGradient>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="2" inkscape:cx="456.39726" inkscape:cy="117.59129" inkscape:document-units="px" inkscape:current-layer="g6352" showgrid="false" showguides="true" inkscape:guide-bbox="true" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="2560" inkscape:window-height="1547" inkscape:window-x="1200" inkscape:window-y="564" inkscape:window-maximized="1"></sodipodi:namedview>
+  <metadata id="metadata4913">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-12.857143,-160.64792)" style="display:inline">
+    <g id="g6352" transform="translate(0,-4.5714264)">
+      <rect ry="0.63043302" rx="0.76983702" y="165.21935" x="12.857143" height="101.42857" width="178.57143" id="rect5631" style="fill:url(#linearGradient4787);fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+      <text sodipodi:linespacing="125%" id="text5615" y="206.7305" x="101.58035" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="206.7305" x="101.58035" id="tspan5617" sodipodi:role="line">Input</tspan><tspan y="256.7305" x="101.58035" sodipodi:role="line" id="tspan4344">(Feature)</tspan></text>
+    </g>
+    <g id="g6347" transform="translate(0,-1)">
+      <rect ry="0.63043302" rx="0.76983702" y="161.64792" x="250.71429" height="101.42857" width="178.57143" id="rect5631-2" style="fill:url(#linearGradient4799);fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+      <text sodipodi:linespacing="125%" id="text5619" y="227.27432" x="279.86328" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="227.27432" x="279.86328" id="tspan5621" sodipodi:role="line">Model</tspan></text>
+    </g>
+    <g id="g6357">
+      <rect ry="0.63043302" rx="0.76983702" y="160.64792" x="490.28571" height="101.42857" width="178.57143" id="rect5631-4" style="fill:url(#linearGradient4781);fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+      <text sodipodi:linespacing="125%" id="text5623" y="222.04581" x="509.4054" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="222.04581" x="509.4054" id="tspan5625" sodipodi:role="line">Output</tspan></text>
+    </g>
+    <path style="fill:url(#linearGradient6505);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6453);stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)" d="m 194.35714,215.21935 45,0" id="path5662" inkscape:connector-curvature="0"></path>
+    <path style="fill:url(#linearGradient6503);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6455);stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9)" d="m 432.72497,215.3622 45,0" id="path5662-4" inkscape:connector-curvature="0"></path>
+  </g>
+  <g inkscape:groupmode="layer" id="layer2" inkscape:label="Layer 2" style="display:inline;opacity:0.95999995" transform="translate(-2.4145761e-7,3.9216798e-6)"></g>
+</svg>
+
+
+e.g. predicting house price from no. of bedrooms <!-- .element: class="fragment" -->
+
+
+<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="185.13777mm" height="28.625397mm" viewBox="0 0 656 101.42857" id="svg4908" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="ml-model-houseprice.svg">
+  <defs id="defs4910">
+    <linearGradient id="linearGradient6533" osb:paint="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop6535"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient6499" osb:paint="solid">
+      <stop style="stop-color:#dcdcdc;stop-opacity:1;" offset="0" id="stop6501"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient6449" osb:paint="solid">
+      <stop style="stop-color:#ffffff;stop-opacity:1;" offset="0" id="stop6451"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient6431" osb:paint="solid">
+      <stop style="stop-color:#dcdcdc;stop-opacity:1;" offset="0" id="stop6433"></stop>
+    </linearGradient>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend" style="overflow:visible" inkscape:isstock="true">
+      <path id="path5677" d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z" style="fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:#dcdcdc;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.4,0,0,-0.4,-4,0)" inkscape:connector-curvature="0"></path>
+    </marker>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4813" id="linearGradient4887" gradientUnits="userSpaceOnUse" gradientTransform="translate(35,-41.428571)" x1="201.67126" y1="355.04117" x2="459.65628" y2="355.04117"></linearGradient>
+    <linearGradient id="linearGradient4813" osb:paint="solid">
+      <stop style="stop-color:#474747;stop-opacity:1;" offset="0" id="stop4815"></stop>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4813" id="linearGradient4885" gradientUnits="userSpaceOnUse" gradientTransform="translate(67.142857,-37.5)" x1="257.51328" y1="402.90598" x2="469.19739" y2="402.90598"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4813" id="linearGradient4883" gradientUnits="userSpaceOnUse" gradientTransform="translate(-0.71428572,-2.5)" x1="161.9369" y1="274.72742" x2="465.4957" y2="274.72742"></linearGradient>
+    <linearGradient id="linearGradient4799" osb:paint="solid">
+      <stop style="stop-color:#f5a883;stop-opacity:1;" offset="0" id="stop4801"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient4781" osb:paint="solid">
+      <stop style="stop-color:#dde0b6;stop-opacity:1;" offset="0" id="stop4783"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient4787" osb:paint="solid">
+      <stop style="stop-color:#b7c06f;stop-opacity:1;" offset="0" id="stop4789"></stop>
+    </linearGradient>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend-9" style="overflow:visible" inkscape:isstock="true">
+      <path inkscape:connector-curvature="0" id="path5677-9" d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z" style="fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:#dcdcdc;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.4,0,0,-0.4,-4,0)"></path>
+    </marker>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6431" id="linearGradient6453" x1="194.35715" y1="215.21935" x2="248.90721" y2="215.21935" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6431" id="linearGradient6455" x1="432.72498" y1="215.3622" x2="487.27505" y2="215.3622" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6499" id="linearGradient6503" x1="432.72498" y1="215.3622" x2="487.27505" y2="215.3622" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6499" id="linearGradient6505" x1="194.35715" y1="215.21935" x2="248.90721" y2="215.21935" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6431" id="linearGradient6545" gradientUnits="userSpaceOnUse" x1="115.77928" y1="-570.7168" x2="126.30663" y2="-570.7168"></linearGradient>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="2" inkscape:cx="456.39726" inkscape:cy="117.59129" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" showguides="true" inkscape:guide-bbox="true" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="2560" inkscape:window-height="1547" inkscape:window-x="1200" inkscape:window-y="564" inkscape:window-maximized="1"></sodipodi:namedview>
+  <metadata id="metadata4913">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-12.857143,-160.64792)" style="display:inline" class="fragment">
+    <g id="g6352" transform="translate(0,-4.5714264)">
+      <rect ry="0.63043302" rx="0.76983702" y="165.21935" x="12.857143" height="101.42857" width="178.57143" id="rect5631" style="fill:url(#linearGradient4787);fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+      <text sodipodi:linespacing="125%" id="text5615" y="230.84573" x="102.41629" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="230.84573" x="102.41629" sodipodi:role="line" id="tspan4344"># Bed</tspan></text>
+    </g>
+    <g id="g6347" transform="translate(0,-1)">
+      <rect ry="0.63043302" rx="0.76983702" y="161.64792" x="250.71429" height="101.42857" width="178.57143" id="rect5631-2" style="fill:url(#linearGradient4799);fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+      <text sodipodi:linespacing="125%" id="text5619" y="227.27432" x="279.86328" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="227.27432" x="279.86328" id="tspan5621" sodipodi:role="line">Model</tspan></text>
+    </g>
+    <g id="g6357">
+      <rect ry="0.63043302" rx="0.76983702" y="160.64792" x="490.28571" height="101.42857" width="178.57143" id="rect5631-4" style="fill:url(#linearGradient4781);fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+      <text sodipodi:linespacing="125%" id="text5623" y="201.27432" x="578.67297" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="201.27432" x="578.67297" id="tspan5625" sodipodi:role="line" style="line-height:125%;text-align:center;writing-mode:lr-tb;text-anchor:middle">Sale</tspan><tspan y="251.27432" x="578.67297" sodipodi:role="line" id="tspan5250" style="line-height:125%;text-align:center;writing-mode:lr-tb;text-anchor:middle">Price</tspan></text>
+    </g>
+    <path style="fill:url(#linearGradient6505);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6453);stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)" d="m 194.35714,215.21935 45,0" id="path5662" inkscape:connector-curvature="0"></path>
+    <path style="fill:url(#linearGradient6503);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6455);stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9)" d="m 432.72497,215.3622 45,0" id="path5662-4" inkscape:connector-curvature="0"></path>
+  </g>
+  <g inkscape:groupmode="layer" id="layer2" inkscape:label="Layer 2" style="display:inline;opacity:0.95999995" transform="translate(-2.4145761e-7,3.9216798e-6)"></g>
+</svg>
+
+
+
+</script></section><section  data-markdown><script type="text/template">
+## Learning by examples
+ML models learn by being shown many examples. Each example is a pair of Feature (input) and Label (desired output).
+
+<table>
+<tr><th>Feature (No. of bedrooms)</th><th>Label (Sale Price)</th></tr>
+<tr><td>3</td><td>185,000</td></tr>
+<tr><td>1</td><td>70,000</td></tr>
+<tr><td>4</td><td>250,000</td></tr>
+</table>
+<br/>
+<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="255.55222mm" height="37.43079mm" viewBox="0 0 905.50001 132.62879" id="svg4908" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="feature-label.svg">
+  <defs id="defs4910">
+    <linearGradient id="linearGradient5866" osb:paint="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop5868"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient6533" osb:paint="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop6535"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient6499" osb:paint="solid">
+      <stop style="stop-color:#dcdcdc;stop-opacity:1;" offset="0" id="stop6501"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient6449" osb:paint="solid">
+      <stop style="stop-color:#ffffff;stop-opacity:1;" offset="0" id="stop6451"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient6431" osb:paint="solid">
+      <stop style="stop-color:#dcdcdc;stop-opacity:1;" offset="0" id="stop6433"></stop>
+    </linearGradient>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend" style="overflow:visible" inkscape:isstock="true">
+      <path id="path5677" d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z" style="fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:#dcdcdc;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.4,0,0,-0.4,-4,0)" inkscape:connector-curvature="0"></path>
+    </marker>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4813" id="linearGradient4887" gradientUnits="userSpaceOnUse" gradientTransform="translate(35,-41.428571)" x1="201.67126" y1="355.04117" x2="459.65628" y2="355.04117"></linearGradient>
+    <linearGradient id="linearGradient4813" osb:paint="solid">
+      <stop style="stop-color:#474747;stop-opacity:1;" offset="0" id="stop4815"></stop>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4813" id="linearGradient4885" gradientUnits="userSpaceOnUse" gradientTransform="translate(67.142857,-37.5)" x1="257.51328" y1="402.90598" x2="469.19739" y2="402.90598"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4813" id="linearGradient4883" gradientUnits="userSpaceOnUse" gradientTransform="translate(-0.71428572,-2.5)" x1="161.9369" y1="274.72742" x2="465.4957" y2="274.72742"></linearGradient>
+    <linearGradient id="linearGradient4799" osb:paint="solid">
+      <stop style="stop-color:#f5a883;stop-opacity:1;" offset="0" id="stop4801"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient4781" osb:paint="solid">
+      <stop style="stop-color:#dde0b6;stop-opacity:1;" offset="0" id="stop4783"></stop>
+    </linearGradient>
+    <linearGradient id="linearGradient4787" osb:paint="solid">
+      <stop style="stop-color:#b7c06f;stop-opacity:1;" offset="0" id="stop4789"></stop>
+    </linearGradient>
+    <marker inkscape:stockid="Arrow1Mend" orient="auto" refY="0" refX="0" id="Arrow1Mend-9" style="overflow:visible" inkscape:isstock="true">
+      <path inkscape:connector-curvature="0" id="path5677-9" d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z" style="fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:#dcdcdc;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.4,0,0,-0.4,-4,0)"></path>
+    </marker>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6431" id="linearGradient6453" x1="194.35715" y1="215.21935" x2="248.90721" y2="215.21935" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6431" id="linearGradient6455" x1="432.72498" y1="215.3622" x2="487.27505" y2="215.3622" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6499" id="linearGradient6503" x1="432.72498" y1="215.3622" x2="487.27505" y2="215.3622" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6499" id="linearGradient6505" x1="194.35715" y1="215.21935" x2="248.90721" y2="215.21935" gradientUnits="userSpaceOnUse"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6431" id="linearGradient6545" gradientUnits="userSpaceOnUse" x1="115.77928" y1="-570.7168" x2="126.30663" y2="-570.7168"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6499" id="linearGradient6557" gradientUnits="userSpaceOnUse" gradientTransform="translate(-131.5,4.4999999)" x1="402.35101" y1="-585.87274" x2="460.9057" y2="-585.87274"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6499" id="linearGradient6564" gradientUnits="userSpaceOnUse" gradientTransform="translate(-131.5,4.4999999)" x1="402.35101" y1="-585.87274" x2="460.9057" y2="-585.87274"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6499" id="linearGradient6566" gradientUnits="userSpaceOnUse" gradientTransform="translate(-131.5,4.4999999)" x1="402.35101" y1="-585.87274" x2="460.9057" y2="-585.87274"></linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6431" id="linearGradient4199" gradientUnits="userSpaceOnUse" gradientTransform="translate(68.5,-31)" x1="464.45367" y1="151.53162" x2="815.62555" y2="151.53162"></linearGradient>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="2" inkscape:cx="603.39726" inkscape:cy="93.291509" inkscape:document-units="px" inkscape:current-layer="layer2" showgrid="false" showguides="true" inkscape:guide-bbox="true" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="2560" inkscape:window-height="1547" inkscape:window-x="1200" inkscape:window-y="564" inkscape:window-maximized="1"></sodipodi:namedview>
+  <metadata id="metadata4913">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-12.857143,-160.64792)" style="display:inline" class="fragment" data-fragment-index="1">
+    <g id="g6352" transform="translate(0,-4.5714264)">
+      <rect ry="0.63043302" rx="0.76983702" y="165.21935" x="12.857143" height="101.42857" width="178.57143" id="rect5631" style="fill:url(#linearGradient4787);fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+      <text sodipodi:linespacing="125%" id="text5615" y="230.2305" x="25.580357" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="230.2305" x="25.580357" id="tspan5617" sodipodi:role="line">Feature</tspan></text>
+    </g>
+    <g id="g6347" transform="translate(0,-1)">
+      <rect ry="0.63043302" rx="0.76983702" y="161.64792" x="250.71429" height="101.42857" width="178.57143" id="rect5631-2" style="fill:url(#linearGradient4799);fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+      <text sodipodi:linespacing="125%" id="text5619" y="227.27432" x="279.86328" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="227.27432" x="279.86328" id="tspan5621" sodipodi:role="line">Model</tspan></text>
+    </g>
+    <g id="g6357">
+      <rect ry="0.63043302" rx="0.76983702" y="160.64792" x="490.28571" height="101.42857" width="178.57143" id="rect5631-4" style="fill:url(#linearGradient4781);fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+      <text sodipodi:linespacing="125%" id="text5623" y="222.04581" x="509.4054" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="222.04581" x="509.4054" id="tspan5625" sodipodi:role="line">Output</tspan></text>
+    </g>
+    <path style="fill:url(#linearGradient6505);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6453);stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)" d="m 194.35714,215.21935 45,0" id="path5662" inkscape:connector-curvature="0"></path>
+    <path style="fill:url(#linearGradient6503);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6455);stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9)" d="m 432.72497,215.3622 45,0" id="path5662-4" inkscape:connector-curvature="0"></path>
+  </g>
+  <g inkscape:groupmode="layer" id="layer2" inkscape:label="Layer 2" style="display:inline;opacity:0.95999995" transform="translate(-2.4145761e-7,3.9216798e-6)" class="fragment" data-fragment-index="2">
+    <g transform="translate(236.64286,-290.21933)" style="display:inline" id="g6363">
+      <rect ry="0.63043302" rx="0.76983702" y="290.21933" x="490.28571" height="101.42857" width="178.57143" id="rect5631-9" style="fill:url(#linearGradient4787);fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+      <text sodipodi:linespacing="125%" id="text5627" y="355.84573" x="525.52844" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan y="355.84573" x="525.52844" id="tspan5629" sodipodi:role="line">Label</tspan></text>
+    </g>
+    <g transform="translate(391.38725,633.85317)" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:url(#linearGradient6557);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="text6525">
+      <path d="m 270.85101,-587.01727 25.03907,0 0,3.28125 -25.03907,0 0,-3.28125 z m 0,7.96875 25.03907,0 0,3.32031 -25.03907,0 0,-3.32031 z" style="fill:url(#linearGradient6564);fill-opacity:1" id="path6560" inkscape:connector-curvature="0"></path>
+      <path d="m 304.36664,-587.01727 25.03906,0 0,3.28125 -25.03906,0 0,-3.28125 z m 0,7.96875 25.03906,0 0,3.32031 -25.03906,0 0,-3.32031 z" style="fill:url(#linearGradient6566);fill-opacity:1" id="path6562" inkscape:connector-curvature="0"></path>
+    </g>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.95999995;fill:url(#linearGradient4199);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="530.50006" y="127.42859" id="text5862" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan5864" x="530.50006" y="127.42859" style="font-size:25px;fill:url(#linearGradient4199);fill-opacity:1">Match Output value to Label</tspan></text>
+  </g>
+</svg>
+
+
+
+
+</script></section><section  data-markdown><script type="text/template">
+## Feature engineering
+Real-world applications often does not map neatly to a single feature
+
+e.g. here's what happens when we plot using real data:<br/>
+<img src="assets/img/bedroom-saleprice.png" class="plain" style="background: white; width: 30%" />
+</script></section><section  data-markdown><script type="text/template">
+## Feature engineering
+It's possible to use multiple features in our model...
+
+What other features should we collect?
+</script></section><section  data-markdown><script type="text/template">
+
+## Feature engineering
+Examples of features with higher correlation:
+
+
+<div style="display:flex; width: 100%">
+    <div style="flex-grow: 1">
+    Overall quality of the finish <br/><img src="assets/img/overallqual-saleprice.png" class="plain" style="background: white; " />
+    </div>
+    <div style="flex-grow: 1">
+    Ground floor living area <br/> <img src="assets/img/groundlivingarea-saleprice.png" class="plain" style="background: white;" />
+    </div>
+</div>
+</script></section><section  data-markdown><script type="text/template">
+## Feature engineering
+* We want to choose features most relevant to our model e.g. ones with high correlation
+
+* It's possible to combine and transform multiple features to increase correlation and help our ML algorithms e.g. 
+
+    ```html
+    Total area = Garden area + Ground floor area + Second floor area + ...
+    ```
+
+* Often requires domain knowledge and intuition about the dataset
+</script></section><section  data-markdown><script type="text/template">
+## Feature engineering
+
+What if we want to create a model that detect cats?
+
+<img src="assets/img/cat.jpeg" class="plain" style="background: white; width: 30%" />
+
+Each feature is a scalar value
+</script></section><section  data-markdown><script type="text/template">
+## Feature engineering
+
+Cat detector:
+
+<div style="display:flex; width: 100%">
+    <div style="flex-grow: 1">
+        <img src="assets/img/cat.jpeg" class="plain" style="background: white; width: 60%" />
+    </div>
+    <div style="flex-grow: 1">
+    Possible features (Low -> High level)
+        <ul>
+            <li>Colours</li>
+            <li>Edges</li>
+            <li>Shapes</li>
+            <li>Texture</li>
+            <li>Anatomy (ears, eyes, mouth, face, limbs, etc.</li>
+        </ul>
+    </div>
+</div>
+</script></section><section  data-markdown><script type="text/template">
+## Feature engineering
+
+Cat detector:
+
+<img src="assets/img/ml-cat-detector.svg" class="plain" style="background: transparent"/>
+</script></section><section  data-markdown><script type="text/template">
+## ML Methodologies
+We can use various algorithms as the 'model', DL is one of them...
+
+* Clustering (e.g. K-means)
+* Bayes
+* Decision trees
+* Regression
+* State vector machines (SVM)
+* Deep Learning (Neural Networks)
+* etc.
+</script></section><section  data-markdown><script type="text/template">
+## Deep Learning
+
+Uses 'deep' neural networks, i.e. neural network with many layers...
+</script></section><section  data-markdown><script type="text/template">
+## Why use Deep Networks
+Standard ML workflow:
+
+<img src="assets/img/ml-cat-detector.svg" class="plain" style="background: transparent"/>
+
+Standard DL workflow:
+
+<img src="assets/img/dl-cat-detector.svg" class="plain" style="background: transparent"/>
+
+Deep layers acts as both model and feature detectors
+</script></section><section  data-markdown><script type="text/template">
+## Why use Deep Networks 
+Why is this important? 
+
+Imagine trying to convert our cat detector to a car detector:
+
+<img src="assets/img/car.jpeg" class="plain" style="background: transparent; width: 50%"/>
+
+With DL, just supply a different dataset! <!-- .element: class="fragment" -->
+</script></section><section  data-markdown><script type="text/template">
+## Rise of Deep Learning
+
+Alexnet network won the 2012 Imagenet competition with almost half error rate of existing algorithms
+
+<img src="assets/img/alexnet.png" class="plain"/><br/>
+[Alexnet (https://doi.org/10.1145/3065386)](https://doi.org/10.1145/3065386)<!-- .element: class="small-note" -->
+
+Today's state-of-the-art is around 98.7% 
+</script></section><section  data-markdown><script type="text/template">
+## DL performance 
+
+DL is able to use **more** data to increase performance 
+
+<img src="assets/img/ml-dl-data.svg" class="plain" style="background: white; width: 50%"/>
+
+... but also means you need **more** data to train DL algorithms
+</script></section><section  data-markdown><script type="text/template">
+## The convergence
+Three contributors to rise of DL:
+
+<div style="display:flex; width: 100%">
+    <div style="flex-grow: 1">
+        <div>
+        <img src="assets/img/neuralnetwork.svg"  style="background: white; width: 50%"/>
+        </div>
+        Algorithms
+    </div>
+    <div style="flex-grow: 1">
+        <div>
+            <img src="assets/img/cpu.svg"  style="background: white; width: 50%"/>
+        </div>
+        Hardware
+    </div>
+    <div style="flex-grow: 1">
+        <div><img src="assets/img/databases.svg"  style="background: white; width: 50%"/></div>
+        Data
+    </div>
+</div>
+
+</script></section></div>
+    </div>
+
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":1280,"height":720,"transition":"slide","slideNumber":true}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

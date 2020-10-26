@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="stylesheet" href="./css/reveal.css" />
+    <link rel="stylesheet" href="./css/theme/league.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"># Introduction to Deep Learning Course
+Twin Karmakharm
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="/assets/img/rse-logo.svg" -->
+<!-- .slide: data-background-opacity="0.4" -->
+
+## Research Software Engineering Sheffield
+
+* Increasing research impact through software
+* Support and consultancy in research software and systems development and maintenance
+    * Grant support
+* Software optimisation, GPU and HPC
+* Training, outreach and education activities
+* Led by Dr. Paul Richmond
+</script></section><section  data-markdown><script type="text/template">
+## Contents Overview
+
+* Introduction to Deep Learning
+* Neural Networks
+* Model training
+* Regularisation and Hyperparameters
+* Convolution
+
+</script></section><section  data-markdown><script type="text/template">
+## Practical Labs Using Google Colab
+A platform to run lab code interactively
+
+<img src="assets/img/colab-cell.png"/>
+
+`Shift+Enter` to run code, or use the 'Play' button on top-left 
+
+`Ctrl+Space` to get code suggestion
+</script></section><section  data-markdown><script type="text/template">
+
+## Practical Labs Using Jupyter Notebooks
+A platform to run lab code interactively
+
+<img src="assets/img/jupyter-cell.png"/>
+
+`Shift+Enter` to run code
+
+`Tab` to get code suggestion
+
+
+
+
+
+
+</script></section></div>
+    </div>
+
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":1280,"height":720,"transition":"slide","slideNumber":true}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
