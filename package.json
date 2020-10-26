@@ -6,8 +6,8 @@
  "scripts": {
   "start": "reveal-md 00_overview.md -w #Test something",
   "build": "run-s build:site build:slides",
-  "build:site": "vuepress build site -d _site",
-  "build:slides": "reveal-md slides/ --static _site/slides --static-dirs slides/assets --preprocessor preproc.js",
+  "build:site": "vuepress build site -d docs",
+  "build:slides": "reveal-md slides/ --static docs/slides --static-dirs slides/assets --preprocessor preproc.js",
   "build:docs": "reveal-md index.md --static docs --static-dirs media",
   "config": "node build_targets.js",
   "site": "vuepress dev site",
