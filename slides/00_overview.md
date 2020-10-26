@@ -17,13 +17,7 @@ Twin Karmakharm
 
 ---
 
-# Course Objectives
-* Real research workflow
-
-
----
-
-# Overview
+## Overview
 
 * Introduction to Deep Learning
 * Neural Networks
@@ -33,6 +27,31 @@ Twin Karmakharm
 
 
 ---
+
+## Practical Labs Using Google Colab
+A platform to run lab code interactively
+
+<img src="assets/img/colab-cell.png"/>
+
+`Shift+Enter` to run code, or use the 'Play' button on top-left 
+
+`Ctrl+Space` to get code suggestion
+
+---
+
+
+## Practical Labs Using Jupyter Notebooks
+A platform to run lab code interactively
+
+<img src="assets/img/jupyter-cell.png"/>
+
+`Shift+Enter` to run code
+
+`Tab` to get code suggestion
+
+---
+
+
 
 
 

@@ -1,21 +1,28 @@
 {
-  "name": "jade-dl-course",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.md",
-  "scripts": {
-    "start": "reveal-md 00_overview.md -w",
-    "slide:0": "reveal-md 00_overview.md -w --css slide-style.css",
-    "slide:1": "reveal-md 01_introduction_to_deep_learning.md -w --css slide-style.css --template reveal.html --preprocessor preproc.js",
-    "slide:2": "reveal-md 02_neural_networks.md -w --css slide-style.css",
-    "build": "reveal-md index.md --static _site --static-dirs media",
-    "build:docs": "reveal-md index.md --static docs --static-dirs media"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "jsdom": "^16.2.2",
-    "reveal-md": "^3.4.7"
-  }
+ "name": "jade-dl-course",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.md",
+ "scripts": {
+  "start": "reveal-md 00_overview.md -w #Test something",
+  "build": "run-s build:site build:slides",
+  "build:site": "vuepress build site -d _site",
+  "build:slides": "reveal-md slides/ --static _site/slides --static-dirs slides/assets --preprocessor preproc.js",
+  "build:docs": "reveal-md index.md --static docs --static-dirs media",
+  "config": "node build_targets.js",
+  "site": "vuepress dev site",
+  "slide:00": "reveal-md slides/00_overview.md -w --css slide-style.css --preprocessor preproc.js",
+  "slide:01": "reveal-md slides/01_introduction_to_deep_learning.md -w --css slide-style.css --preprocessor preproc.js",
+  "slide:02": "reveal-md slides/02_neural_networks.md -w --css slide-style.css --preprocessor preproc.js"
+ },
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "npm-run-all": "^4.1.5"
+ },
+ "devDependencies": {
+  "jsdom": "^16.2.2",
+  "reveal-md": "^3.4.7",
+  "vuepress": "^1.5.0"
+ }
 }

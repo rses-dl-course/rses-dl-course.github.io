@@ -1,9 +1,12 @@
 const fs = require('fs');
 const jsdom = require("jsdom");
+const path = require('path');
+const slideDir = "slides";
 
 // Embed SVGs into file, allows the definition of fragment animation
 module.exports = (markdown, options) => {
   return new Promise((resolve, reject) => {
+
       let re = /<object.*?data="(.*?)".*?>([- <>"'=a-zA-z0-9\n\/]*)<\/object>/gm;
       let paramRe = /<param class="".*?data="".*?\/>/gm;
       let svgx = /<svg/gm;
@@ -12,7 +15,7 @@ module.exports = (markdown, options) => {
 
       function objReplace(match, svg_path, obj_body){
         //console.log("Replacing something " + svg_path + " " + obj_body);
-        let svgRaw = fs.readFileSync(svg_path, 'utf8');
+        let svgRaw = fs.readFileSync(path.join(slideDir,svg_path), 'utf8');
         let svgStr = svgRaw.slice(svgRaw.search(svgx));
         let svgDom = new jsdom.JSDOM(svgStr);
         let svgDoc = svgDom.window.document;

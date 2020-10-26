@@ -50,6 +50,8 @@
     * Deep Neural Networks
         * Hierachical learning
     * Why use GPUs
+    * Regression/Categorisation
+    * Supervised learning
 * Training the model
     * Datasets
         * Training
@@ -85,6 +87,7 @@
 * Tensorflow/Keras
     * Ways to put model together
         * Sequential
+        * 
         * Functional
         * Class-based
     * Train & evaluate
