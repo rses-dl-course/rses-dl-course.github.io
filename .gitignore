@@ -11,3 +11,4 @@ node_modules/
 notebooks/__pycache__/
 
 notebooks/cifar-10-batches-py/
+*.tar.gz
