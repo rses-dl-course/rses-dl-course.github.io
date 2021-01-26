@@ -1,0 +1,19 @@
+<html>
+<head></head>
+<body style="background: white">
+<script>
+    console.log("Something");
+    window.addEventListener( 'message', event => {
+	if( event.data === 'slide:start' ) {
+		// The slide containing this iframe is visible
+        console.log("Started!");
+	}
+	else if( event.data === 'slide:stop' ) {
+		// The slide containing this iframe is not visible
+        console.log("Ended!!!");
+	}
+} );
+</script>
+Test embed!
+</body>
+</html>

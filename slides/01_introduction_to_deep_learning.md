@@ -72,7 +72,6 @@ e.g. predicting house price from no. of bedrooms <!-- .element: class="fragment"
 </object>
 
 
-
 ---
 
 ## Learning by examples
@@ -194,7 +193,9 @@ We can use various algorithms as the 'model', DL is one of them...
 
 ## Deep Learning
 
-Uses 'deep' neural networks, i.e. neural network with many layers...
+Uses 'deep' neural networks, i.e. neural network with many layers.
+
+<img src="assets/img/neuralnetwork.svg"  style="background: white; width: 30%"/>
 
 ---
 
@@ -222,27 +223,6 @@ With DL, just supply a different dataset! <!-- .element: class="fragment" -->
 
 ---
 
-## Rise of Deep Learning
-
-Alexnet network won the 2012 Imagenet competition with almost half error rate of existing algorithms
-
-<img src="assets/img/alexnet.png" class="plain"/><br/>
-[Alexnet (https://doi.org/10.1145/3065386)](https://doi.org/10.1145/3065386)<!-- .element: class="small-note" -->
-
-Today's state-of-the-art is around 98.7% 
-
----
-
-## DL performance 
-
-DL is able to use **more** data to increase performance 
-
-<img src="assets/img/ml-dl-data.svg" class="plain" style="background: white; width: 50%"/>
-
-... but also means you need **more** data to train DL algorithms
-
----
-
 ## The convergence
 Three contributors to rise of DL:
 
@@ -263,5 +243,29 @@ Three contributors to rise of DL:
         <div><img src="assets/img/databases.svg"  style="background: white; width: 50%"/></div>
         Data
     </div>
+</div>
+
+---
+
+
+## Rise of Deep Learning
+
+Alexnet network won the 2012 Imagenet competition with almost half error rate of existing algorithms
+
+<img src="assets/img/alexnet.png" class="plain"/><br/>
+[Alexnet (https://doi.org/10.1145/3065386)](https://doi.org/10.1145/3065386)<!-- .element: class="small-note" -->
+
+Today's state-of-the-art is around 98.7% 
+
+---
+
+## DL performance 
+
+DL is able to use **more** data to increase performance 
+
+<img src="assets/img/ml-dl-data.svg" class="plain" style="background: white; width: 30%"/>
+
+<div>
+... but also means you need <strong>more</strong> data to train DL algorithms
 </div>
 

@@ -52,6 +52,9 @@
     * Why use GPUs
     * Regression/Categorisation
     * Supervised learning
+    * Network inputs
+        * 
+    * Network outputs
 * Training the model
     * Datasets
         * Training

@@ -39,17 +39,33 @@
     * NN equation
         * weights
         * bias
-        * Activations
-            * Softmax
-            * Sigmoid
-            * ReLU     
     * How neural networks learn
+        * Supervised learning
         * Varying Connection weights, bias
         * Error/Loss function
         * Gradient descent
         * Stochastic gradient descent
         * Back propagation
+        * Optimizers
+            * Adagrad
+            * RMSprop
+            * Momentum
+            * Adam
+        * Losses
+            * Mean square error
 * L02 - More layers, activations
+* 03 - CNNS and classification
+    * Classification
+        * Logistic regression
+    * Losses
+        * Cross entropy loss
+    * Activations
+            * Softmax
+            * Sigmoid
+            * ReLU     
+    * CNN
+        * Padding
+
 * 03 - Training the model
     * Datasets
         * Training
@@ -70,6 +86,9 @@
         * Early stopping?
         * L2
         * Dropout
+        * Use more data
+        * Data augmentation
+        * Smaller models
     * Hyperparameters
         * Learning rate
         * Network size
@@ -83,6 +102,12 @@
     * Using tensorboard
 * 07 - Data augmentation
         * Data augmentation
+            * Flip
+            * Scale
+            * Rotate
+            * Brightness
+            * Colour shifting
+            * Noise
 * 08 - Image segmentation
     * Image segmentation
 * 09 - Deploying the network

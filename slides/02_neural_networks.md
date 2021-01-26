@@ -38,7 +38,8 @@ $$
 ## A Neural Network
 A neural network is simply a network of (artificial) neurons with distinct layers. 
 
-<img src="assets/img/neuralnetwork-term.svg"  style="background: white; padding: 1em;"/>
+
+<img src="assets/img/neuralnetwork-plain2.svg"  style="background: white; padding: 1em;"/>
 
 ---
 
@@ -46,7 +47,105 @@ A neural network is simply a network of (artificial) neurons with distinct layer
 
 The network is `acyclic`. Data is fed into the `Input` layer and prediction comes out at the `Output` layer. Any layers in-between is called the `Hidden` layer.
 
-<img src="assets/img/neuralnetwork-term.svg"  style="background: white; padding: 1em;"/>
+
+<object type="image/svg+xml" data="assets/img/neuralnetwork-term.svg" style="background: white; width: 50%; padding: 1em">
+<param id="layer2" class="fragment" data-fragment-index="1" />
+<param id="layer3" class="fragment" data-fragment-index="2" />
+<param id="layer4" class="fragment" data-fragment-index="4" />
+<param id="layer5" class="fragment" data-fragment-index="3" />
+</object>
+
+---
+
+
+## Network inputs
+
+One scalar value per node
+
+<img src="assets/img/neuralnetwork-input.svg"  style="background: white; padding: 1em;"/>
+
+---
+
+## Network inputs
+
+One scalar value per node... e.g. house price features
+
+<img src="assets/img/neuralnetwork-input2.svg"  style="background: white; padding: 1em;"/>
+
+
+---
+
+## Network inputs
+
+Or images, one node per pixel (greyscale)
+
+<object type="image/svg+xml" data="assets/img/neuralnetwork-input3.svg" style="background: white; width: 50%; padding: 1em">
+<param id="layer1" class="fragment" data-fragment-index="1" />
+<param id="layer2" class="fragment" data-fragment-index="2" />
+<param id="layer3" class="fragment" data-fragment-index="3" />
+</object>
+
+---
+
+## Network inputs
+
+You can also think of images as a grid of input nodes.
+
+<object type="image/svg+xml" data="assets/img/neuralnetwork-input4.svg" style="background: white; width: 80%; padding: 1em">
+<param id="layer1" class="fragment fade-out" data-fragment-index="1" />
+<param id="layer6" class="fragment" data-fragment-index="2" />
+</object>
+
+---
+
+## Network inputs
+
+What about colour images?
+
+---
+
+## Network inputs
+
+What about colour images?
+
+<object type="image/svg+xml" data="assets/img/neuralnetwork-input5.svg" style="background: white; width: 80%; padding: 1em">
+<param id="layer1" class="fragment fade-out" data-fragment-index="1" />
+<param id="layer2" class="fragment fade-in-then-semi-out" data-fragment-index="2" />
+<param id="layer3" class="fragment fade-in" data-fragment-index="3" />
+</object>
+
+
+For RGB images, no. of input nodes are  `$ width*height*channels $` 
+<!-- .element: class="fragment" -->
+
+---
+
+## Network outputs
+
+One scalar value per output node, e.g. house price prediction.
+
+<img src="assets/img/neuralnetwork-output1.svg"  style="background: white; width: 50%"/>
+
+
+---
+
+## Network outputs
+
+When performing categorisation, we need one output node per category.
+
+<img src="assets/img/neuralnetwork-output2.svg"  style="background: white; width: 70%"/>
+
+---
+
+## Error and Loss
+
+<img src="assets/img/artificial-neuron.svg"  style="background: white; padding: 1em; width:25%"/>
+
+$$
+x_{1}w_{1}+x_{2}w_{2}+x_{3}w_{3}+b=y
+$$
+
+
 
 ---
 
@@ -108,6 +207,9 @@ We need to minimise error for all samples.
 <param id="layer4" class="fragment" data-fragment-index="4" />
 </object>
 
+
+ 
+
 ---
 
 ## Neural Network Training Cycle
@@ -117,4 +219,40 @@ We need to minimise error for all samples.
 1. Back propagation - change weights in the network to minimise error/loss
 1. Repeat with different sample
 
+---
 
+## Activation functions
+
+You might have noticed that our neural network is linear
+
+<img src="assets/img/artificial-neuron.svg"  style="background: white; padding: 1em; width:25%"/>
+
+$$
+x_{1}w_{1}+x_{2}w_{2}+x_{3}w_{3}+b=y
+$$
+
+---
+
+## Activation functions
+
+But most real-world problems are non-linear
+
+Sigmoid
+
+ReLU
+
+---
+
+## Activation functions - Sigmoid
+
+
+---
+
+## Activation functions - ReLU
+
+
+
+
+---
+
+## Categorisation

@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100.76711mm"
+   height="62.086075mm"
+   viewBox="0 0 100.76711 62.086075"
+   version="1.1"
+   id="svg6111"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="neuralnetwork-output1.svg">
+  <defs
+     id="defs6105">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7437"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       id="arrow"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path92" />
+    </marker>
+    <marker
+       id="marker6125"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6123" />
+    </marker>
+    <marker
+       id="marker6129"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6127" />
+    </marker>
+    <marker
+       id="marker6133"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6131" />
+    </marker>
+    <marker
+       id="marker6137"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6135" />
+    </marker>
+    <marker
+       id="marker6141"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6139" />
+    </marker>
+    <marker
+       id="marker6145"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6143" />
+    </marker>
+    <marker
+       id="marker6149"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6147" />
+    </marker>
+    <marker
+       id="marker6153"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6151" />
+    </marker>
+    <marker
+       id="marker6157"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6155" />
+    </marker>
+    <marker
+       id="marker6161"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6159" />
+    </marker>
+    <marker
+       id="marker6165"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6163" />
+    </marker>
+    <marker
+       id="marker6169"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6167" />
+    </marker>
+    <marker
+       id="marker6173"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6171" />
+    </marker>
+    <marker
+       id="marker6177"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6175" />
+    </marker>
+    <marker
+       id="marker6181"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6179" />
+    </marker>
+    <marker
+       id="marker6185"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6183" />
+    </marker>
+    <marker
+       id="marker6189"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6187" />
+    </marker>
+    <marker
+       id="marker6193"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6191" />
+    </marker>
+    <marker
+       id="marker6197"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6195" />
+    </marker>
+    <marker
+       id="marker6201"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6199" />
+    </marker>
+    <marker
+       id="marker6205"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6203" />
+    </marker>
+    <marker
+       id="marker6209"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6207" />
+    </marker>
+    <marker
+       id="marker6213"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6211" />
+    </marker>
+    <marker
+       id="marker6217"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6215" />
+    </marker>
+    <marker
+       id="marker6221"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6219" />
+    </marker>
+    <marker
+       id="marker6225"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6223" />
+    </marker>
+    <marker
+       id="marker6229"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6227" />
+    </marker>
+    <marker
+       id="marker6233"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6231" />
+    </marker>
+    <marker
+       id="marker6237"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6235" />
+    </marker>
+    <marker
+       id="marker6241"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6239" />
+    </marker>
+    <marker
+       id="marker6245"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6243" />
+    </marker>
+    <marker
+       id="marker6249"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="49.799999">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path6247" />
+    </marker>
+    <marker
+       id="arrow-4"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path64-0" />
+    </marker>
+    <marker
+       id="marker951"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path949" />
+    </marker>
+    <marker
+       id="marker955"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path953" />
+    </marker>
+    <marker
+       id="marker959"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path957" />
+    </marker>
+    <marker
+       id="marker963"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path961" />
+    </marker>
+    <marker
+       id="marker967"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path965" />
+    </marker>
+    <marker
+       id="marker971"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path969" />
+    </marker>
+    <marker
+       id="marker975"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path973" />
+    </marker>
+    <marker
+       id="marker979"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path977" />
+    </marker>
+    <marker
+       id="marker983"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path981" />
+    </marker>
+    <marker
+       id="marker987"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path985" />
+    </marker>
+    <marker
+       id="marker991"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path989" />
+    </marker>
+    <marker
+       id="marker995"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path993" />
+    </marker>
+    <marker
+       id="marker999"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path997" />
+    </marker>
+    <marker
+       id="marker1003"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1001" />
+    </marker>
+    <marker
+       id="marker1007"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1005" />
+    </marker>
+    <marker
+       id="marker1011"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1009" />
+    </marker>
+    <marker
+       id="marker1015"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1013" />
+    </marker>
+    <marker
+       id="marker1019"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1017" />
+    </marker>
+    <marker
+       id="marker1023"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1021" />
+    </marker>
+    <marker
+       id="marker1027"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1025" />
+    </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6817">
+      <rect
+         style="fill:#ffffff;stroke-width:0.175709"
+         id="rect6819"
+         width="49.007103"
+         height="44.774628"
+         x="102.00711"
+         y="-11.144054" />
+    </clipPath>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1489"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1539"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       id="arrow-2"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path78" />
+    </marker>
+    <marker
+       id="marker973"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path971" />
+    </marker>
+    <marker
+       id="marker977"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path975" />
+    </marker>
+    <marker
+       id="marker981"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path979" />
+    </marker>
+    <marker
+       id="marker985"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path983" />
+    </marker>
+    <marker
+       id="marker989"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path987" />
+    </marker>
+    <marker
+       id="marker993"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path991" />
+    </marker>
+    <marker
+       id="marker997"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path995" />
+    </marker>
+    <marker
+       id="marker1001"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path999" />
+    </marker>
+    <marker
+       id="marker1005"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1003" />
+    </marker>
+    <marker
+       id="marker1009"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1007" />
+    </marker>
+    <marker
+       id="marker1013"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1011" />
+    </marker>
+    <marker
+       id="marker1017"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1015" />
+    </marker>
+    <marker
+       id="marker1021"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1019" />
+    </marker>
+    <marker
+       id="marker1025"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1023" />
+    </marker>
+    <marker
+       id="marker1029"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1027" />
+    </marker>
+    <marker
+       id="marker1033"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1031" />
+    </marker>
+    <marker
+       id="marker1037"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1035" />
+    </marker>
+    <marker
+       id="marker1041"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1039" />
+    </marker>
+    <marker
+       id="marker1045"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1043" />
+    </marker>
+    <marker
+       id="marker1049"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1047" />
+    </marker>
+    <marker
+       id="marker1053"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1051" />
+    </marker>
+    <marker
+       id="marker1057"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1055" />
+    </marker>
+    <marker
+       id="marker1061"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1059" />
+    </marker>
+    <marker
+       id="marker1065"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1063" />
+    </marker>
+    <marker
+       id="marker1069"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1067" />
+    </marker>
+    <marker
+       id="marker1073"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1071" />
+    </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7184">
+      <rect
+         style="fill:#ffffff;stroke-width:0.187829"
+         id="rect7186"
+         width="49.841286"
+         height="48.80019"
+         x="80.646866"
+         y="87.914291" />
+    </clipPath>
+    <marker
+       id="arrow-29"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path1788" />
+    </marker>
+    <marker
+       id="marker2454"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2452" />
+    </marker>
+    <marker
+       id="marker2458"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2456" />
+    </marker>
+    <marker
+       id="marker2462"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2460" />
+    </marker>
+    <marker
+       id="marker2466"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2464" />
+    </marker>
+    <marker
+       id="marker2470"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2468" />
+    </marker>
+    <marker
+       id="marker2474"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2472" />
+    </marker>
+    <marker
+       id="marker2478"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2476" />
+    </marker>
+    <marker
+       id="marker2482"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2480" />
+    </marker>
+    <marker
+       id="marker2486"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2484" />
+    </marker>
+    <marker
+       id="marker2490"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2488" />
+    </marker>
+    <marker
+       id="marker2494"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2492" />
+    </marker>
+    <marker
+       id="marker2498"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2496" />
+    </marker>
+    <marker
+       id="marker2502"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2500" />
+    </marker>
+    <marker
+       id="marker2506"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2504" />
+    </marker>
+    <marker
+       id="marker2510"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2508" />
+    </marker>
+    <marker
+       id="marker2514"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2512" />
+    </marker>
+    <marker
+       id="marker2518"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2516" />
+    </marker>
+    <marker
+       id="marker2522"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2520" />
+    </marker>
+    <marker
+       id="marker2526"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2524" />
+    </marker>
+    <marker
+       id="marker2530"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2528" />
+    </marker>
+    <marker
+       id="marker2534"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2532" />
+    </marker>
+    <marker
+       id="marker2538"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2536" />
+    </marker>
+    <marker
+       id="marker2542"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:#505050;stroke:#505050"
+         id="path2540" />
+    </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7427">
+      <rect
+         style="fill:#ffffff;stroke-width:0.70322"
+         id="rect7429"
+         width="164.45641"
+         height="168.804"
+         x="654.72571"
+         y="480.31992" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="179.47215"
+     inkscape:cy="166.28989"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1547"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata6108">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-16.832066,-31.522556)">
+    <rect
+       style="fill:#ffffff;stroke-width:1.31806;stroke-miterlimit:4;stroke-dasharray:1.31806, 2.63612;stroke-dashoffset:0"
+       id="rect8934"
+       width="100.76711"
+       height="62.086075"
+       x="16.832066"
+       y="31.522556" />
+    <path
+       class="link"
+       marker-end="url(#arrow)"
+       d="M 71.8654,62.566199 H 90.81868"
+       style="stroke:#505050;stroke-width:0.300453;stroke-opacity:1"
+       id="path18"
+       sodipodi:nodetypes="cc" />
+    <text
+       class="text"
+       dy="1.6825346"
+       x="19.559032"
+       y="188.8625"
+       style="font-size:4.80724px;stroke-width:0.400604"
+       id="text79" />
+    <text
+       class="text"
+       dy="1.6825346"
+       x="50.004898"
+       y="188.8625"
+       style="font-size:4.80724px;stroke-width:0.400604"
+       id="text81" />
+    <text
+       class="text"
+       dy="1.6825346"
+       x="80.45076"
+       y="188.8625"
+       style="font-size:4.80724px;stroke-width:0.400604"
+       id="text83" />
+    <text
+       class="text"
+       dy="1.6825346"
+       x="110.89663"
+       y="188.8625"
+       style="font-size:4.80724px;stroke-width:0.400604"
+       id="text85" />
+    <g
+       id="g6813"
+       transform="matrix(1.5058047,0,0,1.5058047,-133.58697,46.629777)"
+       clip-path="url(#clipPath6817)">
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 66.154976,-3.6157211 H 89.583401"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path2-6" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 66.154976,-3.6157211 89.583401,10.583326"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path4-4" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 66.154976,-3.6157211 89.583401,24.782373"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path6-7" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 66.154976,10.583326 89.583401,-3.6157211"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path8-4" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 66.154976,10.583326 H 89.583401"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path10-8" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 66.154976,10.583326 89.583401,24.782373"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path12-5" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 66.154976,24.782373 89.583401,-3.6157211"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path14-8" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 66.154976,24.782373 89.583401,10.583326"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path16-2" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 66.154976,24.782373 H 89.583401"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path18-6" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 89.583401,-3.6157211 H 113.01183"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path20-0" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 89.583401,-3.6157211 113.01183,10.583326"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path22-6" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 89.583401,-3.6157211 113.01183,24.782373"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path24-6" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 89.583401,10.583326 113.01183,-3.6157211"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path26-4" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 89.583401,10.583326 H 113.01183"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path28-6" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 89.583401,10.583326 113.01183,24.782373"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path30-2" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 89.583401,24.782373 113.01183,-3.6157211"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path32-8" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 89.583401,24.782373 113.01183,10.583326"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path34-9" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 89.583401,24.782373 H 113.01183"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path36-6" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 113.01183,-3.6157211 136.44025,10.583326"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path38-0" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="m 113.01183,10.583326 h 23.42842"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path40-7" />
+      <path
+         class="link"
+         marker-end="url(#arrow-4)"
+         d="M 113.01183,24.782373 136.44025,10.583326"
+         style="stroke:#505050;stroke-width:0.177488;stroke-opacity:1;marker-end:url(#arrow-4)"
+         id="path42-0" />
+      <circle
+         r="3.5497615"
+         class="node"
+         id="0_0-1"
+         cx="66.154984"
+         cy="-3.6157136"
+         style="fill:#ffffff;stroke:#333333;stroke-width:0.354976" />
+      <circle
+         r="3.5497615"
+         class="node"
+         id="0_1-0"
+         cx="66.154984"
+         cy="10.583323"
+         style="fill:#ffffff;stroke:#333333;stroke-width:0.354976" />
+      <circle
+         r="3.5497615"
+         class="node"
+         id="0_2-1"
+         cx="66.154984"
+         cy="24.782375"
+         style="fill:#ffffff;stroke:#333333;stroke-width:0.354976" />
+      <circle
+         r="3.5497615"
+         class="node"
+         id="1_0-3"
+         cx="89.583412"
+         cy="-3.6157136"
+         style="fill:#ffffff;stroke:#333333;stroke-width:0.354976" />
+      <circle
+         r="3.5497615"
+         class="node"
+         id="1_1-7"
+         cx="89.583412"
+         cy="10.583323"
+         style="fill:#ffffff;stroke:#333333;stroke-width:0.354976" />
+      <circle
+         r="3.5497615"
+         class="node"
+         id="1_2-7"
+         cx="89.583412"
+         cy="24.782375"
+         style="fill:#ffffff;stroke:#333333;stroke-width:0.354976" />
+      <circle
+         r="3.5497615"
+         class="node"
+         id="2_0-2"
+         cx="113.01183"
+         cy="-3.6157136"
+         style="fill:#ffffff;stroke:#333333;stroke-width:0.354976" />
+      <circle
+         r="3.5497615"
+         class="node"
+         id="2_1-6"
+         cx="113.01183"
+         cy="10.583323"
+         style="fill:#ffffff;stroke:#333333;stroke-width:0.354976" />
+      <circle
+         r="3.5497615"
+         class="node"
+         id="2_2-4"
+         cx="113.01183"
+         cy="24.782375"
+         style="fill:#ffffff;stroke:#333333;stroke-width:0.354976" />
+      <circle
+         r="3.5497615"
+         class="node"
+         id="3_0-5"
+         cx="136.44026"
+         cy="10.583323"
+         style="fill:#ffffff;stroke:#333333;stroke-width:0.354976" />
+    </g>
+    <g
+       id="g1547"
+       transform="matrix(0.37625031,0,0,0.37625031,132.60451,-31.712424)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.842504px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -105.746,225.67597 v 49.11541 h 54.982298"
+         id="path1535" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -105.746,274.79138 c 14.645098,-14.85384 29.290198,-29.70768 43.93531,-44.56154"
+         id="path1537"
+         inkscape:path-effect="#path-effect1539"
+         inkscape:original-d="m -105.746,274.79138 c 14.646103,-14.85285 29.291207,-29.70669 43.93531,-44.56154" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.54796px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.227398"
+       x="93.435478"
+       y="51.179333"
+       id="text7209"><tspan
+         sodipodi:role="line"
+         id="tspan7207"
+         x="93.435478"
+         y="51.179333"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.54796px;font-family:Crimson;-inkscape-font-specification:Crimson;stroke-width:0.227398">house price</tspan></text>
+  </g>
+</svg>
