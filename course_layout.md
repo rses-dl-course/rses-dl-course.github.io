@@ -53,6 +53,11 @@
             * Adam
         * Losses
             * Mean square error
+    * Datasets
+        * Training
+        * Validation
+        * Test
+        * Iteration/Epoch
 * L02 - More layers, activations
 * 03 - CNNS and classification
     * Classification
@@ -65,12 +70,16 @@
             * ReLU     
     * CNN
         * Padding
-
-* 03 - Training the model
+    * Inputs/Outputs
+        * One-hot encoding
+    * Feature maps
+    * Kernels
+    * max pooling
+* 04 - Training the model
     * Datasets
         * Training
-        * Test
         * Validation
+        * Test
         * Iteration/Epoch
     * Stochastic gradient descent
     * Back propagation
@@ -79,7 +88,6 @@
         * loss/error
         * accuracy
         * Confusion matrix
-* L03 - Training on images
 * 04 - Regularisation and Hyperparameters
     * Regularisation
         * The overfitting problem
@@ -93,21 +101,15 @@
         * Learning rate
         * Network size
         * Batch size
-* L04 - Regularisation
-* 05 - Convolution
-    * Feature maps
-    * Kernels
-    * max pooling
+    * Data augmentation
+        * Flip
+        * Scale
+        * Rotate
+        * Brightness
+        * Colour shifting
+        * Noise
 * 06 - Visualisation, using tensorboard
     * Using tensorboard
-* 07 - Data augmentation
-        * Data augmentation
-            * Flip
-            * Scale
-            * Rotate
-            * Brightness
-            * Colour shifting
-            * Noise
 * 08 - Image segmentation
     * Image segmentation
 * 09 - Deploying the network
