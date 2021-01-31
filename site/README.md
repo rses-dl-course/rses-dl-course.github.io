@@ -2,7 +2,8 @@
 
 ## Course Description 
 
-In this full-day introductory workshop, you’ll learn the basics of deep learning by training and deploying neural networks. 
+In this full-day introductory workshop, you’ll learn the basics of deep learning by training and deploying neural networks.
+
 
 ## Learning Outcomes
 
