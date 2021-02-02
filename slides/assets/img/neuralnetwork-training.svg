@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,14 +12,28 @@
    viewBox="0 0 421.83961 328.86717"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="neuralnetwork-training.svg">
   <defs
      id="defs4">
     <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3637" />
+    </marker>
+    <marker
        inkscape:isstock="true"
        style="overflow:visible"
-       id="marker11145"
+       id="marker3563"
        refX="0"
        refY="0"
        orient="auto"
@@ -30,23 +42,23 @@
          transform="matrix(-0.8,0,0,-0.8,-10,0)"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path11147"
+         id="path3561"
          inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:stockid="Arrow1Lend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Lend"
-       style="overflow:visible"
        inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker11145"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
        inkscape:collect="always">
       <path
-         id="path7559"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
          transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path11147"
          inkscape:connector-curvature="0" />
     </marker>
     <marker
@@ -89,21 +101,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="149.54949"
-     inkscape:cy="207.68237"
+     inkscape:zoom="1.979899"
+     inkscape:cx="98.177921"
+     inkscape:cy="215.00665"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="2560"
-     inkscape:window-height="1547"
-     inkscape:window-x="1200"
+     inkscape:window-height="1549"
+     inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -112,7 +125,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -445,15 +458,15 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:24.19849968px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Crimson Pro';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Crimson Pro, Normal';font-stretch:normal;font-variant:normal;font-size:22.49999212px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="50.842777"
        y="-105.91895"
-       id="text11117"
-       sodipodi:linespacing="125%"><tspan
+       id="text11117"><tspan
          sodipodi:role="line"
          id="tspan11119"
          x="50.842777"
-         y="-105.91895">Forward propagation</tspan></text>
+         y="-105.91895"
+         style="font-size:22.49999212px;line-height:1.25;-inkscape-font-specification:'Crimson Pro, Normal';font-family:'Crimson Pro';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">Forward propagation</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker11145)"
        d="m 49.649088,-95.717713 322.142852,0"
@@ -466,22 +479,22 @@
      inkscape:label="Layer 3">
     <path
        transform="translate(-0.59991996,124.30414)"
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99921225;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3563)"
        d="m 378.22051,176.06797 -320.714279,0"
        id="path11123"
        inkscape:connector-curvature="0" />
     <text
        transform="translate(-0.59991996,124.30414)"
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:24.19849968px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Crimson Pro';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Crimson Pro, Normal';font-stretch:normal;font-variant:normal;font-size:22.49999212px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="166.63972"
        y="199.52954"
-       id="text11117-9"
-       sodipodi:linespacing="125%"><tspan
+       id="text11117-9"><tspan
          sodipodi:role="line"
          id="tspan11119-5"
          x="166.63972"
-         y="199.52954">Back propagation</tspan></text>
+         y="199.52954"
+         style="font-size:22.49999212px;line-height:1.25;-inkscape-font-specification:'Crimson Pro, Normal';font-family:'Crimson Pro';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">Back propagation</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -496,16 +509,16 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="display:inline;font-style:normal;font-weight:normal;font-size:20.8771801px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Crimson Pro';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Crimson Pro, Normal';font-stretch:normal;font-variant:normal;font-size:22.49999212px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="-164.24454"
        y="18.93152"
        id="text11117-0-9"
-       sodipodi:linespacing="125%"
-       transform="matrix(0,-0.99999998,0.99999998,0,-0.59991996,124.30414)"><tspan
+       transform="rotate(-90,61.85211,62.452031)"><tspan
          sodipodi:role="line"
          id="tspan11119-8-0"
          x="-164.24454"
-         y="18.93152">Repeat with different data</tspan></text>
+         y="18.93152"
+         style="font-size:22.49999212px;line-height:1.25;-inkscape-font-specification:'Crimson Pro, Normal';font-family:'Crimson Pro';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">Repeat with different data</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -520,15 +533,15 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="display:inline;font-style:normal;font-weight:normal;font-size:24.19849968px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Crimson Pro';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Crimson Pro, Normal';font-stretch:normal;font-variant:normal;font-size:22.49999212px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="-87.23967"
        y="-404.0545"
        id="text11117-0"
-       sodipodi:linespacing="125%"
-       transform="matrix(0,0.99999998,-0.99999998,0,-0.59991996,124.30414)"><tspan
+       transform="rotate(90,-62.45203,61.852111)"><tspan
          sodipodi:role="line"
          id="tspan11119-8"
          x="-87.23967"
-         y="-404.0545">Calculate error/loss</tspan></text>
+         y="-404.0545"
+         style="font-size:22.49999212px;line-height:1.25;-inkscape-font-specification:'Crimson Pro, Normal';font-family:'Crimson Pro';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">Calculate error/loss</tspan></text>
   </g>
 </svg>

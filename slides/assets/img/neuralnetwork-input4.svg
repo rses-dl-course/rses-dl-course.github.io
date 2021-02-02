@@ -28,7 +28,7 @@
      inkscape:cx="137.11568"
      inkscape:cy="113.93412"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer6"
      inkscape:document-rotation="0"
      showgrid="false"
      fit-margin-top="0"
@@ -36,7 +36,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="2560"
-     inkscape:window-height="1547"
+     inkscape:window-height="1549"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
@@ -387,6 +387,13 @@
      inkscape:label="Layer 3"
      style="display:inline"
      transform="translate(-66.40023,-86.277527)">
+    <rect
+       style="display:inline;fill:#ffffff;stroke:none;stroke-width:1.16928;stop-color:#000000"
+       id="rect5808"
+       width="77.354301"
+       height="77.287209"
+       x="66.40023"
+       y="86.277527" />
     <g
        id="g3683-6"
        transform="matrix(0.23986286,0,0,0.23986286,93.024793,75.151853)"

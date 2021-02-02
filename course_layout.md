@@ -58,7 +58,7 @@
         * Validation
         * Test
         * Iteration/Epoch
-* L02 - More layers, activations
+* L02 - Classification with fashion mnist
 * 03 - CNNS and classification
     * Classification
         * Logistic regression
@@ -75,7 +75,7 @@
     * Feature maps
     * Kernels
     * max pooling
-* 04 - Training the model
+* 04 - Fine-tuning the model
     * Datasets
         * Training
         * Validation
@@ -88,7 +88,6 @@
         * loss/error
         * accuracy
         * Confusion matrix
-* 04 - Regularisation and Hyperparameters
     * Regularisation
         * The overfitting problem
         * Early stopping?
@@ -108,10 +107,15 @@
         * Brightness
         * Colour shifting
         * Noise
-* 06 - Visualisation, using tensorboard
-    * Using tensorboard
-* 08 - Image segmentation
-    * Image segmentation
-* 09 - Deploying the network
-* 10 - Larger models
-        * Multi-GPU training
+* L04a & L04b
+* 05 - Transfer learning and saving the model
+* L05 & L06
+* 06 - Other network types & conclusion
+    * Autoencoders    
+    * RNNs - LSTM
+    * GANs
+    * Reinforcement learning
+    
+
+
+

@@ -45,7 +45,8 @@ A neural network is simply a network of (artificial) neurons with distinct layer
 
 ## A Neural Network
 
-The network is `acyclic`. Data is fed into the `Input` layer and prediction comes out at the `Output` layer. Any layers in-between is called the `Hidden` layer.
+The network is `acyclic`. Data is fed into the `Input` layer and prediction comes out at the `Output` layer. 
+Any layer in-between is called the `Hidden` layer.
 
 
 <object type="image/svg+xml" data="assets/img/neuralnetwork-term.svg" style="background: white; width: 50%; padding: 1em">
@@ -92,7 +93,7 @@ Or images, one node per pixel (greyscale)
 You can also think of images as a grid of input nodes.
 
 <object type="image/svg+xml" data="assets/img/neuralnetwork-input4.svg" style="background: white; width: 80%; padding: 1em">
-<param id="layer1" class="fragment fade-out" data-fragment-index="1" />
+
 <param id="layer6" class="fragment" data-fragment-index="2" />
 </object>
 
@@ -109,7 +110,6 @@ What about colour images?
 What about colour images?
 
 <object type="image/svg+xml" data="assets/img/neuralnetwork-input5.svg" style="background: white; width: 80%; padding: 1em">
-<param id="layer1" class="fragment fade-out" data-fragment-index="1" />
 <param id="layer2" class="fragment fade-in-then-semi-out" data-fragment-index="2" />
 <param id="layer3" class="fragment fade-in" data-fragment-index="3" />
 </object>
@@ -134,6 +134,34 @@ One scalar value per output node, e.g. house price prediction.
 When performing categorisation, we need one output node per category.
 
 <img src="assets/img/neuralnetwork-output2.svg"  style="background: white; width: 70%"/>
+
+---
+
+## Inferencing
+* Input values at $x_{1...n}$ on the left
+* Propagate values layer-by-layer <!-- .element: class="fragment" data-fragment-index="1" -->
+* Prediction $\hat{y}$ at the output. 
+  <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+<object type="image/svg+xml" data="assets/img/neuralnetwork-inference.svg" style="background: white; width: 80%; margin-top: 1em">
+<param id="layer2" class="fragment fade-in" data-fragment-index="1" />
+<param id="layer3" class="fragment fade-in" data-fragment-index="2" />
+<param id="layer4" class="fragment fade-in" data-fragment-index="3" />
+</object>
+
+---
+
+## Initialising the network
+* One weight $w$ per connection, one bias $b$ per node.
+    <!-- .element: class="fragment" -->
+* Weights $w$ and bias $b$ start out random.
+  <!-- .element: class="fragment" -->
+* You'll likely find that your prediction $\hat{y}$ will be very different from your label $y$.
+<!-- .element: class="fragment" -->
+
+<object type="image/svg+xml" data="assets/img/neuralnetwork-initialisation.svg" style="background: white; width: 80%; margin-top: 1em">
+</object>
 
 ---
 
