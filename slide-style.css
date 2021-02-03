@@ -5,3 +5,10 @@
 .medium-note{
     font-size: 0.8em
 }
+
+.container{
+  display: flex;
+}
+.col {
+  flex: 1;
+}

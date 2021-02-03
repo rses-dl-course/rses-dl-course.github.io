@@ -157,7 +157,7 @@ When performing categorisation, we need one output node per category.
     <!-- .element: class="fragment" -->
 * Weights $w$ and bias $b$ start out random.
   <!-- .element: class="fragment" -->
-* You'll likely find that your prediction $\hat{y}$ will be very different from your label $y$.
+* You'll likely find that your initial prediction $\hat{y}$ will be very different from your label $y$.
 <!-- .element: class="fragment" -->
 
 <object type="image/svg+xml" data="assets/img/neuralnetwork-initialisation.svg" style="background: white; width: 80%; margin-top: 1em">
@@ -166,64 +166,208 @@ When performing categorisation, we need one output node per category.
 ---
 
 ## Error and Loss
+We need a way good way to quantify how far our prediction is from our goal. 
 
-<img src="assets/img/artificial-neuron.svg"  style="background: white; padding: 1em; width:25%"/>
+
+<object type="image/svg+xml" data="assets/img/neuralnetwork-initialisation.svg" style="background: white; width: 80%; margin-top: 1em">
+</object>
+
+Why don't we just use the difference between the prediction and target? What's called the `Error` $E$.
+
+In this case we $E$ of $-75$ ($E = y - \hat{y}$)
+
+---
+
+## Error and Loss
+
+Let's simplify our example to a 2 node network:
+
+<object type="image/svg+xml" data="assets/img/neuralnetwork-2node.svg" style="background: white; width: 80%; margin-top: 1em">
+</object>
+
+We get an equation for a straight line: <!-- .element: class="fragment" data-fragment-index="1"--> 
 
 $$
-x_{1}w_{1}+x_{2}w_{2}+x_{3}w_{3}+b=y
+\hat{y} = x_1w+b
 $$
+<!-- .element: class="fragment" data-fragment-index="1"-->
+
+We can adjust $w$ and $b$ so that the line best fits the dataset.
+<!-- .element: class="fragment" -->
+
+---
+
+## Error and Loss
+
+We'll try to fit to this dataset
+
+<img src="assets/img/nnerror1-dataset.png"  style="width:40%"/>
+
+---
+
+## Error and Loss
+
+We start off with random weights and bias. In this case $w = 8$ and $b = 3$.
+* The numbers next to the target is the `error` $y - \hat{y}$ at each sample.
+
+<img src="assets/img/nnerror2-error.png"  style="width:50%"/>
+
+---
+
+## Error and Loss
+
+We want to find the mean of all erors $E =\frac{1}{m}\sum^m(y-\hat{y})$, but we 
+only care about the amount of error and not the sign. $m$ is number of samples.
+
+<img src="assets/img/nnerror3-error.png"  style="width:50%"/>
 
 
 
 ---
 
-## Getting the right output
+## Loss functions
 
-Neural network weights ($w$) and bias ($b$) are initialised at random.
+Let's square all of our errors so they're all positive $L(y,\hat{y}) =\frac{1}{m}\sum^m(y-\hat{y})^2$.
 
-<img src="assets/img/artificial-neuron-learning.svg"  style="background: white; padding: 1em;"/>
+<img src="assets/img/nnerror4-squarederror.png"  style="width:50%"/>
 
-The weights are then changed so that our `Output` is closer to the `Target`, minimising our `Error`
-
----
-
-## Getting the right output
-
-Let's try increasing $w_{1}$...
-
-<img src="assets/img/artificial-neuron-learning2.svg"  style="background: white; padding: 1em;"/>
-
-You'll see that error is increased from $9$ to $15$.
 
 ---
 
-## Getting the right output
+## Loss functions
 
-Now try decreasing $w_{1}$...
+$L(y,\hat{y}) =\frac{1}{m}\sum^m(y-\hat{y})^2$
 
-<img src="assets/img/artificial-neuron-learning3.svg"  style="background: white; padding: 1em;"/>
+We've created a `Loss` function to help us better quantify our error. This particular one is called `mean squared loss`.
+* All errors are $+ve$, we're trying to reduce to $0$.
+* Error grows exponentially with distance to our target.
 
-We've gotten nearer to our target, now we know to keep decreasing the weight.
+---
+
+## Minimising Loss
+
+For $w = 8$ and $b = 3$, our loss is $L(y,\hat{y}) = 599.41$. 
+
+
+<img src="assets/img/nnerror2-error.png"  style="width:40%"/>
+
+---
+
+## Minimising Loss
+
+Let's decrease $w$ from $8$ to $7$, the loss increases to $L(y,\hat{y}) = 703.16$. 
+
+<img src="assets/img/nnerror6-decreasem.png"  style="width:40%"/>
+
+---
+
+## Minimising Loss
+
+Let's instead increase $w$ from $8$ to $9$, the loss decreases to $L(y,\hat{y}) = 566.05$. 
+
+<img src="assets/img/nnerror6-decreasem.png"  style="width:40%"/>
+
+Looks like we're going in the right direction!
+
+---
+
+## Minimising Loss
+
+We can explore the loss values by plotting for a range of $w$. 
+
+<img src="assets/img/nnerror7-wrangeplot.png"  style="width:40%"/>
+
+---
+
+## Minimising Loss
+
+And for a range of $b$. 
+
+<img src="assets/img/nnerror8-brangeplot.png"  style="width:40%"/>
+
+---
+
+## Minimising Loss
+
+To get the entire picture we need to look at $w$ and $b$ at the same time. 
+
+<img src="assets/img/nnerror9-wbrangeplot.png"  style="width:40%"/>
+
+---
+
+
+## Gradient descent
+
+Descending through the loss surface by gradually changing the `weights` and `biases`.
+
+<object type="image/svg+xml" data="assets/img/gradient-descent3d.svg" style="background: white; width: 80%; margin-top: 1em">
+<param id="layer2" class="fragment fade-in" data-fragment-index="1" />
+<param id="layer3" class="fragment fade-in" data-fragment-index="2" />
+<param id="layer4" class="fragment fade-in" data-fragment-index="3" />
+<param id="layer5" class="fragment fade-in" data-fragment-index="4" />
+<param id="layer6" class="fragment fade-in" data-fragment-index="5" />
+<param id="layer7" class="fragment fade-in" data-fragment-index="6" />
+<param id="layer8" class="fragment fade-in" data-fragment-index="7" />
+</object>
+
+---
+
+## Gradient descent
+Perform differentiation of our weight or bias with respect to the loss. 
+
+$\frac{{\delta}L}{{\delta}w^l_k}$ or $\frac{{\delta}L}{{\delta}b^l_k}$ 
+
+<img src="assets/img/gradient-descent.svg"  style="width:40%"/>
 
 ---
 
 ## Gradient descent
 
-Finding current loss gradient for ALL weights and changing the weights gradually to keep minimising error.
+We then move step-by-step towards negative gradient with learning rate hyperparameter $\eta$.
 
-<img src="assets/img/gradient-descent.svg"  style="background: white; padding: 0.5em; width: 25%"/>
+$w^l_k = w^l_k -\eta{\nabla}L(w^l_k)$
 
-Above example shows the gradient descent process if we only have a single weight.
+<img src="assets/img/gradient-descent.svg"  style="width:40%"/>
+
+
 
 ---
 
-## Getting the right output (Sample 2)
+## Learning rate
 
-With the next sample, the `Input` and `Target` has now changed... 
+Large learning rate $\eta$ can miss the minima and the network to diverge.
 
-<img src="assets/img/artificial-neuron-learning4.svg"  style="background: white; padding: 1em;"/>
+<img src="assets/img/gradient-descentlarglr.svg"  style="width:40%"/>
 
-We need to minimise error for all samples.
+
+
+---
+
+## Learning rate
+
+Smaller learning rate $\eta$ means our network takes longer to converge.
+
+<img src="assets/img/gradient-descentsmalllr.svg"  style="width:40%"/>
+
+---
+
+## Learning rate
+
+How do we know the 'optimal' learning rate?
+
+We won't know until actually training the network! <!-- .element: class="fragment" -->
+
+Start with the default values provided, perform a parameter sweep. <!-- .element: class="fragment" -->
+
+---
+
+## Back propagation
+
+<object type="image/svg+xml" data="assets/img/neuralnetwork-backprop.svg" style="background: white; width: 80%; margin-top: 1em">
+<param id="layer2" class="fragment fade-in" data-fragment-index="1" />
+<param id="layer3" class="fragment fade-in" data-fragment-index="2" />
+<param id="layer4" class="fragment fade-in" data-fragment-index="3" />
+</object>
 
 ---
 
@@ -233,21 +377,71 @@ We need to minimise error for all samples.
 <param id="layer2" class="fragment" data-fragment-index="2" />
 <param id="layer3" class="fragment" data-fragment-index="3" />
 <param id="layer4" class="fragment" data-fragment-index="4" />
+<param id="layer5" class="fragment" data-fragment-index="5" />
+<param id="layer6" class="fragment" data-fragment-index="6" />
+<param id="layer7" class="fragment" data-fragment-index="7" />
+<param id="layer8" class="fragment" data-fragment-index="8" />
+<param id="layer9" class="fragment" data-fragment-index="9" />
 </object>
-
-
- 
 
 ---
 
 ## Neural Network Training Cycle
 
 1. Forward propagation - Pass in data from sample
-1. Calculate loss - compare output with target/label
-1. Back propagation - change weights in the network to minimise error/loss
+1. Calculate loss - compare prediction with target
+1. Back propagation - find gradients for each weight and bias
 1. Repeat with different sample
+1. Average gradients of weights and bias then update <!-- .element: class="fragment" -->
 
 ---
+
+## Stochastic gradient descent
+
+Gradient descent calculate the loss of the entire dataset at every step. 
+
+By randomising our training data, we can train in small `batches` and allow our model to converge faster.
+
+
+<img src="assets/img/gd-sgd.png"  style="width:40%"/>
+
+
+---
+
+## Terminology: Iterations and Epochs
+
+1 **epoch** is when we've gone through the **entire** dataset
+
+1 **iteration** is when we've gone through the number of samples in a **batch** 
+
+e.g. if our entire dataset is **100** samples and our **batch** size is **5**
+
+**1** **epoch** equals **20** **iterations**
+
+---
+
+## Optimizers
+
+SGD is inherently noisy, optimizers can be used to get closer to the ideal descent path and increase our convergence rate.
+
+<object type="image/svg+xml" data="assets/img/gradient-descent-sgd.svg" style="background: white; width: 80%">
+<param id="layer2" class="fragment" data-fragment-index="2" />
+</object>
+
+---
+
+## Optimizers
+* `Momentum` - Accumulates gradient of previous steps and pushing `force` in the accumulated direction.
+* `RMSProp` - Adapt learning rate for each parameter, larger gradients gets smaller updates, dampening the sideways oscillation.
+* `Adam` - a combination of momentum and rmsprop.
+
+---
+
+## Classification
+
+
+---
+
 
 ## Activation functions
 
@@ -265,22 +459,18 @@ $$
 
 But most real-world problems are non-linear
 
-Sigmoid
-
-ReLU
-
----
-
-## Activation functions - Sigmoid
 
 
 ---
 
-## Activation functions - ReLU
+## Activation functions
+Commonly used acti
 
 
-
+<img src="assets/img/activation-functions.svg"  style="width:80%"/>
 
 ---
 
-## Categorisation
+
+
+

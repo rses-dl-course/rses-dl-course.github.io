@@ -82,7 +82,6 @@
         * Test
         * Iteration/Epoch
     * Stochastic gradient descent
-    * Back propagation
     * Training outputs
         * Visualising the results
         * loss/error
