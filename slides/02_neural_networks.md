@@ -131,16 +131,16 @@ One scalar value per output node, e.g. house price prediction.
 
 ## Network outputs
 
-When performing categorisation, we need one output node per category.
+When performing classification, we need one output node per category.
 
 <img src="assets/img/neuralnetwork-output2.svg"  style="background: white; width: 70%"/>
 
 ---
 
-## Inferencing
+## Inference
 * Input values at $x_{1...n}$ on the left
 * Propagate values layer-by-layer <!-- .element: class="fragment" data-fragment-index="1" -->
-* Prediction $\hat{y}$ at the output. 
+* Output the prediction ($\hat{y}$). 
   <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
@@ -166,15 +166,26 @@ When performing categorisation, we need one output node per category.
 ---
 
 ## Error and Loss
-We need a way good way to quantify how far our prediction is from our goal. 
 
+We need a way good way to quantify how far our prediction is from our goal.
 
 <object type="image/svg+xml" data="assets/img/neuralnetwork-initialisation.svg" style="background: white; width: 80%; margin-top: 1em">
 </object>
 
-Why don't we just use the difference between the prediction and target? What's called the `Error` $E$.
 
-In this case we $E$ of $-75$ ($E = y - \hat{y}$)
+---
+
+## Error and Loss
+
+Why don't we just use absolute difference, the `Error` ($E$) between the prediction ($\hat{y}$) and target ($y$)? 
+
+In this case  $E = y - \hat{y} = -75$
+ 
+
+<object type="image/svg+xml" data="assets/img/neuralnetwork-initialisation.svg" style="background: white; width: 80%; margin-top: 1em">
+</object>
+
+
 
 ---
 
@@ -192,7 +203,7 @@ $$
 $$
 <!-- .element: class="fragment" data-fragment-index="1"-->
 
-We can adjust $w$ and $b$ so that the line best fits the dataset.
+We adjust the weight ($w$) and bias ($b$) to change the output of our function.
 <!-- .element: class="fragment" -->
 
 ---
@@ -207,8 +218,8 @@ We'll try to fit to this dataset
 
 ## Error and Loss
 
-We start off with random weights and bias. In this case $w = 8$ and $b = 3$.
-* The numbers next to the target is the `error` $y - \hat{y}$ at each sample.
+* We start off with random weights ($w$) and bias ($b$). In this case $w = 8$ and $b = 3$.
+* The number next to the target is the `error` ($y - \hat{y}$) for that sample.
 
 <img src="assets/img/nnerror2-error.png"  style="width:50%"/>
 
@@ -216,12 +227,10 @@ We start off with random weights and bias. In this case $w = 8$ and $b = 3$.
 
 ## Error and Loss
 
-We want to find the mean of all erors $E =\frac{1}{m}\sum^m(y-\hat{y})$, but we 
-only care about the amount of error and not the sign. $m$ is number of samples.
+We want to find the average of all our errors, but simply summing them up $\(E =\frac{1}{m}\sum^m(y-\hat{y})\)$ means negative errors negate the positive.  
+$m=$ number  of  samples.
 
 <img src="assets/img/nnerror3-error.png"  style="width:50%"/>
-
-
 
 ---
 
@@ -238,9 +247,9 @@ Let's square all of our errors so they're all positive $L(y,\hat{y}) =\frac{1}{m
 
 $L(y,\hat{y}) =\frac{1}{m}\sum^m(y-\hat{y})^2$
 
-We've created a `Loss` function to help us better quantify our error. This particular one is called `mean squared loss`.
+We've created a `Loss` (or `Cost`) function to help us better quantify our error. This particular one is called `mean squared loss`.
 * All errors are $+ve$, we're trying to reduce to $0$.
-* Error grows exponentially with distance to our target.
+* Error grows exponentially with distance from target.
 
 ---
 
@@ -265,7 +274,7 @@ Let's decrease $w$ from $8$ to $7$, the loss increases to $L(y,\hat{y}) = 703.16
 
 Let's instead increase $w$ from $8$ to $9$, the loss decreases to $L(y,\hat{y}) = 566.05$. 
 
-<img src="assets/img/nnerror6-decreasem.png"  style="width:40%"/>
+<img src="assets/img/nnerror5-increasem.png"  style="width:40%"/>
 
 Looks like we're going in the right direction!
 
@@ -357,7 +366,9 @@ How do we know the 'optimal' learning rate?
 
 We won't know until actually training the network! <!-- .element: class="fragment" -->
 
-Start with the default values provided, perform a parameter sweep. <!-- .element: class="fragment" -->
+Start with the default values provided. <!-- .element: class="fragment" -->
+
+Perform analysis on rate of convergence during training.<!-- .element: class="fragment" -->
 
 ---
 
@@ -391,9 +402,9 @@ Start with the default values provided, perform a parameter sweep. <!-- .element
 1. Forward propagation - Pass in data from sample
 1. Calculate loss - compare prediction with target
 1. Back propagation - find gradients for each weight and bias
-1. Repeat with different sample
+1. Repeat for all samples
 1. Average gradients of weights and bias then update <!-- .element: class="fragment" -->
-
+1. Start again from 1 <!-- .element: class="fragment" -->
 ---
 
 ## Stochastic gradient descent
@@ -424,52 +435,73 @@ e.g. if our entire dataset is **100** samples and our **batch** size is **5**
 
 SGD is inherently noisy, optimizers can be used to get closer to the ideal descent path and increase our convergence rate.
 
-<object type="image/svg+xml" data="assets/img/gradient-descent-sgd.svg" style="background: white; width: 80%">
+<object type="image/svg+xml" data="assets/img/gradient-descent-sgd3d.svg" style="background: white; width: 80%">
 <param id="layer2" class="fragment" data-fragment-index="2" />
 </object>
 
 ---
 
 ## Optimizers
-* `Momentum` - Accumulates gradient of previous steps and pushing `force` in the accumulated direction.
+* `Momentum` - Accumulates gradient of previous steps to provide pushing `force` in the accumulated direction.
 * `RMSProp` - Adapt learning rate for each parameter, larger gradients gets smaller updates, dampening the sideways oscillation.
-* `Adam` - a combination of momentum and rmsprop.
+* `Adam` - a combination of `Momentum` and `RMSProp`.
+
+---
+
+## Activation functions
+
+As it is, our network can only map to a linear function.
+
+<img src="assets/img/activation-linearnetwork.svg"  style="background: white; width:80%"/>
+
+It's great for linear regression!
+
+---
+
+## Activation functions
+
+But most real-world problems are non-linear.
+
+<img src="assets/img/activation-nonlinear.svg"  style="background: white; width:80%"/>
+
+---
+
+## Activation functions
+
+<img src="assets/img/activation-functions.svg"  style="width:80%"/>
+
+ReLU is more computationally efficient and doesn't suffer from `vanishing gradient` but can 'die' when input is negative.
+
 
 ---
 
 ## Classification
 
+Logistic regression, we want output nodes to output a confidence probability between $0$ (false) and $1$ (true).
+
+<img src="assets/img/classification-logisticregression.svg"  style="background: white; width: 70%"/>
 
 ---
 
 
-## Activation functions
+## Classification
 
-You might have noticed that our neural network is linear
+When performing classification, we need one output node per category.
 
-<img src="assets/img/artificial-neuron.svg"  style="background: white; padding: 1em; width:25%"/>
-
-$$
-x_{1}w_{1}+x_{2}w_{2}+x_{3}w_{3}+b=y
-$$
+<img src="assets/img/neuralnetwork-output2.svg"  style="background: white; width: 70%"/>
 
 ---
 
-## Activation functions
-
-But most real-world problems are non-linear
+## Multiple node output
 
 
+--- 
 
----
-
-## Activation functions
-Commonly used acti
+### One-hot encoding
 
 
-<img src="assets/img/activation-functions.svg"  style="width:80%"/>
 
----
+
 
 
 

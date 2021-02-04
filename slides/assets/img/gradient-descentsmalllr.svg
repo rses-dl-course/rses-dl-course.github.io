@@ -364,38 +364,6 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 324.90175,252.01507 -19.1929,-19.95051"
-       id="path9020"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="202.38239"
-       y="228.22449"
-       id="text7514-2"><tspan
-         sodipodi:role="line"
-         id="tspan7516-4"
-         x="202.38239"
-         y="228.22449"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9315px;line-height:1.25;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro'">Initial weight</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#708dff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0"
-       d="M 341.06419,214.63943 316.06291,302.5227"
-       id="path10355"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#708dff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="326.76813"
-       y="278.74344"
-       id="text7514-5-1"><tspan
-         sodipodi:role="line"
-         id="tspan7516-9-1"
-         x="326.76813"
-         y="278.74344"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5812px;line-height:1.25;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro'">Gradient</tspan></text>
-    <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker8128-4)"
        d="m 312.93138,287.31752 -7.37735,23.17008"
        id="path7542-0"

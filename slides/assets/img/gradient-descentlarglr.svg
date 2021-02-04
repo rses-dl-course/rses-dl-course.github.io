@@ -79,22 +79,6 @@
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
-       id="marker8128"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lend"
-       inkscape:collect="always">
-      <path
-         transform="matrix(-0.8,0,0,-0.8,-10,0)"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path8130"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
        id="marker8076"
        refX="0"
        refY="0"
@@ -197,6 +181,36 @@
          id="path8130-7"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker8128-8-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8130-7-9"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker8128-8-27"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8130-7-0"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -240,6 +254,12 @@
      id="layer1"
      transform="translate(-51.402951,-174.53964)">
     <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker8128-8-2)"
+       d="M 171.18048,329.42405 323.38366,263.00676"
+       id="path7542-0-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 106.06602,174.53964 0,226.27417 257.5889,0"
        id="path7512"
@@ -274,57 +294,19 @@
     <circle
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path7540"
-       cx="328.80466"
-       cy="252.82648"
+       cx="311.81354"
+       cy="309.9119"
        r="6.5659914" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker8128)"
-       d="m 320.62465,261.87309 -23.89664,65.11557"
-       id="path7542"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 324.90175,252.01507 -19.1929,-19.95051"
-       id="path9020"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="202.38239"
-       y="228.22449"
-       id="text7514-2"><tspan
-         sodipodi:role="line"
-         id="tspan7516-4"
-         x="202.38239"
-         y="228.22449"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9315px;line-height:1.25;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro'">Initial weight</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#708dff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0"
-       d="M 341.06419,214.63943 316.06291,302.5227"
-       id="path10355"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#708dff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="326.76813"
-       y="278.74344"
-       id="text7514-5-1"><tspan
-         sodipodi:role="line"
-         id="tspan7516-9-1"
-         x="326.76813"
-         y="278.74344"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5812px;line-height:1.25;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro'">Gradient</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1117)"
-       d="m 295.03007,330.57395 -41.14025,55.84412"
-       id="path1113"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker8128-8)"
-       d="M 250.83895,385.913 186.72117,359.45555"
+       d="M 301.42649,314.77948 174.86292,334.14984"
        id="path7542-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker8128-8-27)"
+       d="M 324.98802,259.9857 146.22246,244.35249"
+       id="path7542-0-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
   </g>
