@@ -414,10 +414,26 @@ Gradient descent calculate the loss of the entire dataset at every step.
 By randomising our training data, we can train in small `batches` and allow our model to converge faster.
 
 
+
+
+---
+
+## Stochastic gradient descent
+
+<img src="assets/img/stochastic-gradient-descent-dataset.svg"  style="width:60%;"/>
+
+---
+
+## Stochastic gradient descent
+
+
+
 <img src="assets/img/gd-sgd.png"  style="width:40%"/>
 
 
 ---
+
+
 
 ## Terminology: Iterations and Epochs
 
@@ -428,6 +444,27 @@ By randomising our training data, we can train in small `batches` and allow our 
 e.g. if our entire dataset is **100** samples and our **batch** size is **5**
 
 **1** **epoch** equals **20** **iterations**
+
+---
+
+## Datasets
+
+Three types of datasets:
+
+* **Training** dataset- Our model learns from **only** this dataset.
+* **Validation** dataset - Used to check and fine-tune model's performance and generalisability.
+* **Test** dataset - Used to check the performance of a **fully trained** model. Don't peek!
+
+---
+
+## Validation datasets
+
+It's not unusual to not be provided with a **validation** dataset. 
+
+* Randomise and split a portion from your **training** dataset.
+* Or perform a **k-folds** cross-validation.
+
+
 
 ---
 
@@ -471,37 +508,6 @@ But most real-world problems are non-linear.
 <img src="assets/img/activation-functions.svg"  style="width:80%"/>
 
 ReLU is more computationally efficient and doesn't suffer from `vanishing gradient` but can 'die' when input is negative.
-
-
----
-
-## Classification
-
-Logistic regression, we want output nodes to output a confidence probability between $0$ (false) and $1$ (true).
-
-<img src="assets/img/classification-logisticregression.svg"  style="background: white; width: 70%"/>
-
----
-
-
-## Classification
-
-When performing classification, we need one output node per category.
-
-<img src="assets/img/neuralnetwork-output2.svg"  style="background: white; width: 70%"/>
-
----
-
-## Multiple node output
-
-
---- 
-
-### One-hot encoding
-
-
-
-
 
 
 

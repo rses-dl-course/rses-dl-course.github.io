@@ -7,11 +7,12 @@ const slideDir = "slides";
 module.exports = (markdown, options) => {
   return new Promise((resolve, reject) => {
 
+      //Matching an entire object tag
       let re = /<object.*?data="(.*?)".*?>([- <>"'=a-zA-z0-9\n\/]*)<\/object>/gm;
-      let paramRe = /<param class="".*?data="".*?\/>/gm;
-      let svgx = /<svg/gm;
-      let match = re.exec(markdown);
+      //let paramRe = /<param class="".*?data="".*?\/>/gm;
 
+      //Matching an opening of SVG tag
+      let svgx = /<svg/gm;
 
       function objReplace(match, svg_path, obj_body){
         //console.log("Replacing something " + svg_path + " " + obj_body);
@@ -19,10 +20,18 @@ module.exports = (markdown, options) => {
         let svgStr = svgRaw.slice(svgRaw.search(svgx));
         let svgDom = new jsdom.JSDOM(svgStr);
         let svgDoc = svgDom.window.document;
-
+        let svgElem = svgDom.window.document.body.children[0];
 
         let objDom = new jsdom.JSDOM(match);
         let objElem = objDom.window.document.body.children[0];
+
+        // Transfer style attribute from object to svg
+        let styleAttribute = objElem.getAttribute("style");
+        if(styleAttribute && styleAttribute.length > 0){
+            svgElem.setAttribute("style", styleAttribute);
+        }
+
+
 
         for(let i in objElem.children){
             let child = objElem.children[i];
