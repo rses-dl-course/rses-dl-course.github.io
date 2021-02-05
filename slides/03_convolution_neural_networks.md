@@ -6,7 +6,7 @@
 
 ---
 
-## Classification
+### Classification
 
 Logistic regression - the output is a confidence probability between $0$ (false) and $1$ (true).
 
@@ -15,7 +15,7 @@ Logistic regression - the output is a confidence probability between $0$ (false)
 ---
 
 
-## Classification
+### Classification
 
 One output node per category.
 
@@ -24,7 +24,7 @@ One output node per category.
 
 ---
 
-## Classification outputs
+### Classification outputs
 For two categories, we an output vector size of **2**. Since its probabilities, we want the output vector to sum up to $1.0$.
 
 <object type="image/svg+xml" data="assets/img/classification-onehot-probabiitysum.svg" style="background: white; width: 70%; height: auto;">
@@ -33,15 +33,15 @@ For two categories, we an output vector size of **2**. Since its probabilities, 
 
 ---
 
-## Softmax
-Bound output with **sigmoid** and **normalise**.
+### Softmax
+Bound output between $0$ and $1$ with **sigmoid** and **normalise** so output vector sums up to $1$.
 
 <object type="image/svg+xml" data="assets/img/classification-softmax.svg" style="background: white; width: 70%; height: auto;">
 </object>
 
 ---
 
-## Classification labels
+### Classification labels
 
 So what should our **labels/targets** look like?
 
@@ -51,7 +51,7 @@ So what should our **labels/targets** look like?
 
 ---
 
-## Classification labels
+### Classification labels
 
 What would be the **target** if we're classifying a dog?
 
@@ -61,7 +61,7 @@ What would be the **target** if we're classifying a dog?
 
 ---
 
-## One-hot encoding
+### One-hot encoding
 Encode categories into vector form. Only **one** category should be **true**, hence **one-hot**.
 
 <object type="image/svg+xml" data="assets/img/classification-onehot-3class.svg" style="background: white; width: 70%; height: auto;">
@@ -70,7 +70,7 @@ Encode categories into vector form. Only **one** category should be **true**, he
 
 ---
 
-## Cross Entropy Loss
+### Cross Entropy Loss
 
 Larger penalty for classifying the wrong category.
 
@@ -86,7 +86,7 @@ def get_entropy_loss(y, y_hat):
 
 ---
 
-## Cross Entropy Loss
+### Cross Entropy Loss
 
 Larger penalty for classifying the wrong category.
 
@@ -94,7 +94,7 @@ Larger penalty for classifying the wrong category.
 
 ---
 
-## Cross Entropy Loss vs Squared Loss
+### Cross Entropy Loss vs Squared Loss
 
 Larger penalty for classifying the wrong category.
 
@@ -102,7 +102,7 @@ Larger penalty for classifying the wrong category.
 
 ---
 
-## Cross Entropy Loss
+### Cross Entropy Loss
 
 Several types of cross entropy loss available in `tf.keras`:
 
@@ -112,11 +112,20 @@ Several types of cross entropy loss available in `tf.keras`:
 
 ---
 
-# Convolution Neural Networks
+## Convolutional Neural Networks
 
 ---
 
-## Building a deep network
+### Hierarchical feature representaion 
+Deep neural networks learn larger and more abstract features deeper into the network.
+
+<object type="image/svg+xml" data="assets/img/convolution-hierachy.svg" style="background: white; width: 60%; height: auto;">
+</object>
+
+
+---
+
+### Building a deep network
 
 Stack layers between `Input` and `Output` layers. 
 
@@ -129,7 +138,7 @@ Stack layers between `Input` and `Output` layers.
 
 ---
 
-## Fully connected/Dense layers
+### Fully connected/Dense layers
 
 Each node in layer is connected to **every node** in the **previous** layer.
 
@@ -137,19 +146,9 @@ Each node in layer is connected to **every node** in the **previous** layer.
 <param id="layer2" class="fragment" data-fragment-index="1" />
 </object>
 
-
 ---
 
-## Convolution Layer
-
-* Connect to a subset of nodes in the previous layer
-* Each layer can have multiple filters
-* Each filter detects a single feature across the entire input space
-    * `Kernel size` and `stride` used to control the convolution process
-
----
-
-## Convolution Layer
+### Convolution Layer
 
 <object type="image/svg+xml" data="assets/img/convolution-1d.svg" style="background: white; width: auto; height: auto;">
 <param id="layer3" class="fragment " data-fragment-index="1" />
@@ -160,30 +159,41 @@ Each node in layer is connected to **every node** in the **previous** layer.
 
 ---
 
-## Convolution in 2D
+### Convolution Layer
+
+* Each layer can have multiple filters (feature detectors)
+* Each filter detects a single feature across the entire input space
+  * `Kernel size` and `stride` used to control the convolution process
+  * Same weights used for each filter
+* Each node only connects to a subset of nodes in the previous layer
+---
+
+### Convolution in 2D
 
 We arrange our input nodes as a grid to match our input image.
 
 <object type="image/svg+xml" data="assets/img/convolution-gridinput.svg" style="background: white; width: auto; height: auto;">
-<param id="layer1" class="fragment fade-in-then-out" data-fragment-index="1" />
-<param id="layer2" class="fragment fade-in-then-out" data-fragment-index="2" />
-<param id="layer3" class="fragment fade-in" data-fragment-index="3" />
+<param id="layer1" class="fragment fade-out" data-fragment-index="1" />
+<param id="layer2" class="fragment fade-in-then-out" data-fragment-index="1" />
+<param id="layer3" class="fragment fade-in-then-out" data-fragment-index="2" />
 </object>
 
 ---
 
-## Convolution in 2D
+### Convolution in 2D
 
 Here's an example of a smaller convolution network (LeNet).
 
-<object type="image/svg+xml" data="assets/img/lenet.svg" style="background: white; width: auto; height: auto;">
+<object type="image/svg+xml" data="assets/img/lenet2.svg" style="background: white; width: 90% !important; height: auto;">
 </object>
 
 Each convolution layer has a number of filters, their outputs are represented as stacks of images.
 
 ---
 
-## The convolution process
+### The convolution process
+
+Scan filter of `kernel size` over the image with the step length of `stride`. It also determines the dimensions of the `output`.
 
 <object type="image/svg+xml" data="assets/img/convolution-process.svg" style="background: white; width: auto; height: auto;">
 <param id="layer2" class="fragment fade-in-then-out" data-fragment-index="2" />
@@ -196,3 +206,123 @@ Each convolution layer has a number of filters, their outputs are represented as
 <param id="layer9" class="fragment fade-in-then-out" data-fragment-index="9" />
 <param id="layer10" class="fragment fade-in-then-out" data-fragment-index="10" />
 </object>
+
+---
+
+### The convolution process
+
+The output pixel is the weighted sum of the scanned area. The maths is the same as when connecting nodes together except the weight sharing!
+
+<object type="image/svg+xml" data="assets/img/convolution-process-nodes.svg" style="background: white; width: auto; height: auto;">
+<param id="layer2" class="fragment fade-in-then-out" data-fragment-index="2" />
+<param id="layer3" class="fragment fade-in-then-out" data-fragment-index="3" />
+<param id="layer4" class="fragment fade-in-then-out" data-fragment-index="4" />
+<param id="layer5" class="fragment fade-in-then-out" data-fragment-index="5" />
+<param id="layer6" class="fragment fade-in-then-out" data-fragment-index="6" />
+<param id="layer7" class="fragment fade-in-then-out" data-fragment-index="7" />
+<param id="layer8" class="fragment fade-in-then-out" data-fragment-index="8" />
+<param id="layer9" class="fragment fade-in-then-out" data-fragment-index="9" />
+<param id="layer10" class="fragment fade-in-then-out" data-fragment-index="10" />
+</object>
+
+---
+
+### The convolution process
+
+Filter weights remains the same as it scan over the image. It's detecting a single feature e.g. a vertical line.
+
+<object type="image/svg+xml" data="assets/img/convolution-process-nodes.svg" style="background: white; width: auto; height: auto;">
+<param id="layer2" class="fragment fade-in-then-out" data-fragment-index="2" />
+<param id="layer3" class="fragment fade-in-then-out" data-fragment-index="3" />
+<param id="layer4" class="fragment fade-in-then-out" data-fragment-index="4" />
+<param id="layer5" class="fragment fade-in-then-out" data-fragment-index="5" />
+<param id="layer6" class="fragment fade-in-then-out" data-fragment-index="6" />
+<param id="layer7" class="fragment fade-in-then-out" data-fragment-index="7" />
+<param id="layer8" class="fragment fade-in-then-out" data-fragment-index="8" />
+<param id="layer9" class="fragment fade-in-then-out" data-fragment-index="9" />
+<param id="layer10" class="fragment fade-in-then-out" data-fragment-index="10" />
+</object>
+
+---
+
+### Convolution with multiple filters
+
+Scan through the entire image again with a different filter for detecting a different feature, e.g. for a horizontal line.
+
+<object type="image/svg+xml" data="assets/img/convolution-process-multifilter.svg" style="background: white; width: auto; height: auto;">
+<param id="layer2" class="fragment fade-in-then-out" data-fragment-index="2" />
+<param id="layer3" class="fragment fade-in-then-out" data-fragment-index="3" />
+<param id="layer4" class="fragment fade-in-then-out" data-fragment-index="4" />
+<param id="layer5" class="fragment fade-in-then-out" data-fragment-index="5" />
+<param id="layer6" class="fragment fade-in-then-out" data-fragment-index="6" />
+<param id="layer7" class="fragment fade-in-then-out" data-fragment-index="7" />
+<param id="layer8" class="fragment fade-in-then-out" data-fragment-index="8" />
+<param id="layer9" class="fragment fade-in-then-out" data-fragment-index="9" />
+<param id="layer10" class="fragment fade-in-then-out" data-fragment-index="10" />
+</object>
+
+---
+
+### Convolution with multiple filters
+
+With multiple filters you'll get a 3D output `[filters, width, height]`.
+
+<object type="image/svg+xml" data="assets/img/convolution-process-multifilter.svg" style="background: white; width: auto; height: auto;">
+<param id="layer2" class="fragment fade-in-then-out" data-fragment-index="2" />
+<param id="layer3" class="fragment fade-in-then-out" data-fragment-index="3" />
+<param id="layer4" class="fragment fade-in-then-out" data-fragment-index="4" />
+<param id="layer5" class="fragment fade-in-then-out" data-fragment-index="5" />
+<param id="layer6" class="fragment fade-in-then-out" data-fragment-index="6" />
+<param id="layer7" class="fragment fade-in-then-out" data-fragment-index="7" />
+<param id="layer8" class="fragment fade-in-then-out" data-fragment-index="8" />
+<param id="layer9" class="fragment fade-in-then-out" data-fragment-index="9" />
+<param id="layer10" class="fragment fade-in-then-out" data-fragment-index="10" />
+</object>
+
+---
+
+### Stacking convolution layers
+
+Separate kernel for each input channel then sum its output matrices together. Repeat for the next filter.
+
+<object type="image/svg+xml" data="assets/img/convolution-process-multichannel.svg" style="background: white; width: auto; height: auto;">
+<param id="layer2" class="fragment fade-in-then-out" data-fragment-index="2" />
+<param id="layer3" class="fragment fade-in-then-out" data-fragment-index="3" />
+<param id="layer4" class="fragment fade-in-then-out" data-fragment-index="4" />
+<param id="layer5" class="fragment fade-in-then-out" data-fragment-index="5" />
+<param id="layer6" class="fragment fade-in-then-out" data-fragment-index="6" />
+<param id="layer7" class="fragment fade-in-then-out" data-fragment-index="7" />
+<param id="layer8" class="fragment fade-in-then-out" data-fragment-index="8" />
+<param id="layer9" class="fragment fade-in-then-out" data-fragment-index="9" />
+<param id="layer10" class="fragment fade-in-then-out" data-fragment-index="10" />
+</object>
+
+---
+
+### Padding
+
+Add padding to not lose details on the edges. Tensorflow's `same` padding automatically determine the amount of padding 
+so that output size is same as input (if stride is 1).
+
+<object type="image/svg+xml" data="assets/img/padding.svg" style="background: white; width: 30%; height: auto;">
+</object>
+
+
+---
+
+### Max-pooling
+
+Select the maximum number in the current kernel, used mainly for subsampling, reducing the overall network size.
+
+<object type="image/svg+xml" data="assets/img/maxpool.svg" style="background: white; width: 60%; height: auto;">
+</object>
+
+---
+
+### Putting it all together
+
+We already know how to create dense networks, it's just a matter of adding `Convolution` and `Max pooling` layers!
+
+<object type="image/svg+xml" data="assets/img/lenet2.svg" style="background: white; width: 90% !important; height: auto;">
+</object>
+

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -16,7 +14,7 @@
    viewBox="0 0 434.64285 261.78573"
    id="svg4185"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
    sodipodi:docname="ai-definition.svg">
   <defs
      id="defs4187">
@@ -147,10 +145,11 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="2560"
-     inkscape:window-height="1547"
-     inkscape:window-x="1200"
-     inkscape:window-y="564"
-     inkscape:window-maximized="1" />
+     inkscape:window-height="1549"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata4190">
     <rdf:RDF>
@@ -197,39 +196,36 @@
        ry="0.63043338" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:29.7814827px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4883);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Crimson Pro';letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4883);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Crimson Pro, @wght=200';font-stretch:normal;font-variant:normal;font-size:34.99999861px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;"
        x="160.98996"
        y="280.44351"
-       id="text4735"
-       sodipodi:linespacing="125%"><tspan
+       id="text4735"><tspan
          sodipodi:role="line"
          id="tspan4737"
          x="160.98996"
          y="280.44351"
-         style="fill:url(#linearGradient4883);fill-opacity:1">Artificial Intelligence</tspan></text>
+         style="font-size:34.99999861px;line-height:1.25;fill:url(#linearGradient4883);fill-opacity:1;-inkscape-font-specification:'Crimson Pro, @wght=200';font-family:'Crimson Pro';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;">Artificial Intelligence</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:29.7814827px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4885);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Crimson Pro';letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4885);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Crimson Pro, @wght=200';font-stretch:normal;font-variant:normal;font-size:34.99999861px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;"
        x="321.73325"
        y="373.62207"
-       id="text4761"
-       sodipodi:linespacing="125%"><tspan
+       id="text4761"><tspan
          sodipodi:role="line"
          id="tspan4763"
          x="321.73325"
          y="373.62207"
-         style="fill:url(#linearGradient4885);fill-opacity:1">Deep Learning</tspan></text>
+         style="font-size:34.99999861px;line-height:1.25;fill:url(#linearGradient4885);fill-opacity:1;-inkscape-font-specification:'Crimson Pro, @wght=200';font-family:'Crimson Pro';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;">Deep Learning</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:29.7814827px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4887);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Crimson Pro';letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4887);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Crimson Pro, @wght=200';font-stretch:normal;font-variant:normal;font-size:34.99999861px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;"
        x="233.74838"
        y="321.8287"
-       id="text4735-5"
-       sodipodi:linespacing="125%"><tspan
+       id="text4735-5"><tspan
          sodipodi:role="line"
          id="tspan4737-4"
          x="233.74838"
          y="321.8287"
-         style="fill:url(#linearGradient4887);fill-opacity:1">Machine Learning</tspan></text>
+         style="font-size:34.99999861px;line-height:1.25;fill:url(#linearGradient4887);fill-opacity:1;-inkscape-font-specification:'Crimson Pro, @wght=200';font-family:'Crimson Pro';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;">Machine Learning</tspan></text>
   </g>
 </svg>

@@ -81,7 +81,7 @@
         * Validation
         * Test
         * Iteration/Epoch
-    * Stochastic gradient descent
+    * Normalization
     * Training outputs
         * Visualising the results
         * loss/error

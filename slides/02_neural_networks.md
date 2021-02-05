@@ -2,7 +2,7 @@
 
 ---
 
-## Artificial Neural Networks 
+### Artificial Neural Networks 
 
 Artificial neural networks are inspired by biological neural networks found in animal brains.
 
@@ -11,7 +11,7 @@ Artificial neural networks are inspired by biological neural networks found in a
 
 ---
 
-## An artificial neuron
+### An artificial neuron
 Behaviour is simplified compared to their biological counterparts...
 
 <img src="assets/img/artificial-neuron.svg"  style="background: white; padding: 1em; width:25%"/>
@@ -23,7 +23,7 @@ Inputs ($x_{n}$) are multiplied with weights ($w_{n}$) and summed together with 
 
 ---
 
-## An artificial neuron
+### An artificial neuron
 Behaviour is simplified compared to their biological counterparts...
 
 <img src="assets/img/artificial-neuron.svg"  style="background: white; padding: 1em; width:25%"/>
@@ -35,7 +35,7 @@ $$
 
 ---
 
-## A Neural Network
+### A Neural Network
 A neural network is simply a network of (artificial) neurons with distinct layers. 
 
 
@@ -43,7 +43,7 @@ A neural network is simply a network of (artificial) neurons with distinct layer
 
 ---
 
-## A Neural Network
+### A Neural Network
 
 The network is `acyclic`. Data is fed into the `Input` layer and prediction comes out at the `Output` layer. 
 Any layer in-between is called the `Hidden` layer.
@@ -59,7 +59,7 @@ Any layer in-between is called the `Hidden` layer.
 ---
 
 
-## Network inputs
+### Network inputs
 
 One scalar value per node
 
@@ -67,7 +67,7 @@ One scalar value per node
 
 ---
 
-## Network inputs
+### Network inputs
 
 One scalar value per node... e.g. house price features
 
@@ -76,7 +76,7 @@ One scalar value per node... e.g. house price features
 
 ---
 
-## Network inputs
+### Network inputs
 
 Or images, one node per pixel (greyscale)
 
@@ -88,7 +88,7 @@ Or images, one node per pixel (greyscale)
 
 ---
 
-## Network inputs
+### Network inputs
 
 You can also think of images as a grid of input nodes.
 
@@ -99,13 +99,13 @@ You can also think of images as a grid of input nodes.
 
 ---
 
-## Network inputs
+### Network inputs
 
 What about colour images?
 
 ---
 
-## Network inputs
+### Network inputs
 
 What about colour images?
 
@@ -120,7 +120,7 @@ For RGB images, no. of input nodes are  `$ width*height*channels $`
 
 ---
 
-## Network outputs
+### Network outputs
 
 One scalar value per output node, e.g. house price prediction.
 
@@ -129,7 +129,7 @@ One scalar value per output node, e.g. house price prediction.
 
 ---
 
-## Network outputs
+### Network outputs
 
 When performing classification, we need one output node per category.
 
@@ -137,7 +137,7 @@ When performing classification, we need one output node per category.
 
 ---
 
-## Inference
+### Inference
 * Input values at $x_{1...n}$ on the left
 * Propagate values layer-by-layer <!-- .element: class="fragment" data-fragment-index="1" -->
 * Output the prediction ($\hat{y}$). 
@@ -152,7 +152,7 @@ When performing classification, we need one output node per category.
 
 ---
 
-## Initialising the network
+### Initialising the network
 * One weight $w$ per connection, one bias $b$ per node.
     <!-- .element: class="fragment" -->
 * Weights $w$ and bias $b$ start out random.
@@ -165,7 +165,7 @@ When performing classification, we need one output node per category.
 
 ---
 
-## Error and Loss
+### Error and Loss
 
 We need a way good way to quantify how far our prediction is from our goal.
 
@@ -175,7 +175,7 @@ We need a way good way to quantify how far our prediction is from our goal.
 
 ---
 
-## Error and Loss
+### Error and Loss
 
 Why don't we just use absolute difference, the `Error` ($E$) between the prediction ($\hat{y}$) and target ($y$)? 
 
@@ -189,11 +189,11 @@ In this case  $E = y - \hat{y} = -75$
 
 ---
 
-## Error and Loss
+### Error and Loss
 
 Let's simplify our example to a 2 node network:
 
-<object type="image/svg+xml" data="assets/img/neuralnetwork-2node.svg" style="background: white; width: 80%; margin-top: 1em">
+<object type="image/svg+xml" data="assets/img/neuralnetwork-2node.svg" style="background: white; width: auto; height: auto; margin-top: 1em">
 </object>
 
 We get an equation for a straight line: <!-- .element: class="fragment" data-fragment-index="1"--> 
@@ -203,20 +203,20 @@ $$
 $$
 <!-- .element: class="fragment" data-fragment-index="1"-->
 
-We adjust the weight ($w$) and bias ($b$) to change the output of our function.
+We can adjust the weight ($w$) and bias ($b$) to change the output of our function.
 <!-- .element: class="fragment" -->
 
 ---
 
-## Error and Loss
+### Error and Loss
 
-We'll try to fit to this dataset
+Let's try to fit to this dataset
 
 <img src="assets/img/nnerror1-dataset.png"  style="width:40%"/>
 
 ---
 
-## Error and Loss
+### Error and Loss
 
 * We start off with random weights ($w$) and bias ($b$). In this case $w = 8$ and $b = 3$.
 * The number next to the target is the `error` ($y - \hat{y}$) for that sample.
@@ -225,7 +225,7 @@ We'll try to fit to this dataset
 
 ---
 
-## Error and Loss
+### Error and Loss
 
 We want to find the average of all our errors, but simply summing them up $\(E =\frac{1}{m}\sum^m(y-\hat{y})\)$ means negative errors negate the positive.  
 $m=$ number  of  samples.
@@ -234,7 +234,7 @@ $m=$ number  of  samples.
 
 ---
 
-## Loss functions
+### Loss functions
 
 Let's square all of our errors so they're all positive $L(y,\hat{y}) =\frac{1}{m}\sum^m(y-\hat{y})^2$.
 
@@ -243,7 +243,7 @@ Let's square all of our errors so they're all positive $L(y,\hat{y}) =\frac{1}{m
 
 ---
 
-## Loss functions
+### Loss functions
 
 $L(y,\hat{y}) =\frac{1}{m}\sum^m(y-\hat{y})^2$
 
@@ -253,7 +253,7 @@ We've created a `Loss` (or `Cost`) function to help us better quantify our error
 
 ---
 
-## Minimising Loss
+### Minimising Loss
 
 For $w = 8$ and $b = 3$, our loss is $L(y,\hat{y}) = 599.41$. 
 
@@ -262,7 +262,7 @@ For $w = 8$ and $b = 3$, our loss is $L(y,\hat{y}) = 599.41$.
 
 ---
 
-## Minimising Loss
+### Minimising Loss
 
 Let's decrease $w$ from $8$ to $7$, the loss increases to $L(y,\hat{y}) = 703.16$. 
 
@@ -270,7 +270,7 @@ Let's decrease $w$ from $8$ to $7$, the loss increases to $L(y,\hat{y}) = 703.16
 
 ---
 
-## Minimising Loss
+### Minimising Loss
 
 Let's instead increase $w$ from $8$ to $9$, the loss decreases to $L(y,\hat{y}) = 566.05$. 
 
@@ -280,7 +280,7 @@ Looks like we're going in the right direction!
 
 ---
 
-## Minimising Loss
+### Minimising Loss
 
 We can explore the loss values by plotting for a range of $w$. 
 
@@ -288,7 +288,7 @@ We can explore the loss values by plotting for a range of $w$.
 
 ---
 
-## Minimising Loss
+### Minimising Loss
 
 And for a range of $b$. 
 
@@ -296,7 +296,7 @@ And for a range of $b$.
 
 ---
 
-## Minimising Loss
+### Minimising Loss
 
 To get the entire picture we need to look at $w$ and $b$ at the same time. 
 
@@ -305,7 +305,7 @@ To get the entire picture we need to look at $w$ and $b$ at the same time.
 ---
 
 
-## Gradient descent
+### Gradient descent
 
 Descending through the loss surface by gradually changing the `weights` and `biases`.
 
@@ -321,7 +321,7 @@ Descending through the loss surface by gradually changing the `weights` and `bia
 
 ---
 
-## Gradient descent
+### Gradient descent
 Perform differentiation of our weight or bias with respect to the loss. 
 
 $\frac{{\delta}L}{{\delta}w^l_k}$ or $\frac{{\delta}L}{{\delta}b^l_k}$ 
@@ -330,7 +330,7 @@ $\frac{{\delta}L}{{\delta}w^l_k}$ or $\frac{{\delta}L}{{\delta}b^l_k}$
 
 ---
 
-## Gradient descent
+### Gradient descent
 
 We then move step-by-step towards negative gradient with learning rate hyperparameter $\eta$.
 
@@ -342,9 +342,9 @@ $w^l_k = w^l_k -\eta{\nabla}L(w^l_k)$
 
 ---
 
-## Learning rate
+### Learning rate
 
-Large learning rate $\eta$ can miss the minima and the network to diverge.
+Too large learning rate ($\eta$) can miss the minima and the cause the network to diverge.
 
 <img src="assets/img/gradient-descentlarglr.svg"  style="width:40%"/>
 
@@ -352,15 +352,15 @@ Large learning rate $\eta$ can miss the minima and the network to diverge.
 
 ---
 
-## Learning rate
+### Learning rate
 
-Smaller learning rate $\eta$ means our network takes longer to converge.
+Too small learning rate $\eta$ means our network takes longer to converge.
 
 <img src="assets/img/gradient-descentsmalllr.svg"  style="width:40%"/>
 
 ---
 
-## Learning rate
+### Learning rate
 
 How do we know the 'optimal' learning rate?
 
@@ -372,7 +372,7 @@ Perform analysis on rate of convergence during training.<!-- .element: class="fr
 
 ---
 
-## Back propagation
+### Back propagation
 
 <object type="image/svg+xml" data="assets/img/neuralnetwork-backprop.svg" style="background: white; width: 80%; margin-top: 1em">
 <param id="layer2" class="fragment fade-in" data-fragment-index="1" />
@@ -382,7 +382,7 @@ Perform analysis on rate of convergence during training.<!-- .element: class="fr
 
 ---
 
-## Neural Network Training Cycle
+### Neural Network Training Cycle
 
 <object type="image/svg+xml" data="assets/img/neuralnetwork-training.svg" style="background: white; width: 50%">
 <param id="layer2" class="fragment" data-fragment-index="2" />
@@ -397,7 +397,7 @@ Perform analysis on rate of convergence during training.<!-- .element: class="fr
 
 ---
 
-## Neural Network Training Cycle
+### Neural Network Training Cycle
 
 1. Forward propagation - Pass in data from sample
 1. Calculate loss - compare prediction with target
@@ -407,24 +407,25 @@ Perform analysis on rate of convergence during training.<!-- .element: class="fr
 1. Start again from 1 <!-- .element: class="fragment" -->
 ---
 
-## Stochastic gradient descent
+### Stochastic gradient descent
 
 Gradient descent calculate the loss of the entire dataset at every step. 
 
-By randomising our training data, we can train in small `batches` and allow our model to converge faster.
+By randomising our training data, training in small `batches` still gets a good approximation of the entire dataset. 
+This allows our model to converge faster.
 
 
 
 
 ---
 
-## Stochastic gradient descent
+### Stochastic gradient descent
 
 <img src="assets/img/stochastic-gradient-descent-dataset.svg"  style="width:60%;"/>
 
 ---
 
-## Stochastic gradient descent
+### Stochastic gradient descent
 
 
 
@@ -435,7 +436,7 @@ By randomising our training data, we can train in small `batches` and allow our 
 
 
 
-## Terminology: Iterations and Epochs
+### Terminology: Iterations and Epochs
 
 1 **epoch** is when we've gone through the **entire** dataset
 
@@ -447,7 +448,7 @@ e.g. if our entire dataset is **100** samples and our **batch** size is **5**
 
 ---
 
-## Datasets
+### Datasets
 
 Three types of datasets:
 
@@ -457,7 +458,7 @@ Three types of datasets:
 
 ---
 
-## Validation datasets
+### Validation datasets
 
 It's not unusual to not be provided with a **validation** dataset. 
 
@@ -468,7 +469,7 @@ It's not unusual to not be provided with a **validation** dataset.
 
 ---
 
-## Optimizers
+### Optimizers
 
 SGD is inherently noisy, optimizers can be used to get closer to the ideal descent path and increase our convergence rate.
 
@@ -478,14 +479,14 @@ SGD is inherently noisy, optimizers can be used to get closer to the ideal desce
 
 ---
 
-## Optimizers
+### Optimizers
 * `Momentum` - Accumulates gradient of previous steps to provide pushing `force` in the accumulated direction.
 * `RMSProp` - Adapt learning rate for each parameter, larger gradients gets smaller updates, dampening the sideways oscillation.
 * `Adam` - a combination of `Momentum` and `RMSProp`.
 
 ---
 
-## Activation functions
+### Activation functions
 
 As it is, our network can only map to a linear function.
 
@@ -495,7 +496,7 @@ It's great for linear regression!
 
 ---
 
-## Activation functions
+### Activation functions
 
 But most real-world problems are non-linear.
 
@@ -503,7 +504,7 @@ But most real-world problems are non-linear.
 
 ---
 
-## Activation functions
+### Activation functions
 
 <img src="assets/img/activation-functions.svg"  style="width:80%"/>
 

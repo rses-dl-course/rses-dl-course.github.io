@@ -11,11 +11,11 @@
   "build:docs": "reveal-md index.md --static docs --static-dirs media",
   "config": "node build_targets.js",
   "site": "vuepress dev site",
-  "slide:00": "reveal-md slides/00_overview.md -w --css slide-style.css --preprocessor preproc.js",
-  "slide:01": "reveal-md slides/01_introduction_to_deep_learning.md -w --css slide-style.css --preprocessor preproc.js",
-  "slide:02": "reveal-md slides/02_neural_networks.md -w --css slide-style.css --preprocessor preproc.js",
-  "slide:03": "reveal-md slides/03_convolution_neural_networks.md -w --css slide-style.css --preprocessor preproc.js",
-  "slide:04": "reveal-md slides/04_refining_the_model.md -w --css slide-style.css --preprocessor preproc.js"
+  "slide:00": "reveal-md slides/00_overview.md -w ",
+  "slide:01": "reveal-md slides/01_introduction_to_deep_learning.md -w ",
+  "slide:02": "reveal-md slides/02_neural_networks.md -w",
+  "slide:03": "reveal-md slides/03_convolution_neural_networks.md -w ",
+  "slide:04": "reveal-md slides/04_refining_the_model.md -w "
  },
  "author": "",
  "license": "ISC",

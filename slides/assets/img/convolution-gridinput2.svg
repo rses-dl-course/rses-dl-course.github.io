@@ -14,7 +14,7 @@
    version="1.1"
    id="svg988"
    inkscape:version="1.0.2 (1.0.2+r75+1)"
-   sodipodi:docname="convolution-gridinput.svg">
+   sodipodi:docname="convolution-gridinput2.svg">
   <defs
      id="defs982" />
   <sodipodi:namedview
@@ -84,7 +84,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     style="display:inline"
+     style="display:none"
      transform="translate(-37.230708,1.8919956)">
     <circle
        style="fill:#ffffff;stroke:#404040;stroke-width:0.561892;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
@@ -8205,7 +8205,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     style="display:inline"
+     style="display:none"
      transform="translate(-37.230708,1.8919956)">
     <text
        xml:space="preserve"

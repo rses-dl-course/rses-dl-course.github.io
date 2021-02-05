@@ -6,7 +6,7 @@
 
 ---
 
-Self-driving cars
+### Self-driving cars
  
 ![LIDAR DNN](assets/img/lidar-dnn.png)
 
@@ -14,7 +14,7 @@ Self-driving cars
 
 ---
 
-Playing GO
+### Playing GO
 
 ![LIDAR DNN](assets/img/alphago.jpg)
 
@@ -22,13 +22,13 @@ Playing GO
 
 ---
 
-Impersonating celebrities
+### Impersonating celebrities
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cQ54GDm1eL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-Mars mission
+### Mars mission
 
 <span class="medium-note">Terrain classification, navigation, autonomous rover, etc.</span>
 
@@ -38,7 +38,7 @@ Mars mission
 
 ---
 
-## More examples of deep learning
+### What else?
 
 * Cancer detection
 * Auto-recommendation (videos, shopping preferences, etc.)
@@ -48,19 +48,19 @@ Mars mission
 
 ---
 
-## Definitions
+### Definitions
 
 <img src="assets/img/ai-definition.svg" class="plain" style="width:70%"/>
 
 ---
 
-## Machine Learning (ML)
+### Machine Learning (ML)
 
 Statistical models that learns from data 
 
 ---
 
-## A simple ML model
+### A simple ML model
 
 <object type="image/svg+xml" data="assets/img/ml-model.svg"></object>
 
@@ -74,7 +74,7 @@ e.g. predicting house price from no. of bedrooms <!-- .element: class="fragment"
 
 ---
 
-## Learning by examples
+### Learning by examples
 ML models learn by being shown many examples. Each example is a pair of Feature (input) and Label (desired output).
 
 <table>
@@ -94,7 +94,7 @@ ML models learn by being shown many examples. Each example is a pair of Feature 
 
 ---
 
-## Feature engineering
+### Feature engineering
 Real-world applications often does not map neatly to a single feature
 
 e.g. here's what happens when we plot using real data:<br/>
@@ -102,7 +102,7 @@ e.g. here's what happens when we plot using real data:<br/>
 
 ---
 
-## Feature engineering
+### Feature engineering
 It's possible to use multiple features in our model...
 
 What other features should we collect?
@@ -110,7 +110,7 @@ What other features should we collect?
 ---
 
 
-## Feature engineering
+### Feature engineering
 Examples of features with higher correlation:
 
 
@@ -125,7 +125,7 @@ Examples of features with higher correlation:
 
 ---
 
-## Feature engineering
+### Feature engineering
 * We want to choose features most relevant to our model e.g. ones with high correlation
 
 * It's possible to combine and transform multiple features to increase correlation and help our ML algorithms e.g. 
@@ -138,7 +138,7 @@ Examples of features with higher correlation:
 
 ---
 
-## Feature engineering
+### Feature engineering
 
 What if we want to create a model that detect cats?
 
@@ -148,7 +148,7 @@ Each feature is a scalar value
 
 ---
 
-## Feature engineering
+### Feature engineering
 
 Cat detector:
 
@@ -170,7 +170,7 @@ Cat detector:
 
 ---
 
-## Feature engineering
+### Feature engineering
 
 Cat detector:
 
@@ -178,7 +178,7 @@ Cat detector:
 
 ---
 
-## ML Methodologies
+### ML Methodologies
 We can use various algorithms as the 'model', DL is one of them...
 
 * Clustering (e.g. K-means)
@@ -191,7 +191,7 @@ We can use various algorithms as the 'model', DL is one of them...
 
 ---
 
-## Deep Learning
+### Deep Learning
 
 Uses 'deep' neural networks, i.e. neural network with many layers.
 
@@ -199,7 +199,7 @@ Uses 'deep' neural networks, i.e. neural network with many layers.
 
 ---
 
-## Why use Deep Networks
+### Why use Deep Networks
 Standard ML workflow:
 
 <img src="assets/img/ml-cat-detector.svg" class="plain" style="background: transparent"/>
@@ -212,7 +212,16 @@ Deep layers acts as both model and feature detectors
 
 ---
 
-## Why use Deep Networks 
+### Hierarchical feature representaion 
+Deep neural networks learn larger and more abstract features deeper into the network.
+
+<object type="image/svg+xml" data="assets/img/convolution-hierachy.svg" style="background: white; width: 60%; height: auto;">
+</object>
+
+
+---
+
+### Why use Deep Networks 
 Why is this important? 
 
 Imagine trying to convert our cat detector to a car detector:
@@ -223,8 +232,8 @@ With DL, just supply a different dataset! <!-- .element: class="fragment" -->
 
 ---
 
-## The convergence
-Three contributors to rise of DL:
+### The convergence
+Three contributors to the rise of DL:
 
 <div style="display:flex; width: 100%">
     <div style="flex-grow: 1">
@@ -248,7 +257,7 @@ Three contributors to rise of DL:
 ---
 
 
-## Rise of Deep Learning
+### Rise of Deep Learning
 
 Alexnet network won the 2012 Imagenet competition with almost half error rate of existing algorithms
 
@@ -259,7 +268,7 @@ Today's state-of-the-art is around 98.7%
 
 ---
 
-## DL performance 
+### DL performance 
 
 DL is able to use **more** data to increase performance 
 

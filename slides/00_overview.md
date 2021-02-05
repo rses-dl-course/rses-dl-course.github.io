@@ -6,7 +6,7 @@ Twin Karmakharm
 <!-- .slide: data-background="/assets/img/rse-logo.svg" -->
 <!-- .slide: data-background-opacity="0.4" -->
 
-## Research Software Engineering Sheffield
+### Research Software Engineering Sheffield
 
 * Increasing research impact through software
 * Support and consultancy in research software and systems development and maintenance
@@ -17,7 +17,7 @@ Twin Karmakharm
 
 ---
 
-## Contents Overview
+### Contents Overview
 
 * Introduction to Deep Learning
 * Neural Networks
@@ -28,7 +28,7 @@ Twin Karmakharm
 
 ---
 
-## Practical Labs Using Google Colab
+### Practical Labs Using Google Colab
 A platform to run lab code interactively
 
 <img src="assets/img/colab-cell.png"/>
@@ -40,7 +40,7 @@ A platform to run lab code interactively
 ---
 
 
-## Practical Labs Using Jupyter Notebooks
+### Practical Labs Using Jupyter Notebooks
 A platform to run lab code interactively
 
 <img src="assets/img/jupyter-cell.png"/>
