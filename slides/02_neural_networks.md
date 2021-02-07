@@ -405,6 +405,7 @@ Perform analysis on rate of convergence during training.<!-- .element: class="fr
 1. Repeat for all samples
 1. Average gradients of weights and bias then update <!-- .element: class="fragment" -->
 1. Start again from 1 <!-- .element: class="fragment" -->
+
 ---
 
 ### Stochastic gradient descent
@@ -415,11 +416,9 @@ By randomising our training data, training in small `batches` still gets a good 
 This allows our model to converge faster.
 
 
-
-
 ---
 
-### Stochastic gradient descent
+### Stochastic gradient descent (batch size = 2)
 
 <img src="assets/img/stochastic-gradient-descent-dataset.svg"  style="width:60%;"/>
 
@@ -434,7 +433,15 @@ This allows our model to converge faster.
 
 ---
 
+### Batch size
 
+Number of samples our network can train on at the same time.
+
+* Larger batch size gives a better approximation of the entire dataset but uses more memory and processing power.
+* Smaller batch size adds noise to our network, this actually helps the model generalise better.
+* Normally set in 10s or 100s, e.g. 32 or 64 are popular sizes.
+
+---
 
 ### Terminology: Iterations and Epochs
 
@@ -465,7 +472,14 @@ It's not unusual to not be provided with a **validation** dataset.
 * Randomise and split a portion from your **training** dataset.
 * Or perform a **k-folds** cross-validation.
 
+---
 
+### K-folds cross validation
+
+Split dataset into $k$ parts, validate with one part and train on the rest. Repeat $k$ times using a different part to validate.
+
+<object type="image/svg+xml" data="assets/img/kfolds.svg" style="background: white; width: 40%; height: auto;">
+</object>
 
 ---
 

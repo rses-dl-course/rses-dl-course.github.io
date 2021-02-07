@@ -1,5 +1,6 @@
 # Course Layout
 * 00 - Overview
+    * Course schedule
     * Tensorflow Keras
     * Getting setup/Getting course materials
 * L00 - Introduction to notebooks
@@ -75,12 +76,14 @@
     * Feature maps
     * Kernels
     * max pooling
+* L03 - Fashion MNIST with CNNs
 * 04 - Fine-tuning the model
     * Datasets
         * Training
         * Validation
         * Test
         * Iteration/Epoch
+    * Dataset Bias
     * Normalization
     * Training outputs
         * Visualising the results
@@ -108,6 +111,9 @@
         * Noise
 * L04a & L04b
 * 05 - Transfer learning and saving the model
+    * Overview
+        * Why transfer learning?
+    * Using existing models
 * L05 & L06
 * 06 - Other network types & conclusion
     * Autoencoders    
