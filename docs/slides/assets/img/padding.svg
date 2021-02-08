@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="74.278214mm"
+   height="85.235474mm"
+   viewBox="0 0 74.278215 85.235474"
+   version="1.1"
+   id="svg1394"
+   sodipodi:docname="padding.svg"
+   inkscape:version="1.0.2 (1.0.2+r75+1)">
+  <defs
+     id="defs1388">
+    <marker
+       style="overflow:visible;"
+       id="marker3982"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3980" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker3890"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3888" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker3809"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3807" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2442" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2436" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3809-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path3807-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3809-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path3807-3" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="178.30889"
+     inkscape:cy="118.99752"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1549"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false"
+     fit-margin-top="3"
+     lock-margins="true"
+     fit-margin-left="3"
+     fit-margin-right="3"
+     fit-margin-bottom="3" />
+  <metadata
+     id="metadata1391">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-43.134432,-62.213268)">
+    <rect
+       style="font-variation-settings:'wght' 200;fill:#6699ff;stroke:none;stroke-width:0.400994;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect2765-9"
+       width="14.97213"
+       height="14.942412"
+       x="51.821293"
+       y="109.97128"
+       rx="0"
+       ry="0" />
+    <rect
+       style="font-variation-settings:'wght' 200;fill:#6699ff;stroke:none;stroke-width:0.400994;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect2765"
+       width="14.97213"
+       height="14.942412"
+       x="48.348049"
+       y="75.700974"
+       rx="0"
+       ry="0" />
+    <g
+       inkscape:label="GridCartesian:X4:Y4"
+       transform="translate(48.336974,75.620519)"
+       id="g2272">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g2260">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 5,0 V 20"
+           inkscape:label="MajorXDiv1"
+           id="path2254" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 10,0 V 20"
+           inkscape:label="MajorXDiv2"
+           id="path2256" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 20"
+           inkscape:label="MajorXDiv3"
+           id="path2258" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g2268">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,5 H 20"
+           inkscape:label="MajorYDiv1"
+           id="path2262" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,10 H 20"
+           inkscape:label="MajorYDiv2"
+           id="path2264" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 20"
+           inkscape:label="MajorYDiv3"
+           id="path2266" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="20"
+         height="20"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect2270" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="50.874054"
+       y="79.757904"
+       id="text11358"><tspan
+         sodipodi:role="line"
+         x="50.874054"
+         y="79.757904"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan11356">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="55.859673"
+       y="79.757904"
+       id="text2353"><tspan
+         sodipodi:role="line"
+         x="55.859673"
+         y="79.757904"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2351">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="60.730053"
+       y="79.757904"
+       id="text2357"><tspan
+         sodipodi:role="line"
+         x="60.730053"
+         y="79.757904"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2355">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="65.835953"
+       y="79.757904"
+       id="text2361"><tspan
+         sodipodi:role="line"
+         x="65.835953"
+         y="79.757904"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2359">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="50.874054"
+       y="84.551033"
+       id="text2365"><tspan
+         sodipodi:role="line"
+         x="50.874054"
+         y="84.551033"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2363">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="55.859673"
+       y="84.551033"
+       id="text2369"><tspan
+         sodipodi:role="line"
+         x="55.859673"
+         y="84.551033"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2367">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="60.730053"
+       y="84.551033"
+       id="text2373"><tspan
+         sodipodi:role="line"
+         x="60.730053"
+         y="84.551033"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2371">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="65.835953"
+       y="84.551033"
+       id="text2377"><tspan
+         sodipodi:role="line"
+         x="65.835953"
+         y="84.551033"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2375">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="50.874054"
+       y="89.45443"
+       id="text2381"><tspan
+         sodipodi:role="line"
+         x="50.874054"
+         y="89.45443"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2379">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="55.859673"
+       y="89.45443"
+       id="text2385"><tspan
+         sodipodi:role="line"
+         x="55.859673"
+         y="89.45443"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2383">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="60.730053"
+       y="89.45443"
+       id="text2389"><tspan
+         sodipodi:role="line"
+         x="60.730053"
+         y="89.45443"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2387">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="65.835953"
+       y="89.45443"
+       id="text2393"><tspan
+         sodipodi:role="line"
+         x="65.835953"
+         y="89.45443"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2391">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="50.874054"
+       y="94.499115"
+       id="text2397"><tspan
+         sodipodi:role="line"
+         x="50.874054"
+         y="94.499115"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2395">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="55.859673"
+       y="94.499115"
+       id="text2401"><tspan
+         sodipodi:role="line"
+         x="55.859673"
+         y="94.499115"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2399">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="60.730053"
+       y="94.499115"
+       id="text2405"><tspan
+         sodipodi:role="line"
+         x="60.730053"
+         y="94.499115"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2403">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="65.835953"
+       y="94.499115"
+       id="text2409"><tspan
+         sodipodi:role="line"
+         x="65.835953"
+         y="94.499115"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2407">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="59.474777"
+       y="118.96432"
+       id="text3198"><tspan
+         sodipodi:role="line"
+         x="59.474777"
+         y="118.96432"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3196">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="64.460396"
+       y="118.96432"
+       id="text3202"><tspan
+         sodipodi:role="line"
+         x="64.460396"
+         y="118.96432"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3200">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="69.33078"
+       y="118.96432"
+       id="text3206"><tspan
+         sodipodi:role="line"
+         x="69.33078"
+         y="118.96432"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3204">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.436691"
+       y="118.96432"
+       id="text3210"><tspan
+         sodipodi:role="line"
+         x="74.436691"
+         y="118.96432"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3208">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="59.474777"
+       y="123.75746"
+       id="text3214"><tspan
+         sodipodi:role="line"
+         x="59.474777"
+         y="123.75746"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3212">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="64.460396"
+       y="123.75746"
+       id="text3218"><tspan
+         sodipodi:role="line"
+         x="64.460396"
+         y="123.75746"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3216">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="69.33078"
+       y="123.75746"
+       id="text3222"><tspan
+         sodipodi:role="line"
+         x="69.33078"
+         y="123.75746"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3220">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.436691"
+       y="123.75746"
+       id="text3226"><tspan
+         sodipodi:role="line"
+         x="74.436691"
+         y="123.75746"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3224">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="59.474777"
+       y="128.66086"
+       id="text3230"><tspan
+         sodipodi:role="line"
+         x="59.474777"
+         y="128.66086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3228">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="64.460396"
+       y="128.66086"
+       id="text3234"><tspan
+         sodipodi:role="line"
+         x="64.460396"
+         y="128.66086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3232">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="69.33078"
+       y="128.66086"
+       id="text3238"><tspan
+         sodipodi:role="line"
+         x="69.33078"
+         y="128.66086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3236">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.436691"
+       y="128.66086"
+       id="text3242"><tspan
+         sodipodi:role="line"
+         x="74.436691"
+         y="128.66086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3240">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="59.474777"
+       y="133.70555"
+       id="text3246"><tspan
+         sodipodi:role="line"
+         x="59.474777"
+         y="133.70555"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3244">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="64.460396"
+       y="133.70555"
+       id="text3250"><tspan
+         sodipodi:role="line"
+         x="64.460396"
+         y="133.70555"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3248">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="69.33078"
+       y="133.70555"
+       id="text3254"><tspan
+         sodipodi:role="line"
+         x="69.33078"
+         y="133.70555"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3252">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.436691"
+       y="133.70555"
+       id="text3258"><tspan
+         sodipodi:role="line"
+         x="74.436691"
+         y="133.70555"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3256">5</tspan></text>
+    <g
+       inkscape:label="GridCartesian:X6:Y6"
+       transform="translate(51.937663,110.00523)"
+       id="g3286">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3270">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 5,0 V 30"
+           inkscape:label="MajorXDiv1"
+           id="path3260" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 10,0 V 30"
+           inkscape:label="MajorXDiv2"
+           id="path3262" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 30"
+           inkscape:label="MajorXDiv3"
+           id="path3264" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 20,0 V 30"
+           inkscape:label="MajorXDiv4"
+           id="path3266" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 25,0 V 30"
+           inkscape:label="MajorXDiv5"
+           id="path3268" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3282">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,5 H 30"
+           inkscape:label="MajorYDiv1"
+           id="path3272" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,10 H 30"
+           inkscape:label="MajorYDiv2"
+           id="path3274" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 30"
+           inkscape:label="MajorYDiv3"
+           id="path3276" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,20 H 30"
+           inkscape:label="MajorYDiv4"
+           id="path3278" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,25 H 30"
+           inkscape:label="MajorYDiv5"
+           id="path3280" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="30"
+         height="30"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect3284" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="54.596634"
+       y="118.96432"
+       id="text3290"><tspan
+         sodipodi:role="line"
+         x="54.596634"
+         y="118.96432"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3288">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="54.596634"
+       y="123.75746"
+       id="text3294"><tspan
+         sodipodi:role="line"
+         x="54.596634"
+         y="123.75746"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3292">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="54.596634"
+       y="128.66086"
+       id="text3298"><tspan
+         sodipodi:role="line"
+         x="54.596634"
+         y="128.66086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3296">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="54.596634"
+       y="133.70555"
+       id="text3302"><tspan
+         sodipodi:role="line"
+         x="54.596634"
+         y="133.70555"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3300">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="79.386742"
+       y="118.96432"
+       id="text3306"><tspan
+         sodipodi:role="line"
+         x="79.386742"
+         y="118.96432"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3304">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="79.386742"
+       y="123.75746"
+       id="text3310"><tspan
+         sodipodi:role="line"
+         x="79.386742"
+         y="123.75746"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3308">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="79.386742"
+       y="128.66086"
+       id="text3314"><tspan
+         sodipodi:role="line"
+         x="79.386742"
+         y="128.66086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3312">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="79.386742"
+       y="133.70555"
+       id="text3318"><tspan
+         sodipodi:role="line"
+         x="79.386742"
+         y="133.70555"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3316">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="59.474777"
+       y="114.08028"
+       id="text3322"><tspan
+         sodipodi:role="line"
+         x="59.474777"
+         y="114.08028"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3320">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="64.460396"
+       y="114.08028"
+       id="text3326"><tspan
+         sodipodi:role="line"
+         x="64.460396"
+         y="114.08028"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3324">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="69.33078"
+       y="114.08028"
+       id="text3330"><tspan
+         sodipodi:role="line"
+         x="69.33078"
+         y="114.08028"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3328">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.436691"
+       y="114.08028"
+       id="text3334"><tspan
+         sodipodi:role="line"
+         x="74.436691"
+         y="114.08028"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3332">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="54.596634"
+       y="114.08028"
+       id="text3338"><tspan
+         sodipodi:role="line"
+         x="54.596634"
+         y="114.08028"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3336">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="79.386742"
+       y="114.08028"
+       id="text3342"><tspan
+         sodipodi:role="line"
+         x="79.386742"
+         y="114.08028"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3340">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="59.474777"
+       y="138.87419"
+       id="text3346"><tspan
+         sodipodi:role="line"
+         x="59.474777"
+         y="138.87419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3344">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="64.460396"
+       y="138.87419"
+       id="text3350"><tspan
+         sodipodi:role="line"
+         x="64.460396"
+         y="138.87419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3348">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="69.33078"
+       y="138.87419"
+       id="text3354"><tspan
+         sodipodi:role="line"
+         x="69.33078"
+         y="138.87419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3352">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.436691"
+       y="138.87419"
+       id="text3358"><tspan
+         sodipodi:role="line"
+         x="74.436691"
+         y="138.87419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3356">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="54.596634"
+       y="138.87419"
+       id="text3362"><tspan
+         sodipodi:role="line"
+         x="54.596634"
+         y="138.87419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3360">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="79.386742"
+       y="138.87419"
+       id="text3366"><tspan
+         sodipodi:role="line"
+         x="79.386742"
+         y="138.87419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3364">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="65.855972"
+       y="143.56078"
+       id="text2361-3"><tspan
+         sodipodi:role="line"
+         x="65.855972"
+         y="143.56078"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan2359-1">zero padding</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="58.186848"
+       y="99.696907"
+       id="text3590"><tspan
+         sodipodi:role="line"
+         x="58.186848"
+         y="99.696907"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3588">Input 4x4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="80.300125"
+       y="67.908318"
+       id="text3594"><tspan
+         sodipodi:role="line"
+         x="80.300125"
+         y="67.908318"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3592">kernel 3x3, stride 1</tspan></text>
+    <g
+       inkscape:label="GridCartesian:X2:Y2"
+       transform="translate(99.767831,76.9678)"
+       id="g3749">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3741">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 5,0 V 10"
+           inkscape:label="MajorXDiv1"
+           id="path3739" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3745">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,5 H 10"
+           inkscape:label="MajorYDiv1"
+           id="path3743" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="10"
+         height="10"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect3747" />
+    </g>
+    <g
+       inkscape:label="GridCartesian:X4:Y4"
+       transform="translate(91.817524,116.02885)"
+       id="g3777">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3765">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 5,0 V 20"
+           inkscape:label="MajorXDiv1"
+           id="path3759" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 10,0 V 20"
+           inkscape:label="MajorXDiv2"
+           id="path3761" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 20"
+           inkscape:label="MajorXDiv3"
+           id="path3763" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3773">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,5 H 20"
+           inkscape:label="MajorYDiv1"
+           id="path3767" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,10 H 20"
+           inkscape:label="MajorYDiv2"
+           id="path3769" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 20"
+           inkscape:label="MajorYDiv3"
+           id="path3771" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="20"
+         height="20"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect3775" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="104.99274"
+       y="90.805359"
+       id="text3781"><tspan
+         sodipodi:role="line"
+         x="104.99274"
+         y="90.805359"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3779">2x2 output</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="101.30901"
+       y="139.38312"
+       id="text3785"><tspan
+         sodipodi:role="line"
+         x="101.30901"
+         y="139.38312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3783">4x4 output</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="83.888184"
+       y="76.912178"
+       id="text3789"><tspan
+         sodipodi:role="line"
+         x="83.888184"
+         y="76.912178"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3787">convolution </tspan><tspan
+         sodipodi:role="line"
+         x="83.888184"
+         y="81.89724"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3799">(no padding)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="71.711273"
+       y="105.63088"
+       id="text3793"><tspan
+         sodipodi:role="line"
+         x="71.711273"
+         y="105.63088"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3791">padding</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;line-height:125%;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.124626px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="94.590462"
+       y="113.94241"
+       id="text3797"><tspan
+         sodipodi:role="line"
+         x="94.590462"
+         y="113.94241"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98805px;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro, @wght=200';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 200;text-align:center;text-anchor:middle;stroke-width:0.124626px"
+         id="tspan3795">convolution</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#marker3982);stop-color:#000000;stop-opacity:1"
+       d="M 69.893064,87.470758 97.152061,84.128129"
+       id="path3801" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#marker3890);stop-color:#000000;stop-opacity:1"
+       d="m 61.492386,101.19724 1.186701,7.23986"
+       id="path3803" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker3809)"
+       d="m 83.326458,125.17198 h 7.352355"
+       id="path3805" />
+  </g>
+</svg>

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 316.46964 246.42345"
    id="svg6964"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
    sodipodi:docname="gradient-descent.svg">
   <defs
      id="defs6966">
@@ -161,9 +159,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="117.17983"
-     inkscape:cy="143.80232"
+     inkscape:zoom="1.979899"
+     inkscape:cx="37.460286"
+     inkscape:cy="148.16726"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -172,10 +170,11 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="2560"
-     inkscape:window-height="1547"
-     inkscape:window-x="1200"
+     inkscape:window-height="1549"
+     inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata6969">
     <rdf:RDF>
@@ -200,26 +199,26 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:18.93148422px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="61.414223"
        y="192.26312"
-       id="text7514"
-       sodipodi:linespacing="125%"><tspan
+       id="text7514"><tspan
          sodipodi:role="line"
          id="tspan7516"
          x="61.414223"
-         y="192.26312">Loss</tspan></text>
+         y="192.26312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9315px;line-height:1.25;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro'">Loss</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:18.93148422px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="297.19901"
        y="415.66156"
-       id="text7514-5"
-       sodipodi:linespacing="125%"><tspan
+       id="text7514-5"><tspan
          sodipodi:role="line"
          id="tspan7516-9"
          x="297.19901"
-         y="415.66156">Weight</tspan></text>
+         y="415.66156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9315px;line-height:1.25;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro'">Weight</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.24406326px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 128.42583,186.54084 c 0,0 26.23403,206.45466 104.24574,207.59845 C 310.68328,395.28308 343.821,183.68136 343.821,183.68136"
@@ -233,7 +232,7 @@
        r="6.5659914" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker8128)"
-       d="m 316.68283,261.41276 -13.63707,44.95179"
+       d="m 320.62465,261.87309 -17.57889,44.49146"
        id="path7542"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -256,15 +255,15 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:18.93148422px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="202.38239"
        y="228.22449"
-       id="text7514-2"
-       sodipodi:linespacing="125%"><tspan
+       id="text7514-2"><tspan
          sodipodi:role="line"
          id="tspan7516-4"
          x="202.38239"
-         y="228.22449">Initial weight</tspan></text>
+         y="228.22449"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9315px;line-height:1.25;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro'">Initial weight</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#708dff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0"
        d="M 341.06419,214.63943 316.06291,302.5227"
@@ -272,14 +271,14 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5811615px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#708dff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="320.39789"
-       y="295.3403"
-       id="text7514-5-1"
-       sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#708dff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="326.76813"
+       y="278.74344"
+       id="text7514-5-1"><tspan
          sodipodi:role="line"
          id="tspan7516-9-1"
-         x="320.39789"
-         y="295.3403">Gradient</tspan></text>
+         x="326.76813"
+         y="278.74344"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5812px;line-height:1.25;font-family:'Crimson Pro';-inkscape-font-specification:'Crimson Pro'">Gradient</tspan></text>
   </g>
 </svg>

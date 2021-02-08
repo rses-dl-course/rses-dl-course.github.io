@@ -1,6 +1,9 @@
 # Introduction to Deep Learning Course
 
-This course is built using:
+The contents are hosted by github pages at [https://sres-dl-course.github.io/](https://sres-dl-course.github.io/).
+
+## This course is built using 
+
 * Node & npm - Package management
 * vuepress - Website 
 * reveal-md - Slides
@@ -26,11 +29,14 @@ num run site
 * Slide 00 - `npm run slide:00`
 * Slide 01 - `npm run slide:01`
 * Slide 02 - `npm run slide:02`
+* Slide 02 - `npm run slide:02`
+* Slide 02 - `npm run slide:02`
+* Slide 02 - `npm run slide:02`
 
 
 ## Building the entire site
 
-Current website is built to the `_site` directory
+Website is built to the `docs` directory for hosting on github pages.
 
 ```
 npm run build

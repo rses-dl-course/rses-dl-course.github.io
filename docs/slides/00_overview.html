@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <title>reveal-md</title>
-    <link rel="stylesheet" href="./css/reveal.css" />
-    <link rel="stylesheet" href="./css/theme/league.css" id="theme" />
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/zenburn.css" />
-    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./_assets/slide-style.css" />
+<!--      Add custom google fonts-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Pro">
 
   </head>
   <body>
@@ -19,7 +22,7 @@ Twin Karmakharm
 <!-- .slide: data-background="/assets/img/rse-logo.svg" -->
 <!-- .slide: data-background-opacity="0.4" -->
 
-## Research Software Engineering Sheffield
+### Research Software Engineering Sheffield
 
 * Increasing research impact through software
 * Support and consultancy in research software and systems development and maintenance
@@ -28,7 +31,7 @@ Twin Karmakharm
 * Training, outreach and education activities
 * Led by Dr. Paul Richmond
 </script></section><section  data-markdown><script type="text/template">
-## Contents Overview
+### Contents Overview
 
 * Introduction to Deep Learning
 * Neural Networks
@@ -37,7 +40,7 @@ Twin Karmakharm
 * Convolution
 
 </script></section><section  data-markdown><script type="text/template">
-## Practical Labs Using Google Colab
+### Practical Labs Using Google Colab
 A platform to run lab code interactively
 
 <img src="assets/img/colab-cell.png"/>
@@ -47,7 +50,7 @@ A platform to run lab code interactively
 `Ctrl+Space` to get code suggestion
 </script></section><section  data-markdown><script type="text/template">
 
-## Practical Labs Using Jupyter Notebooks
+### Practical Labs Using Jupyter Notebooks
 A platform to run lab code interactively
 
 <img src="assets/img/jupyter-cell.png"/>
@@ -64,8 +67,13 @@ A platform to run lab code interactively
 </script></section></div>
     </div>
 
-    <script src="./js/reveal.js"></script>
+    <script src="./dist/reveal.js"></script>
 
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
     <script>
       function extend() {
         var target = {};
@@ -80,16 +88,6 @@ A platform to run lab code interactively
         return target;
       }
 
-      // Optional libraries used to extend on reveal.js
-      var deps = [
-        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-        { src: './plugin/zoom-js/zoom.js', async: true },
-        { src: './plugin/notes/notes.js', async: true },
-        { src: './plugin/math/math.js', async: true }
-      ];
-
       // default options to init reveal.js
       var defaultOptions = {
         controls: true,
@@ -97,11 +95,17 @@ A platform to run lab code interactively
         history: true,
         center: true,
         transition: 'default', // none/fade/slide/convex/concave/zoom
-        dependencies: deps
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
       };
 
       // options from URL query string
-      var queryOptions = Reveal.getQueryHash() || {};
+      var queryOptions = Reveal().getQueryHash() || {};
 
       var options = extend(defaultOptions, {"width":1280,"height":720,"transition":"slide","slideNumber":true}, queryOptions);
     </script>
