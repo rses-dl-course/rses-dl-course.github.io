@@ -114,12 +114,15 @@
     * Overview
         * Why transfer learning?
     * Using existing models
+    * Deployment
 * L05 & L06
 * 06 - Other network types & conclusion
     * Autoencoders    
     * RNNs - LSTM
     * GANs
     * Reinforcement learning
+* LX1 & LX2
+    
     
 
 

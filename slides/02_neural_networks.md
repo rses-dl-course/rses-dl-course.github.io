@@ -339,6 +339,15 @@ $w^l_k = w^l_k -\eta{\nabla}L(w^l_k)$
 <img src="assets/img/gradient-descent.svg"  style="width:40%"/>
 
 
+---
+
+### Terminology: Hyperparameters
+
+Parameters used to control the learning process, e.g.:
+
+* Learning rate ($\eta$)
+* Batch size
+* Number of training epochs
 
 ---
 
@@ -452,6 +461,14 @@ Number of samples our network can train on at the same time.
 e.g. if our entire dataset is **100** samples and our **batch** size is **5**
 
 **1** **epoch** equals **20** **iterations**
+
+---
+
+### To resume training your model
+
+The network's finished training for 10 epochs and still hasn't converged? 
+
+Your `model` retains its weights and the `fit` function can be called again to do further training.
 
 ---
 

@@ -46,7 +46,8 @@ Here's a loss and accuracy plots of the `training` and `validation` datasets.
 
 ### Confusion matrix
   
-The confusion matrix visualises predicted classes against the actual label.
+The confusion matrix visualises predicted classes against the actual label. A good way to highlight problems
+in specific classes.
 
 <object type="image/svg+xml" data="assets/img/confusion-matrix.svg" style="background: white; width: auto; height: auto;">
 <param id="layer2" class="fragment fade-in-then-out" data-fragment-index="1" />
@@ -71,7 +72,7 @@ A well fitted model generalises well.
 
 Model not learning the function, training loss not decreasing.
 
-Try increasing the model or dataset size. <!-- .element: class="fragment" -->
+Try increasing the model size or complexity, e.g. add nodes, layers or activation functions. <!-- .element: class="fragment" -->
 
 ---
 
@@ -98,7 +99,6 @@ This is a big problem in DL!
 
 Strategies normally involves adding some kind of regularisation either to the network or the dataset.
 
-
 * Reducing batch size - adds more noise every step.
 * Reducing model size - so that model can't just 'remember' the dataset.
 * Adding regularisation to the network e.g.:
@@ -112,13 +112,48 @@ Strategies normally involves adding some kind of regularisation either to the ne
 
 ### Dropout
 
+Randomly disable a percentage of inputs into the layer with the `rate` parameter. 
+
+<object type="image/svg+xml" data="assets/img/dropout.svg" style="background: white; width: auto; height: auto;">
+</object>
+
+---
+
+### Batch Normalisation
+
+Normalising your dataset helps to smooth the loss surface and makes gradient descent faster. Batch normalisation follows
+the same principle but the normalisation is done on a layer's output for each batch instead.
+
+<object type="image/svg+xml" data="assets/img/normalisation.svg" style="background: white; width: 80%; height: auto;">
+</object>
+
+---
+
+### When do we stop training?
+
+How many epochs should we train the model?
+
+Like other hyperparameters, we won't know until we've started training.
+<!-- .element: class="fragment" -->
+
+
+But don't wait until your loss is $0$! 
+<!-- .element: class="fragment" -->
+
 ---
 
 ### Early stopping
 
+Stop as your `validation` loss starts to diverge. Your `validation` accuracy will also stop increasing or decrease at the time.
+
+If the performance is good enough then the model can be used as-is.
+
+<object type="image/svg+xml" data="assets/img/early-stop.svg" style="background: white; width: 50%; height: auto;">
+</object>
+
 ---
 
-## Dataset
+## Refining your dataset
 
 ---
 
@@ -165,11 +200,19 @@ Especially when there are big differences between the magnitude of your features
 
 ---
 
+### Don't forget to transform **all** of your inputs
+
+Apply the same transformations e.g. normalisation, mean-shifting to all data coming in to your network 
+and not just on the training set.
+
+Pre-trained models should specify its transformations.
+
+---
+
 ### Data Augmentation
 
 Generating synthetic data from existing data in order to increase the size of your dataset. 
 Helps increase generalisability and reduce overfitting.  
-
 
 ---
 
@@ -182,6 +225,8 @@ Helps increase generalisability and reduce overfitting.
 
 ### Feature selection
 
+Not every feature has to be added to the network. Could you remove, combine or transform some features? 
+ML feature engineering rules still apply!
 
 ---
 
