@@ -1,6 +1,6 @@
 {
     "theme": "white",
-    "css": "slide-style.css",
-    "preprocessor": "preproc.js",
+    "css": "slides/assets/css/slide-style.css",
+    "preprocessor": "slides/assets/buildscripts/preproc.js",
     "template": "slides/template/reveal.html"
 }
