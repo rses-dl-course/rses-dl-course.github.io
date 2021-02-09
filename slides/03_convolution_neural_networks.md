@@ -1,4 +1,44 @@
-# 3. Classification and Convolution Neural Networks
+---
+title: "3. Classification and Convolutional Neural Networks"
+---
+
+# 3. Classification and Convolutional Neural Networks
+
+---
+
+### Course Materials
+
+All course materials can be found at:
+
+[https://sres-dl-course.github.io/](https://sres-dl-course.github.io/)
+
+---
+
+### Course Schedule
+
+* **09:00-10:30** | 01: Introduction to Deep Learning
+* **10:30-10:45** | Break
+* **10:45-13:00**
+  * 02: Neural Networks
+  * 03: Classification and Convolutional Neural Networks
+* **13:00-14:00** | Lunch
+* **14:00-15:30** | 04: Refining the model
+* **15:30-15:45** | Break
+* **15:45-17:00**
+  * 05: Deployment & Transfer Learning
+  * 06: DL in other fields & Wrapup
+  
+---
+
+### Lesson contents
+
+* Classification with neural networks
+  * Logistic regression and softmax  
+  * Cross entropy loss
+  * One-hot encoding
+* Convolutional Neural Networks
+  * The convolution layer
+  * The max-pooling layer
 
 ---
 
@@ -326,3 +366,6 @@ We already know how to create dense networks, it's just a matter of adding `Conv
 <object type="image/svg+xml" data="assets/img/lenet2.svg" style="background: white; width: 90% !important; height: auto;">
 </object>
 
+---
+
+## Lab 03: Image classification with CNNs

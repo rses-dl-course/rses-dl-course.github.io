@@ -1,4 +1,40 @@
+---
+title: "2. Neural Networks"
+---
+
 # 2. Neural Networks
+
+---
+
+### Course Materials
+
+All course materials can be found at:
+
+[https://sres-dl-course.github.io/](https://sres-dl-course.github.io/)
+
+---
+
+### Course Schedule
+
+* **09:00-10:30** | 01: Introduction to Deep Learning
+* **10:30-10:45** | Break
+* **10:45-13:00**
+  * 02: Neural Networks
+  * 03: Classification and Convolutional Neural Networks
+* **13:00-14:00** | Lunch
+* **14:00-15:30** | 04: Refining the model
+* **15:30-15:45** | Break
+* **15:45-17:00**
+  * 05: Deployment & Transfer Learning
+  * 06: DL in other fields & Wrapup
+  
+---
+
+### Lesson contents
+
+* What are neural networks?
+* How Neural networks learn
+* How to train neural networks
 
 ---
 
@@ -542,5 +578,8 @@ But most real-world problems are non-linear.
 ReLU is more computationally efficient and doesn't suffer from `vanishing gradient` but can 'die' when input is negative.
 
 
+---
 
+## Lab 02: Classifying images of clothing
+Classification with neural networks.
 

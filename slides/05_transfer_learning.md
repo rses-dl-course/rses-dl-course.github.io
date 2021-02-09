@@ -1,4 +1,40 @@
+---
+title: "5. Deployment and Transfer Learning"
+---
+
 # 5. Deployment and Transfer Learning
+
+---
+
+### Course Materials
+
+All course materials can be found at:
+
+[https://sres-dl-course.github.io/](https://sres-dl-course.github.io/)
+
+---
+
+### Course Schedule
+
+* **09:00-10:30** | 01: Introduction to Deep Learning
+* **10:30-10:45** | Break
+* **10:45-13:00**
+  * 02: Neural Networks
+  * 03: Classification and Convolutional Neural Networks
+* **13:00-14:00** | Lunch
+* **14:00-15:30** | 04: Refining the model
+* **15:30-15:45** | Break
+* **15:45-17:00**
+  * 05: Deployment & Transfer Learning
+  * 06: DL in other fields & Wrapup
+  
+---
+
+### Lesson contents
+
+* Saving and checkpointing your network
+* Considerations for deploying your model
+* Transfer learning and fine-tuning
 
 ---
 
@@ -108,6 +144,9 @@ Accuracy can be further training the **entire** model, but with a very small lea
 
 * Unfreeze the pre-trained model and train again on our dataset.
 
+---
+
+## Lab 05 & 06: Transfer learning and saving your models
 
 
 

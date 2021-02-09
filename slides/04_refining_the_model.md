@@ -1,4 +1,40 @@
+---
+title: "4. Improving the results of your model"
+---
+
 # 4. Improving the results of your model
+
+---
+
+### Course Materials
+
+All course materials can be found at:
+
+[https://sres-dl-course.github.io/](https://sres-dl-course.github.io/)
+
+---
+
+### Course Schedule
+
+* **09:00-10:30** | 01: Introduction to Deep Learning
+* **10:30-10:45** | Break
+* **10:45-13:00**
+  * 02: Neural Networks
+  * 03: Classification and Convolutional Neural Networks
+* **13:00-14:00** | Lunch
+* **14:00-15:30** | 04: Refining the model
+* **15:30-15:45** | Break
+* **15:45-17:00**
+  * 05: Deployment & Transfer Learning
+  * 06: DL in other fields & Wrapup
+  
+---
+
+### Lesson contents
+
+* Visualising the model's performance
+* Strategies to prevent underfitting and overfitting
+* Data augmentation
 
 ---
 
@@ -230,8 +266,6 @@ ML feature engineering rules still apply!
 
 ---
 
-
-
-
+## Lab 04 a & b: Data augmentation on dogs & cats dataset
 
 

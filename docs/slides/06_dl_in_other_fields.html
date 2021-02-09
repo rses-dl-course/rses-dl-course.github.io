@@ -4,23 +4,59 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>reveal-md</title>
+    <title>6. DL In other fields & Conclusion</title>
     <link rel="shortcut icon" href="./favicon.ico"/>
     <link rel="stylesheet" href="./dist/reveal.css" />
     <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/zenburn.css" />
-    <link rel="stylesheet" href="./_assets/slide-style.css" />
+    <link rel="stylesheet" href="./_assets/slides/assets/css/slide-style.css" />
 <!--      Add custom google fonts-->
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Pro">
 
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"># 6. DL In other fields
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# 6. DL In other fields & Conclusion
+</script></section><section  data-markdown><script type="text/template">
+### Course Materials
+
+All course materials can be found at:
+
+[https://sres-dl-course.github.io/](https://sres-dl-course.github.io/)
+</script></section><section  data-markdown><script type="text/template">
+### Course Schedule
+
+* **09:00-10:30** | 01: Introduction to Deep Learning
+* **10:30-10:45** | Break
+* **10:45-13:00**
+  * 02: Neural Networks
+  * 03: Classification and Convolutional Neural Networks
+* **13:00-14:00** | Lunch
+* **14:00-15:30** | 04: Refining the model
+* **15:30-15:45** | Break
+* **15:45-17:00**
+  * 05: Deployment & Transfer Learning
+  * 06: DL in other fields & Wrapup
+  </script></section><section  data-markdown><script type="text/template">
+### Lesson contents
+
+* DL in other fields
+  * Autoencoders
+  * DL in Natural Language Processing (NLP)
+    * Word embeddings
+    * RNNs & LSTM
+    * Transformers
+  * Generative adversarial networks
+  * Reinforcement learning
+* Conclusion
 </script></section><section  data-markdown><script type="text/template">
 ### DL In other fields
 
-Different architectures can be used to handle each domain's specific challenges and datatypes.
+We've been using CNNs for image classification. <!-- .element: class="fragment" --> 
+
+Different architectures can be used to handle each domain's specific challenges and datatypes. <!-- .element: class="fragment" --> 
 </script></section><section  data-markdown><script type="text/template">
 ### Autoencoders
 
@@ -1439,13 +1475,13 @@ They can be used for:
 * Dimentionality reduction
 * Denoising
 </script></section><section  data-markdown><script type="text/template">
-### DL in NLP - From words to numbers
+### DL in Natural Language Processing (NLP) - From words to numbers
 
 In NPL, it is common to have sequence of words as input and output. 
 
 It's common practice tokenize and index every word.
 
-<svg xmlns:ns2="http://www.iki.fi/pav/software/textext/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="317.81433mm" height="176.75993mm" viewBox="0 0 317.81434 176.75993" version="1.1" id="svg990" sodipodi:docname="word-to-index.svg" inkscape:version="1.0.2 (1.0.2+r75+1)" style="background: white; width: 70%; height: auto;">
+<svg xmlns:ns2="http://www.iki.fi/pav/software/textext/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="317.81433mm" height="176.75993mm" viewBox="0 0 317.81434 176.75993" version="1.1" id="svg990" sodipodi:docname="word-to-index.svg" inkscape:version="1.0.2 (1.0.2+r75+1)" style="background: white; width: 60%; height: auto;">
   <defs id="defs984">
     <marker style="overflow:visible" id="marker29932" refX="0" refY="0" orient="auto" inkscape:stockid="Arrow1Lend" inkscape:isstock="true">
       <path transform="matrix(-0.8,0,0,-0.8,-10,0)" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" d="M 0,0 5,-5 -12.5,0 5,5 Z" id="path29930"></path>
@@ -12493,9 +12529,40 @@ YABCHwAAgAEIfQAAAAb4/wZkyuCditPbAAAAAElFTkSuQmCC
   </g>
 </svg>
 
-
 </script></section><section  data-markdown><script type="text/template">
+## Conclusion
+</script></section><section  data-markdown><script type="text/template">
+### Conclusion
 
+We've learned about all the components needed to put together a CNN for image classification. 
+This is just the start!
+</script></section><section  data-markdown><script type="text/template">
+### Using DL in your own project
+
+* Use existing libraries - Many exist for object detection, machine translation, etc. 
+* Use pre-trained models or start with existing networks.
+* Version control your code, models, and data (e.g. git, git LFS, dvc, etc.).
+* Various HPC resources available to Sheffield researchers:
+  * [Sharc](https://docs.hpc.shef.ac.uk/en/latest/sharc/index.html) & [Bessemer](https://docs.hpc.shef.ac.uk/en/latest/bessemer/index.html)
+  * [JADE](https://docs.hpc.shef.ac.uk/en/latest/jade.html) & [JADE 2 (Coming soon)](https://docs.hpc.shef.ac.uk/en/latest/jade2.html)
+  * [Bede](https://docs.hpc.shef.ac.uk/en/latest/bede.html)
+</script></section><section  data-markdown><script type="text/template">
+### Where to go from here?
+
+* Try [Tensorflow tutorials](https://www.tensorflow.org/tutorials) that suits your field/interest.
+* Visit our [RSE DL page for links to DL resources](https://rse.shef.ac.uk/training/deeplearning/).
+</script></section><section  data-markdown><script type="text/template">
+### Research Software Engineering Sheffield
+
+* Increasing research impact through software
+* Support and consultancy in research software and systems development and maintenance
+    * Grant support
+* Software optimisation, GPU and HPC
+* Training, outreach and education activities
+* Led by Dr. Paul Richmond
+* Visit us at [https://rse.shef.ac.uk](https://rse.shef.ac.uk)
+</script></section><section  data-markdown><script type="text/template">
+# Thank you for attending!
 
 </script></section></div>
     </div>

@@ -1,10 +1,17 @@
-# Introduction to Deep Learning Course
-Twin Karmakharm
+---
+title: "0. Overview"
+---
+
+# RSES: Introduction to Deep Learning Course
+
+Twin Karmakharm & Anna Krystalli
+
+11th February 2021
 
 ---
 
 <!-- .slide: data-background="/assets/img/rse-logo.svg" -->
-<!-- .slide: data-background-opacity="0.4" -->
+<!-- .slide: data-background-opacity="0.2" -->
 
 ### Research Software Engineering Sheffield
 
@@ -14,16 +21,43 @@ Twin Karmakharm
 * Software optimisation, GPU and HPC
 * Training, outreach and education activities
 * Led by Dr. Paul Richmond
+* Visit us at [https://rse.shef.ac.uk](https://rse.shef.ac.uk)
 
 ---
 
-### Contents Overview
+### Course Materials
 
-* Introduction to Deep Learning
-* Neural Networks
-* Model training
-* Regularisation and Hyperparameters
-* Convolution
+All course materials can be found at:
+
+[https://sres-dl-course.github.io/](https://sres-dl-course.github.io/)
+
+---
+
+### Course Schedule
+
+* **09:00-10:30** | 01: Introduction to Deep Learning
+* **10:30-10:45** | Break
+* **10:45-13:00**
+  * 02: Neural Networks
+  * 03: Classification and Convolutional Neural Networks
+* **13:00-14:00** | Lunch
+* **14:00-15:30** | 04: Refining the model
+* **15:30-15:45** | Break
+* **15:45-17:00**
+  * 05: Deployment & Transfer Learning
+  * 06: DL in other fields & Wrapup
+  
+---
+
+### Blackboard collaborate
+
+Let us know how you're getting on with the course. 
+
+<object type="image/svg+xml" data="assets/img/bbcolab.svg" style="background: white; width: 70%; height: auto;">
+<param id="layer2" class="fragment" />
+<param id="layer3" class="fragment" />
+<param id="layer4" class="fragment" />
+</object>
 
 
 ---

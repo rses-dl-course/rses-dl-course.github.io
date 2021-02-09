@@ -6,22 +6,19 @@
  "scripts": {
   "build": "run-s build:site build:slides",
   "build:site": "vuepress build site -d docs",
-  "build:slides": "reveal-md slides/ --static docs/slides --static-dirs slides/assets --preprocessor preproc.js",
+  "build:slides": "reveal-md slides/ --static docs/slides --static-dirs slides/assets",
   "build:docs": "reveal-md index.md --static docs --static-dirs media",
   "site": "vuepress dev site",
   "slides": "reveal-md slides/ -w",
-  "slide:00": "reveal-md slides/00_overview.md -w",
-  "slide:01": "reveal-md slides/01_introduction_to_deep_learning.md -w ",
-  "slide:02": "reveal-md slides/02_neural_networks.md -w",
-  "slide:03": "reveal-md slides/03_convolution_neural_networks.md -w ",
-  "slide:04": "reveal-md slides/04_refining_the_model.md -w "
+  "site:prod": "http-server docs"
  },
  "author": "",
  "license": "ISC",
  "dependencies": {
-  "npm-run-all": "^4.1.5",
   "jsdom": "^16.4.0",
+  "npm-run-all": "^4.1.5",
   "reveal-md": "^5.0.0",
+  "reveal.js-menu": "^2.1.0",
   "vuepress": "^1.8.0"
  }
 }

@@ -1,10 +1,54 @@
-# 6. DL In other fields
+---
+title: "6. DL In other fields & Conclusion"
+---
+
+# 6. DL In other fields & Conclusion
+
+---
+
+### Course Materials
+
+All course materials can be found at:
+
+[https://sres-dl-course.github.io/](https://sres-dl-course.github.io/)
+
+---
+
+### Course Schedule
+
+* **09:00-10:30** | 01: Introduction to Deep Learning
+* **10:30-10:45** | Break
+* **10:45-13:00**
+  * 02: Neural Networks
+  * 03: Classification and Convolutional Neural Networks
+* **13:00-14:00** | Lunch
+* **14:00-15:30** | 04: Refining the model
+* **15:30-15:45** | Break
+* **15:45-17:00**
+  * 05: Deployment & Transfer Learning
+  * 06: DL in other fields & Wrapup
+  
+---
+
+### Lesson contents
+
+* DL in other fields
+  * Autoencoders
+  * DL in Natural Language Processing (NLP)
+    * Word embeddings
+    * RNNs & LSTM
+    * Transformers
+  * Generative adversarial networks
+  * Reinforcement learning
+* Conclusion
 
 ---
 
 ### DL In other fields
 
-Different architectures can be used to handle each domain's specific challenges and datatypes.
+We've been using CNNs for image classification. <!-- .element: class="fragment" --> 
+
+Different architectures can be used to handle each domain's specific challenges and datatypes. <!-- .element: class="fragment" --> 
 
 ---
 
@@ -30,13 +74,13 @@ They can be used for:
 
 ---
 
-### DL in NLP - From words to numbers
+### DL in Natural Language Processing (NLP) - From words to numbers
 
 In NPL, it is common to have sequence of words as input and output. 
 
 It's common practice tokenize and index every word.
 
-<object type="image/svg+xml" data="assets/img/word-to-index.svg" style="background: white; width: 70%; height: auto;">
+<object type="image/svg+xml" data="assets/img/word-to-index.svg" style="background: white; width: 60%; height: auto;">
 <param id="layer2" class="fragment" data-fragment-index="1" />
 <param id="layer3" class="fragment" data-fragment-index="2" />
 <param id="layer4" class="fragment" data-fragment-index="3" />
@@ -141,8 +185,49 @@ Generator generates random images from noise. Discriminator tries to distinguish
 <object type="image/svg+xml" data="assets/img/reinforcement-learning.svg" style="background: white; width: 50%; height: auto;">
 </object>
 
+---
+
+## Conclusion
 
 ---
 
+### Conclusion
 
+We've learned about all the components needed to put together a CNN for image classification. 
+This is just the start!
+
+---
+
+### Using DL in your own project
+
+* Use existing libraries - Many exist for object detection, machine translation, etc. 
+* Use pre-trained models or start with existing networks.
+* Version control your code, models, and data (e.g. git, git LFS, dvc, etc.).
+* Various HPC resources available to Sheffield researchers:
+  * [Sharc](https://docs.hpc.shef.ac.uk/en/latest/sharc/index.html) & [Bessemer](https://docs.hpc.shef.ac.uk/en/latest/bessemer/index.html)
+  * [JADE](https://docs.hpc.shef.ac.uk/en/latest/jade.html) & [JADE 2 (Coming soon)](https://docs.hpc.shef.ac.uk/en/latest/jade2.html)
+  * [Bede](https://docs.hpc.shef.ac.uk/en/latest/bede.html)
+
+---
+
+### Where to go from here?
+
+* Try [Tensorflow tutorials](https://www.tensorflow.org/tutorials) that suits your field/interest.
+* Visit our [RSE DL page for links to DL resources](https://rse.shef.ac.uk/training/deeplearning/).
+
+---
+
+### Research Software Engineering Sheffield
+
+* Increasing research impact through software
+* Support and consultancy in research software and systems development and maintenance
+    * Grant support
+* Software optimisation, GPU and HPC
+* Training, outreach and education activities
+* Led by Dr. Paul Richmond
+* Visit us at [https://rse.shef.ac.uk](https://rse.shef.ac.uk)
+
+---
+
+# Thank you for attending!
 

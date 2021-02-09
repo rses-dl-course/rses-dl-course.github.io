@@ -21,17 +21,18 @@ The contents are hosted by github pages at [https://sres-dl-course.github.io/](h
 To run the website run:
 
 ```
-num run site
+npm run site
 ```
+
+Does not work in conjuction with the slides!
 
 ## Previewing the slides
 
-* Slide 00 - `npm run slide:00`
-* Slide 01 - `npm run slide:01`
-* Slide 02 - `npm run slide:02`
-* Slide 02 - `npm run slide:02`
-* Slide 02 - `npm run slide:02`
-* Slide 02 - `npm run slide:02`
+Run the slides using:
+
+```
+npm run slides
+```
 
 
 ## Building the entire site
