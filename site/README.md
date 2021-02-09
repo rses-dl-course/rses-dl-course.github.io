@@ -20,7 +20,7 @@ By the end of this course, participants will be able to:
 ## Overview
 
 * <a href="/slides/00_overview.html" target="_blank">Slides</a>
-* <a href="https://colab.research.google.com/github/sres-dl-course/sres-dl-course.github.io/blob/master/notebooks/python/L00_introduction_to_notebook.ipynb" target="_blank">Colab Notebook</a>
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L00_introduction_to_notebook.ipynb" target="_blank">Colab Notebook</a>
 
 ## 01: Introduction to Deep Learning
 
@@ -29,7 +29,7 @@ By the end of this course, participants will be able to:
 
 ## Lab 01: Introduction to Tensorflow Keras
 
-* <a href="https://colab.research.google.com/github/sres-dl-course/sres-dl-course.github.io/blob/master/notebooks/python/L01_introduction_to_tf_keras.ipynb" target="_blank">Colab Notebook</a>
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L01_introduction_to_tf_keras.ipynb" target="_blank">Colab Notebook</a>
 
 ## 02: Neural networks
 
@@ -37,7 +37,7 @@ By the end of this course, participants will be able to:
 
 ## Lab 02: Classifying images of clothing
 
-* <a href="https://colab.research.google.com/github/sres-dl-course/sres-dl-course.github.io/blob/master/notebooks/python/L02_classifying_images_of_clothing.ipynb" target="_blank">Colab Notebook</a>
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L02_classifying_images_of_clothing.ipynb" target="_blank">Colab Notebook</a>
 
 ## 03: Classification and Convolutional Neural Networks
 
@@ -45,7 +45,7 @@ By the end of this course, participants will be able to:
 
 ## Lab 03: Image classification with CNNs
 
-* <a href="https://colab.research.google.com/github/sres-dl-course/sres-dl-course.github.io/blob/master/notebooks/python/L03_image_classification_with_cnn.ipynb" target="_blank">Colab Notebook</a>
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L03_image_classification_with_cnn.ipynb" target="_blank">Colab Notebook</a>
 
 ## 04: Refining the model
 
@@ -53,8 +53,8 @@ By the end of this course, participants will be able to:
 
 ## Lab 04: Dogs & Cats with data augmentation
 
-* <a href="https://colab.research.google.com/github/sres-dl-course/sres-dl-course.github.io/blob/master/notebooks/python/L04_C01_dogs_vs_cats_without_augmentation.ipynb" target="_blank">Lab 04a Colab Notebook</a>
-* <a href="https://colab.research.google.com/github/sres-dl-course/sres-dl-course.github.io/blob/master/notebooks/python/L04_C02_dogs_vs_cats_with_augmentation.ipynb" target="_blank">Lab 04b Colab Notebook</a>
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L04_C01_dogs_vs_cats_without_augmentation.ipynb" target="_blank">Lab 04a Colab Notebook</a>
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L04_C02_dogs_vs_cats_with_augmentation.ipynb" target="_blank">Lab 04b Colab Notebook</a>
 
 ## 05: Deployment & Transfer Learning
 
@@ -62,11 +62,11 @@ By the end of this course, participants will be able to:
 
 ## Lab 05: Tensorflow hub and Transfer learning
 
-* <a href="https://colab.research.google.com/github/sres-dl-course/sres-dl-course.github.io/blob/master/notebooks/python/L05_tensorflow_hub_and_transfer_learning.ipynb" target="_blank">Colab Notebook</a>
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L05_tensorflow_hub_and_transfer_learning.ipynb" target="_blank">Colab Notebook</a>
 
 ## Lab 06: Saving and Loading models
 
-* <a href="https://colab.research.google.com/github/sres-dl-course/sres-dl-course.github.io/blob/master/notebooks/python/L06_saving_and_loading_models.ipynb" target="_blank">Colab Notebook</a>
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L06_saving_and_loading_models.ipynb" target="_blank">Colab Notebook</a>
 
 ## 06: DL in other fields
 
@@ -74,11 +74,11 @@ By the end of this course, participants will be able to:
 
 ## Extra Lab 01: Text classification with RNN
 
-* <a href="https://colab.research.google.com/github/sres-dl-course/sres-dl-course.github.io/blob/master/notebooks/python/XL01_text_classification_rnn.ipynb" target="_blank">Colab Notebook</a>
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/XL01_text_classification_rnn.ipynb" target="_blank">Colab Notebook</a>
 
 ## Extra Lab 02: Handwritten digits generation with DCGAN
 
-* <a href="https://colab.research.google.com/github/sres-dl-course/sres-dl-course.github.io/blob/master/notebooks/python/XL02_dcgan.ipynb" target="_blank">Colab Notebook</a>
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/XL02_dcgan.ipynb" target="_blank">Colab Notebook</a>
 
 
 

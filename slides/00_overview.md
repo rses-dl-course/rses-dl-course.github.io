@@ -29,7 +29,7 @@ Twin Karmakharm & Anna Krystalli
 
 All course materials can be found at:
 
-[https://sres-dl-course.github.io/](https://sres-dl-course.github.io/)
+[https://rses-dl-course.github.io/](https://rses-dl-course.github.io/)
 
 ---
 

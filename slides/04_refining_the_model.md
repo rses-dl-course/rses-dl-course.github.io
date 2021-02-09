@@ -10,7 +10,7 @@ title: "4. Improving the results of your model"
 
 All course materials can be found at:
 
-[https://sres-dl-course.github.io/](https://sres-dl-course.github.io/)
+[https://rses-dl-course.github.io/](https://rses-dl-course.github.io/)
 
 ---
 
