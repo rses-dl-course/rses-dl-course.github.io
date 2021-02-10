@@ -10,6 +10,19 @@ The contents are hosted by github pages at [https://rses-dl-course.github.io/](h
 * google colab - Notebooks (python code)
 
 
+## Contents
+
+```
+├── docs # The site builds to this folder for github pages
+├── notebooks # Lab notebooks
+│ ├── assets # Notebook-specific assets
+│ └── python # Notebooks in python
+├── site # Vuepress website content
+│ └── .vuepress # Vuepress configs
+└── slides # Location of revealjs lesson slides
+    ├── assets # Slides specific assets
+```
+
 ## Installation
 
 * Install [node js](https://nodejs.org/)
