@@ -10,7 +10,7 @@ Twin Karmakharm & Anna Krystalli
 
 ---
 
-<!-- .slide: data-background="/assets/img/rse-logo.svg" -->
+<!-- .slide: data-background="assets/img/rse-logo.svg" -->
 <!-- .slide: data-background-opacity="0.2" -->
 
 ### Research Software Engineering Sheffield
