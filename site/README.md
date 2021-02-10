@@ -72,6 +72,10 @@ By the end of this course, participants will be able to:
 
 * <a href="/slides/06_dl_in_other_fields.html" target="_blank">Slides</a>
 
+## Lab 07: Final exercise, flowers with data augmentation
+
+* <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L07_flowers_dataset_with_augmentation.ipynb" target="_blank">Colab Notebook</a>
+
 ## Extra Lab 01: Text classification with RNN
 
 * <a href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/XL01_text_classification_rnn.ipynb" target="_blank">Colab Notebook</a>
