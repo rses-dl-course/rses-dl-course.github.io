@@ -36,8 +36,8 @@ All course materials can be found at:
 ### Course Schedule
 
 * **09:00-10:30** | 01: Introduction to Deep Learning
-* **10:30-10:45** | Break
-* **10:45-13:00**
+* **10:15-10:30** | Break
+* **10:30-13:00**
   * 02: Neural Networks
   * 03: Classification and Convolutional Neural Networks
 * **13:00-14:00** | Lunch
@@ -48,6 +48,7 @@ All course materials can be found at:
   * 06: DL in other fields & Wrapup
   
 ---
+
 
 ### Blackboard collaborate
 
