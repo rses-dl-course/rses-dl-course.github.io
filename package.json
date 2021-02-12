@@ -5,12 +5,11 @@
  "main": "index.md",
  "scripts": {
   "build": "run-s build:site build:slides",
-  "build:site": "vuepress build site -d docs",
-  "build:slides": "reveal-md slides/ --static docs/slides --static-dirs slides/assets",
-  "build:docs": "reveal-md index.md --static docs --static-dirs media",
+  "build:site": "vuepress build site -d build",
+  "build:slides": "reveal-md slides/ --static build/slides --static-dirs slides/assets",
   "site": "vuepress dev site",
   "slides": "reveal-md slides/ -w",
-  "site:prod": "http-server docs"
+  "site:prod": "http-server build"
  },
  "author": "",
  "license": "ISC",
