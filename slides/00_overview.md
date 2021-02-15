@@ -35,13 +35,13 @@ All course materials can be found at:
 
 ### Course Schedule
 
-* **09:00-10:30** | 01: Introduction to Deep Learning
+* **09:00-10:15** | 01: Introduction to Deep Learning
 * **10:15-10:30** | Break
 * **10:30-13:00**
   * 02: Neural Networks
   * 03: Classification and Convolutional Neural Networks
-* **13:00-14:00** | Lunch
-* **14:00-15:30** | 04: Refining the model
+* **13:00-14:30** | Lunch
+* **14:30-15:30** | 04: Refining the model
 * **15:30-15:45** | Break
 * **15:45-17:00**
   * 05: Deployment & Transfer Learning
