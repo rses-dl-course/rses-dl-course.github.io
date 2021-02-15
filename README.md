@@ -9,11 +9,16 @@ The contents are hosted by github pages at [https://rses-dl-course.github.io/](h
 * reveal-md - Slides
 * google colab - Notebooks (python code)
 
+## CI: Automatic deployment to github pages
+
+The site is now automatically built and deployed to github pages using github actions in `.github/workflows/site-deploy.yml`.
+
+**Do not** change the contents of `gh-pages` branch as it hosts the automatically built site contents. 
 
 ## Contents
 
 ```
-├── docs # The site builds to this folder for github pages
+├── build # The site builds to this folder for github pages deployment
 ├── notebooks # Lab notebooks
 │ ├── assets # Notebook-specific assets
 │ └── python # Notebooks in python
@@ -50,8 +55,9 @@ npm run slides
 
 ## Building the entire site
 
-Website is built to the `docs` directory for hosting on github pages.
+Website is built to the `build` directory for testing the complete site. Use `http-server build` to test the complete site. 
 
 ```
 npm run build
+http-server build
 ```
