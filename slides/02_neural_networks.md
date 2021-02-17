@@ -56,7 +56,12 @@ Behaviour is simplified compared to their biological counterparts...
 Inputs ($x_{n}$) are multiplied with weights ($w_{n}$) and summed together with the bias ($b$).
 
 
+Note:
+Based on the principle that neurons that fire together, wire together
+- Weights are an indication of how strong a connection is
+- Bias is a general indication of how active a particular node is
 
+The weights and biases determine how neurons are activated and the signal passes through the network
 
 ---
 
@@ -78,6 +83,8 @@ A neural network is simply a network of (artificial) neurons with distinct layer
 
 <img src="assets/img/neuralnetwork-plain2.svg"  style="background: white; padding: 1em;"/>
 
+Note:
+Each neuron is connected to all neurons in the previous layer
 ---
 
 ### A Neural Network
@@ -187,6 +194,8 @@ When performing classification, we need one output node per category.
 <param id="layer4" class="fragment fade-in" data-fragment-index="3" />
 </object>
 
+Note:
+
 ---
 
 ### Initialising the network
@@ -209,7 +218,8 @@ We need a way good way to quantify how far our prediction is from our goal.
 <object type="image/svg+xml" data="assets/img/neuralnetwork-initialisation.svg" style="background: white; width: 80%; margin-top: 1em">
 </object>
 
-
+Note:
+a way of telling our computer that it's wrong and how it should be corrected.
 ---
 
 ### Error and Loss
@@ -222,7 +232,8 @@ In this case  $E = y - \hat{y} = -75$
 <object type="image/svg+xml" data="assets/img/neuralnetwork-initialisation.svg" style="background: white; width: 80%; margin-top: 1em">
 </object>
 
-
+Note:
+This is the cost of a single training example. During training we will actually calculate the average cost across the thousands of available training examples.
 
 ---
 
@@ -297,6 +308,10 @@ For $w = 8$ and $b = 3$, our loss is $L(y,\hat{y}) = 599.41$.
 
 <img src="assets/img/nnerror2-error.png"  style="width:40%"/>
 
+Note:
+This is the cost across all training examples and is a measure of how our model is performing across our entire dataset.
+
+But just telling our model how bad it is perfomring is not much use. We need to be able to tell it how to adjust it's weights and biases to do better
 ---
 
 ### Minimising Loss
@@ -339,6 +354,13 @@ To get the entire picture we need to look at $w$ and $b$ at the same time.
 
 <img src="assets/img/nnerror9-wbrangeplot.png"  style="width:40%"/>
 
+
+Note:
+This is what machine learning really is about, it's a calculus exercise in finding a minimum, a minimum is a loss or cost function.
+
+This however won't work with more features or a more complicated cost surface. So what we can do is, beginning with our random parameter values, calculate the direction in which the weights should be adjusted to reduce the cost.
+
+
 ---
 
 
@@ -356,6 +378,9 @@ Descending through the loss surface by gradually changing the `weights` and `bia
 <param id="layer8" class="fragment fade-in" data-fragment-index="7" />
 </object>
 
+Note:
+
+We do this by calculating the gradient direction for each parameter and taking a step in the downhill direction.
 ---
 
 ### Gradient descent
@@ -426,6 +451,12 @@ Perform analysis on rate of convergence during training.<!-- .element: class="fr
 <param id="layer4" class="fragment fade-in" data-fragment-index="3" />
 </object>
 
+Note:
+In backpropagation, each of the neural network's weights receives an update proportional to the partial derivative of the error function with respect to the current weight in each iteration of training
+
+It's importnat to remember that the cost function involves taking the average across ALL training data which means the network is adjusted to fit better to the entire dataset.
+
+The algorithm for computing the gradients efficiently and adjusting the weights and bias updates is called backpropagation.
 ---
 
 ### Neural Network Training Cycle
@@ -461,13 +492,21 @@ Gradient descent calculate the loss of the entire dataset at every step.
 By randomising our training data, training in small `batches` still gets a good approximation of the entire dataset. 
 This allows our model to converge faster.
 
-
+Note:
+A true gradient descent requires performing backpropagation on ALL data.
+- However this is computationally very expensive.
+- What happens most commonly is that we randomly shuffle our data into smaller batches and perform propagation on each batch
+- This speeds up the process. It does however mean that the gradient descent direction might be a bit more convoluted as each batch is less representative of the whole dataset. 
 ---
 
 ### Stochastic gradient descent (batch size = 2)
 
 <img src="assets/img/stochastic-gradient-descent-dataset.svg"  style="width:60%;"/>
 
+Note:
+
+- iteration: a single batch is passed through the network
+- epoch: hte full dataset has passed through the network
 ---
 
 ### Stochastic gradient descent
@@ -578,6 +617,10 @@ But most real-world problems are non-linear.
 
 ReLU is more computationally efficient and doesn't suffer from `vanishing gradient` but can 'die' when input is negative.
 
+Note:
+In machine learning, the vanishing gradient problem is encountered when training artificial neural networks with gradient-based learning methods and backpropagation. The problem is that in some cases, the gradient will be vanishingly small, effectively preventing the weight from changing its value. In the worst case, this may completely stop the neural network from further training
+
+- sigmoid is useful for probabilies and used in binary classification while similar softmax activation is used for multiclass classification problems
 
 ---
 
