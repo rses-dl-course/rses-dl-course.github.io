@@ -6,7 +6,6 @@ title: "0. Overview"
 
 Twin Karmakharm & Anna Krystalli
 
-11th February 2021
 
 ---
 
