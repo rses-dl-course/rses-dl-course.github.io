@@ -100,7 +100,7 @@ By the end of this course, participants will be able to:
 
 <table>
   <td>
-    <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L04_C01_dogs_vs_cats_with_augmentation.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/32px-Python-logo-notext.svg.png" />Python Colab notebook</a>
+    <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L04_C02_dogs_vs_cats_with_augmentation.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/32px-Python-logo-notext.svg.png" />Python Colab notebook</a>
   </td>
   <td>
     <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/R/R04_C01_dogs_vs_cats_with_augmentation.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/32px-R_logo.svg.png" />R Colab notebook</a>
