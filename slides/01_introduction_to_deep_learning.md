@@ -40,13 +40,23 @@ All course materials can be found at:
 
 <span class="small-note">[https://blogs.nvidia.com/blog/2020/03/11/drive-labs-multi-view-lidarnet-self-driving-cars/](https://blogs.nvidia.com/blog/2020/03/11/drive-labs-multi-view-lidarnet-self-driving-cars/)</span>
 
+Note:
+- One of the most well developed applications of DL is in self driving cars
+
+Lidar can give autonomous vehicles laser focus. By bouncing laser signals off the surrounding environment, these sensors can enable a self-driving car to construct a detailed and accurate 3D picture of what’s around it.
+-  cars, trucks, buses, pedestrians, cyclists, and other road users.
 ---
 
 ### Playing GO
 
-![LIDAR DNN](assets/img/alphago.jpg)
+![AlphaGo](assets/img/alphago.jpg)
 
 <span class="small-note">[https://www.bbc.co.uk/news/technology-35785875](https://www.bbc.co.uk/news/technology-35785875)</span>
+
+Note:
+The Chinese board game is considered to be a much more complex challenge for a computer than chess.
+
+2016: **A computer program has beaten a master Go player 3-0 in a best-of-five competition, in what is seen as a landmark moment for artificial intelligence.**
 
 ---
 
@@ -54,6 +64,10 @@ All course materials can be found at:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cQ54GDm1eL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Note:
+Deepfakes are synthetic media[2] in which a person in an existing image or video is replaced with someone else's likeness.
+
+Obviously dangerous but there is also ongoing research into using deep learning to detect deep fakes.
 ---
 
 ### Mars mission
@@ -64,6 +78,10 @@ All course materials can be found at:
 
 <span class="small-note">DeepTerramechanics: Terrain Classification and Slip Estimation for Ground Robots via Deep Learning, R. Gonzalez, K. Iagnemma</span>
 
+Note:
+Terramechanics plays a critical role in the areas of ground vehicles and ground mobile robots since understanding and estimating the variables influencing the vehicle-terrain interaction may mean the success or the failure of an entire mission. 
+
+This research applies state-of-the-art algorithms in deep learning to two key problems: estimating wheel slip and classifying the terrain being traversed by a ground robot
 ---
 
 ### What else?
@@ -79,6 +97,11 @@ All course materials can be found at:
 ### Definitions
 
 <img src="assets/img/ai-definition.svg" class="plain" style="width:70%"/>
+
+Note:
+- AI: Mimicking the intelligence or behaviour of humans or any other living entity
+- Machine Learning: A technique by which a computer can learn from data without using a complex set of rules.
+- Deep Learning: A technique to perform machine learning based on neural networks.
 
 ---
 
@@ -135,6 +158,8 @@ It's possible to use multiple features in our model...
 
 What other features should we collect?
 
+Note:
+Feature engineering is the process of using domain knowledge to extract features from raw data. 
 ---
 
 
@@ -294,6 +319,8 @@ Alexnet network won the 2012 Imagenet competition with almost half error rate of
 
 Today's state-of-the-art is around 98.7% 
 
+Note:
+The rise of deep learning has had a clear impact on state of the art performance of machine learning models
 ---
 
 ### DL performance 

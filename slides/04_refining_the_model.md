@@ -68,7 +68,7 @@ It's not unusual to not be provided with a **validation** dataset.
 
 ### Measuring the model's performance
 
-The trend of `Loss`, our measure of error, should to decrease and `Accuracy` increase as the model trains.
+The trend of `Loss`, our measure of error, should decrease and `Accuracy` increase as the model trains.
 
 This should happen for **both** `training` and `validation` datasets.
 

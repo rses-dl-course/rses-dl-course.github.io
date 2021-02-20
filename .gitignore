@@ -13,3 +13,5 @@ notebooks/__pycache__/
 
 notebooks/cifar-10-batches-py/
 *.tar.gz
+*E.0.0*
+.DS_Store
