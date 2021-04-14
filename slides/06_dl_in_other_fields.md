@@ -18,13 +18,13 @@ All course materials can be found at:
 
 * **09:00-10:15** | 01: Introduction to Deep Learning
 * **10:15-10:30** | Break
-* **10:30-13:00**
-  * 02: Neural Networks
-  * 03: Classification and Convolutional Neural Networks
-* **13:00-14:30** | Lunch
-* **14:30-15:30** | 04: Refining the model
-* **15:30-15:45** | Break
-* **15:45-17:00**
+* **10:30-12:00** | 02: Neural Networks
+* **12:00-12:45** | Lunch
+* **12:45-13:45** | 03: Classification and Convolutional Neural Networks
+* **13:45-13:50** | Short break
+* **13:50-15:15** | 04: Refining the model
+* **15:15-15:30** | Break
+* **15:30-17:00**
   * 05: Deployment & Transfer Learning
   * 06: DL in other fields & Wrapup
   
@@ -218,6 +218,9 @@ This is just the start!
 
 ---
 
+<!-- .slide: data-background="assets/img/rse-logo.svg" -->
+<!-- .slide: data-background-opacity="0.2" -->
+
 ### Research Software Engineering Sheffield
 
 * Increasing research impact through software
@@ -229,6 +232,9 @@ This is just the start!
 * Visit us at [https://rse.shef.ac.uk](https://rse.shef.ac.uk)
 
 ---
+
+<!-- .slide: data-background="assets/img/rse-logo.svg" -->
+<!-- .slide: data-background-opacity="0.2" -->
 
 # Thank you for attending!
 
