@@ -77,7 +77,7 @@ They can be used for:
 
 ### DL in Natural Language Processing (NLP) - From words to numbers
 
-In NPL, it is common to have sequence of words as input and output. 
+In NLP, it is common to have sequence of words as input and output. 
 
 It's common practice tokenize and index every word.
 
