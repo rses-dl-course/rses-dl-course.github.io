@@ -19,6 +19,7 @@
       <div class="slides"><section  data-markdown><script type="text/template">
 
 # 1. Introduction to Deep Learning
+
 </script></section><section  data-markdown><script type="text/template">
 ### Course Materials
 
@@ -10960,8 +10961,84 @@ DL is able to use **more** data to increase performance
 ... but also means you need <strong>more</strong> data to train DL algorithms
 </div>
 </script></section><section  data-markdown><script type="text/template">
+### DL Frameworks
+
+Many DL frameworks are available, most popular being:
+
+* [Tensorflow](https://www.tensorflow.org/)
+  * The easiest framework to use (Keras)
+  * Fast
+* [PyTorch](https://pytorch.org/)
+  * Dynamic network graph
+  * Network debuggable
+  
+</script></section><section  data-markdown><script type="text/template">
+### DL Frameworks
+
+There's likely a framework for a language that you know e.g.:
+
+* Java - DL4J, Tensorflow Java
+* Matlab - Deep Learning Toolbox
+
+Or import from python
+* 'keras' package for R - Used for R version of the course
+</script></section><section  data-markdown><script type="text/template">
+### Keras (Tensorflow)
+
+* High-level API for building and training NNs
+* Pre-defined components for NN and training
+  * Layers, Loss functions, Optimisers, Preprocessors
+* Now integrated into Tensorflow
+</script></section><section  data-markdown><script type="text/template">
 ## Lab 01: Introduction to Tensorflow Keras
 Linear regression with neural networks.
+</script></section><section  data-markdown><script type="text/template">
+# Appendix
+</script></section><section  data-markdown><script type="text/template">
+### Installing Tensorflow using conda
+
+[conda(conda.io)](https://conda.io) is a virtual environment and package manager for many languages. 
+It can be used to create a virtual python environment for installing tensorflow.
+
+It's recommended if you plan to install tensorflow on your machine.
+</script></section><section  data-markdown><script type="text/template">
+### Installing Tensorflow using conda
+
+Once you've installed conda, you can create a virtual environment and install tensorflow with a single command:
+
+```bash
+conda create -n my_tensorflow_environment -y python=3.8 tensorflow
+```
+
+This installs the latest version of tensoflow on python version 3.8 in the virtual environment named 'my_tensorflow_environment'.
+From tensorflow 2.0, the package `tensorflow` supports GPU by default.
+</script></section><section  data-markdown><script type="text/template">
+### Running Tensorflow in virtual conda environment
+
+You must then activate your virtual environment before running any tensorflow code:
+
+```bash
+source activate my_tensorflow_environment
+python my_dl_script.py 
+```
+</script></section><section  data-markdown><script type="text/template">
+### Installing other packages
+
+You can also install other packages with `conda` or `pip`:
+
+```bash
+pip install numpy
+```
+
+And it will be installed into your virtual environment
+</script></section><section  data-markdown><script type="text/template">
+## Leaving the virtual environment
+
+If you want to exit your conda environment, just run:
+
+```bash
+source deactivate
+```
 </script></section></div>
     </div>
 
