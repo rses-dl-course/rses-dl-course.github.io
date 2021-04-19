@@ -84,7 +84,3 @@ A platform to run lab code interactively
 `Tab` to get code suggestion
 
 
-
-
-
-
