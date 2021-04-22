@@ -5584,7 +5584,13 @@ Strategies normally involves adding some kind of regularisation either to the ne
   * Batch normalisation
 * Early stopping
 * Data augmentation
-</script></section><section  data-markdown><script type="text/template">
+
+<aside class="notes"><p>The regularization term, or penalty, imposes a cost on the optimization function for overfitting the function or to make the optimal solution unique.</p>
+<ul>
+<li>L1: lasso regression</li>
+<li>L2 :  ridge regression.</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
 ### Dropout
 
 Randomly disable a percentage of inputs into the layer with the `rate` parameter. 
@@ -6159,7 +6165,10 @@ the same principle but the normalisation is done on a layer's output for each ba
   <g inkscape:groupmode="layer" id="layer2" inkscape:label="Layer 2" style="display:inline" transform="translate(824.17854,73.656658)"></g>
 </svg>
 
-</script></section><section  data-markdown><script type="text/template">
+
+<aside class="notes"><p>Batch normalization is a technique for training very deep neural networks that standardizes the inputs to a layer for each mini-batch. </p>
+<p>This has the effect of stabilizing the learning process and dramatically reducing the number of training epochs required to train deep networks.</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ### When do we stop training?
 
 How many epochs should we train the model?
