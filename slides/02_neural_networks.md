@@ -400,7 +400,9 @@ $w^l_k = w^l_k -\eta{\nabla}L(w^l_k)$
 
 <img src="assets/img/gradient-descent.svg"  style="width:40%"/>
 
-
+Note:
+- Batch gradient descent can be very slow and is intractable for datasets that don't fit in memory. Batch gradient descent also doesn't allow us to update our model online, i.e. with new examples on-the-fly.
+- updates the parameters in the opposite direction of the gradient of the objective function ∇θJ(θ) w.r.t. to the parameters.
 ---
 
 ### Terminology: Hyperparameters
@@ -497,6 +499,9 @@ A true gradient descent requires performing backpropagation on ALL data.
 - However this is computationally very expensive.
 - What happens most commonly is that we randomly shuffle our data into smaller batches and perform propagation on each batch
 - This speeds up the process. It does however mean that the gradient descent direction might be a bit more convoluted as each batch is less representative of the whole dataset. 
+- gradient descent also is known as batch gradient descent.
+- Gradient descent computes the gradient of the cost function w.r.t. to the parameters θ for the entire training dataset, Stochastic one performs a parameter update for each training example, and mini-batch gradient descent update for every mini-batch of n training examples
+- SGD performs one update at a time. It is therefore usually much faster and can also be used to learn online. SGD performs frequent updates with a high variance that cause the objective function to fluctuate heavily and therefore is noisy.
 ---
 
 ### Stochastic gradient descent (batch size = 2)
@@ -591,6 +596,8 @@ SGD is inherently noisy, optimizers can be used to get closer to the ideal desce
 * `RMSProp` - Adapt learning rate for each parameter, larger gradients gets smaller updates, dampening the sideways oscillation.
 * `Adam` - a combination of `Momentum` and `RMSProp`.
 
+Note:
+- Gradient descent based optimization algorithms
 ---
 
 ### Activation functions

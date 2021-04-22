@@ -125,6 +125,15 @@ def get_entropy_loss(y, y_hat):
     return -math.log(1-y_hat)
 ```
 
+Note: 
+- Cross-entropy is used to measure the difference between two probability distribution p and q. 
+- H(p,q) = - \Sum p(x) log q(x)
+- In information theory, “surprise” of an event is used. An event is more surprising the less likely it is, meaning it contains more information.
+- Low Probability Event (surprising): More information.
+- Higher Probability Event (unsurprising): Less information.
+- Skewed Probability Distribution (unsurprising): Low entropy.
+- Balanced Probability Distribution (surprising): High entropy.
+
 ---
 
 ### Cross Entropy Loss
