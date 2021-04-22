@@ -145,6 +145,10 @@ Strategies normally involves adding some kind of regularisation either to the ne
 * Early stopping
 * Data augmentation
 
+Note:
+The regularization term, or penalty, imposes a cost on the optimization function for overfitting the function or to make the optimal solution unique.
+- L1: lasso regression
+- L2 :  ridge regression. 
 ---
 
 ### Dropout
@@ -164,6 +168,10 @@ the same principle but the normalisation is done on a layer's output for each ba
 <object type="image/svg+xml" data="assets/img/normalisation.svg" style="background: white; width: 80%; height: auto;">
 </object>
 
+Note:
+Batch normalization is a technique for training very deep neural networks that standardizes the inputs to a layer for each mini-batch. 
+
+This has the effect of stabilizing the learning process and dramatically reducing the number of training epochs required to train deep networks.
 ---
 
 ### When do we stop training?
