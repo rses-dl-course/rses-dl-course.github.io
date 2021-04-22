@@ -2,5 +2,6 @@
     "theme": "white",
     "css": "slides/assets/css/slide-style.css",
     "preprocessor": "slides/assets/buildscripts/preproc.js",
-    "template": "slides/template/reveal.html"
+    "template": "slides/template/reveal.html",
+    "scripts": "slides/assets/lib/reveal-menu.js"
 }

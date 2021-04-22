@@ -4,6 +4,7 @@ title: "1. Introduction to Deep Learning"
 
 # 1. Introduction to Deep Learning
 
+
 ---
 
 ### Course Materials
@@ -335,5 +336,99 @@ DL is able to use **more** data to increase performance
 
 ---
 
+### DL Frameworks
+
+Many DL frameworks are available, most popular being:
+
+* [Tensorflow](https://www.tensorflow.org/)
+  * The easiest framework to use (Keras)
+  * Fast
+* [PyTorch](https://pytorch.org/)
+  * Dynamic network graph
+  * Network debuggable
+  
+
+---
+
+### DL Frameworks
+
+There's likely a framework for a language that you know e.g.:
+
+* Java - DL4J, Tensorflow Java
+* Matlab - Deep Learning Toolbox
+
+Or import from python
+* 'keras' package for R - Used for R version of the course
+
+---
+
+### Keras (Tensorflow)
+
+* High-level API for building and training NNs
+* Pre-defined components for NN and training
+  * Layers, Loss functions, Optimisers, Preprocessors
+* Now integrated into Tensorflow
+
+---
+
 ## Lab 01: Introduction to Tensorflow Keras
 Linear regression with neural networks.
+
+---
+
+# Appendix
+
+---
+
+### Installing Tensorflow using conda
+
+[conda(conda.io)](https://conda.io) is a virtual environment and package manager for many languages. 
+It can be used to create a virtual python environment for installing tensorflow.
+
+It's recommended if you plan to install tensorflow on your machine.
+
+---
+
+### Installing Tensorflow using conda
+
+Once you've installed conda, you can create a virtual environment and install tensorflow with a single command:
+
+```bash
+conda create -n my_tensorflow_environment -y python=3.8 tensorflow
+```
+
+This installs the latest version of tensoflow on python version 3.8 in the virtual environment named 'my_tensorflow_environment'.
+From tensorflow 2.0, the package `tensorflow` supports GPU by default.
+
+---
+
+### Running Tensorflow in virtual conda environment
+
+You must then activate your virtual environment before running any tensorflow code:
+
+```bash
+source activate my_tensorflow_environment
+python my_dl_script.py 
+```
+
+---
+
+### Installing other packages
+
+You can also install other packages with `conda` or `pip`:
+
+```bash
+pip install numpy
+```
+
+And it will be installed into your virtual environment
+
+---
+
+## Leaving the virtual environment
+
+If you want to exit your conda environment, just run:
+
+```bash
+source deactivate
+```

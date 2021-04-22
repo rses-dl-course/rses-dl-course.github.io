@@ -22,6 +22,7 @@ The site is now automatically built and deployed to github pages using github ac
 ├── notebooks # Lab notebooks
 │ ├── assets # Notebook-specific assets
 │ └── python # Notebooks in python
+│ └── R # Notebooks in R
 ├── site # Vuepress website content
 │ └── .vuepress # Vuepress configs
 └── slides # Location of revealjs lesson slides

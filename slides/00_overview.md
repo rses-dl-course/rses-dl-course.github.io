@@ -4,7 +4,7 @@ title: "0. Overview"
 
 # RSES: Introduction to Deep Learning Course
 
-Twin Karmakharm & Anna Krystalli
+Twin Karmakharm, Anna Krystalli & Fariba Yousefi
 
 
 ---
@@ -82,9 +82,5 @@ A platform to run lab code interactively
 `Shift+Enter` to run code
 
 `Tab` to get code suggestion
-
-
-
-
 
 
