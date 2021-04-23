@@ -52,7 +52,33 @@ Run the slides using:
 ```
 npm run slides
 ```
+## View slides in full screen
 
+To view slides in full screen press F
+
+## Add notes to slides
+
+To add notes to slides, add `Note:` followed by any text you want available through speaker mode to the bottom of any slide. You can include markdown notation in notes.
+
+E.g.
+
+```
+---
+
+Slide content
+
+Note:
+
+Slide notes
+
+- Slide note bullet 1
+- Slide note bullet 2
+---
+```
+
+## View slides in Speaker mode
+
+To initiate speaker view and access slide notes, press S. 
 
 ## Building the entire site
 
