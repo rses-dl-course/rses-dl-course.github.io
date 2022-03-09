@@ -10,23 +10,30 @@ title: "3. Classification and Convolutional Neural Networks"
 
 All course materials can be found at:
 
-[https://rses-dl-course.github.io/](https://rses-dl-course.github.io/)
+[https://rses-dl-course-ukhsa.github.io/](https://rses-dl-course-ukhsa.github.io/)
 
 ---
 
 ### Course Schedule
 
-* **09:00-10:05** | 01: Introduction to Deep Learning
-* **10:05-10:20** | Break
-* **10:20-12:00** | 02: Neural Networks
-* **12:00-12:45** | Lunch
-* **12:45-13:45** | 03: Classification and Convolutional Neural Networks
-* **13:45-13:50** | Short break
-* **13:50-15:15** | 04: Refining the model
-* **15:15-15:30** | Break
-* **15:30-17:00**
-  * 05: Deployment & Transfer Learning
-  * 06: DL in other fields & Wrapup
+* **Day one**
+  * **13:00-14:10** | 01: Introduction to Deep Learning
+  * **14:10-14:25** | Break
+  * **14:25-15:35** | 02: Neural Networks
+  * **15:35-15:50** | Break
+  * **15:50-17:00** | 03: Classification and Convolutional Neural Networks
+  
+---
+
+### Course Schedule
+
+* **Day two**
+  * **13:00-14:30** | 04: Refining the model
+  * **14:30-14:45** | Break
+  * **14:45-15:30** | 05: Deployment & Transfer Learning
+  * **15:30-16:00** | 06: DL in other fields
+  * **16:00-16:15** | Break
+  * **16:15-17:00** | 07: Final Exercise & Wrap-up
   
 ---
 
@@ -161,6 +168,28 @@ Several types of cross entropy loss available in `tf.keras`:
 * **SparseCategoricalCrossentropy** - When there's **2 or more** labels, expects **single integer** labels representing category.
 
 ---
+
+### Normalising inputs
+
+It's important to normalise your features! It helps create a smoother loss surface and allow your network to train faster.
+
+<object type="image/svg+xml" data="assets/img/normalisation.svg" style="background: white; width: 80%; height: auto;">
+</object>
+
+---
+
+### Normalising inputs
+
+Especially when there are big differences between the magnitude of your features e.g.:
+* no. of bedrooms  1s-10s
+* floor area ($m^2$) 100s-1000s
+* house price (£) 100,000s-1,000,000s
+
+<object type="image/svg+xml" data="assets/img/normalisation.svg" style="background: white; width: 80%; height: auto;">
+</object>
+
+---
+
 
 ## Convolutional Neural Networks
 
