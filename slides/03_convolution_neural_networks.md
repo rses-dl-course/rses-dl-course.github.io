@@ -162,6 +162,28 @@ Several types of cross entropy loss available in `tf.keras`:
 
 ---
 
+### Normalising inputs
+
+It's important to normalise your features! It helps create a smoother loss surface and allow your network to train faster.
+
+<object type="image/svg+xml" data="assets/img/normalisation.svg" style="background: white; width: 80%; height: auto;">
+</object>
+
+---
+
+### Normalising inputs
+
+Especially when there are big differences between the magnitude of your features e.g.:
+* no. of bedrooms  1s-10s
+* floor area ($m^2$) 100s-1000s
+* house price (£) 100,000s-1,000,000s
+
+<object type="image/svg+xml" data="assets/img/normalisation.svg" style="background: white; width: 80%; height: auto;">
+</object>
+
+---
+
+
 ## Convolutional Neural Networks
 
 ---
