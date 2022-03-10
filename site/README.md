@@ -111,28 +111,29 @@ By the end of this course, participants will be able to:
 
 * <a href="/slides/05_transfer_learning.html" target="_blank">Slides</a>
 
-## Lab 05: Tensorflow hub and Transfer learning
-
-<table>
-  <td>
-    <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L05_tensorflow_hub_and_transfer_learning.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/32px-Python-logo-notext.svg.png" />Python Colab notebook</a>
-  </td>
-  <td>
-    <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/R/R05_tensorflow_hub_and_transfer_learning.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/32px-R_logo.svg.png" />R Colab notebook</a>
-  </td>
-</table>
-
 ## Lab 06: Saving and Loading models
 
+<table>
+  <td>
+    <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L05_saving_and_loading_models.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/32px-Python-logo-notext.svg.png" />Python Colab notebook</a>
+  </td>
+  <td>
+    <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/R/R05_saving_and_loading_models.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/32px-R_logo.svg.png" />R Colab notebook</a>
+  </td>
+</table>
+
+
+## Lab 06: Tensorflow hub and Transfer learning
 
 <table>
   <td>
-    <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L06_saving_and_loading_models.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/32px-Python-logo-notext.svg.png" />Python Colab notebook</a>
+    <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/python/L06_tensorflow_hub_and_transfer_learning.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/32px-Python-logo-notext.svg.png" />Python Colab notebook</a>
   </td>
   <td>
-    <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/R/R06_saving_and_loading_models.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/32px-R_logo.svg.png" />R Colab notebook</a>
+    <a target="_blank" href="https://colab.research.google.com/github/rses-dl-course/rses-dl-course.github.io/blob/master/notebooks/R/R06_tensorflow_hub_and_transfer_learning.ipynb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/32px-R_logo.svg.png" />R Colab notebook</a>
   </td>
 </table>
+
 
 ## 06: DL in other fields
 
