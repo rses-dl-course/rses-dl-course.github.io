@@ -87,7 +87,7 @@ How and where will your model run?
   * Using tensorflow directly
 * On the server doing high volume inferencing?
   * [Tensorflow serve](https://www.tensorflow.org/tfx)
-  * HPCs
+  * High Performance Computing (HPC)
   * Cloud service providers
 * For systems with Nvidia GPU
   * [TensorRT](https://developer.nvidia.com/TensorRT)
