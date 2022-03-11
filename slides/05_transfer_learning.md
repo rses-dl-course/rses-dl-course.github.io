@@ -86,11 +86,11 @@ How and where will your model run?
 * On desktop or as part of another software?
   * Using tensorflow directly
 * On the server doing high volume inferencing?
-    * [Tensorflow serve](https://www.tensorflow.org/tfx)
-    * HPCs Bede, JADE and JADE II (batch inferencing)
-        * Bede has 2 nodes dedicated to inference!
+  * [Tensorflow serve](https://www.tensorflow.org/tfx)
+  * HPCs
+  * Cloud service providers
 * For systems with Nvidia GPU
-    * [TensorRT](https://developer.nvidia.com/TensorRT)
+  * [TensorRT](https://developer.nvidia.com/TensorRT)
     
 
 ---
