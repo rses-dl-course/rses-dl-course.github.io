@@ -73,7 +73,7 @@ When training large models or for many epochs, checkpoint your model.
 We're only saving the model's `weigths` as we have the code to build the network graph. 
 
 * Use `Model.save_weight()` and manage your checkpoint manually
-* Use `tf.train.Checkpoint` and `tf.train.CheckpointManager` to automatically manage multiple checkpoint files 
+* Use `tf.keras.callbacks.ModelCheckpoint` to automatically create checkpoint files 
 
 ---
 
