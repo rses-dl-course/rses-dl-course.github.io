@@ -3,37 +3,6 @@ title: "2. Neural Networks"
 ---
 
 # 2. Neural Networks
-
----
-
-### Course Materials
-
-All course materials can be found at:
-
-[https://rses-dl-course-ukhsa.github.io/](https://rses-dl-course-ukhsa.github.io/)
-
----
-
-### Course Schedule
-
-* **Day one**
-  * **13:00-14:10** | 01: Introduction to Deep Learning
-  * **14:10-14:25** | Break
-  * **14:25-15:35** | 02: Neural Networks
-  * **15:35-15:50** | Break
-  * **15:50-17:00** | 03: Classification and Convolutional Neural Networks
-  
----
-
-### Course Schedule
-
-* **Day two**
-  * **13:00-14:30** | 04: Refining the model
-  * **14:30-14:45** | Break
-  * **14:45-15:30** | 05: Deployment & Transfer Learning
-  * **15:30-16:00** | 06: DL in other fields
-  * **16:00-16:15** | Break
-  * **16:15-17:00** | 07: Final Exercise & Wrap-up
   
 ---
 

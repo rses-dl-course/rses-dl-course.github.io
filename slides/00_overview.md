@@ -30,8 +30,24 @@ All course materials can be found at:
 
 [https://rses-dl-course-ukhsa.github.io/](https://rses-dl-course-ukhsa.github.io/)
 
----
 
+---
+### Course Schedule
+
+* **09:00-10:05** | 01: Introduction to Deep Learning
+* **10:05-10:20** | Break
+* **10:20-12:00** | 02: Neural Networks
+* **12:00-12:45** | Lunch
+* **12:45-13:45** | 03: Classification and Convolutional Neural Networks
+* **13:45-13:50** | Short break
+* **13:50-15:15** | 04: Refining the model
+* **15:15-15:30** | Break
+* **15:30-17:00**
+  * 05: Deployment & Transfer Learning
+  * 06: DL in other fields & Wrapup
+
+---
+<!-- .slide: data-visibility="hidden" -->
 ### Course Schedule
 
 * **Day one**
@@ -42,7 +58,7 @@ All course materials can be found at:
   * **15:50-17:00** | 03: Classification and Convolutional Neural Networks
   
 ---
-
+<!-- .slide: data-visibility="hidden" -->
 ### Course Schedule
 
 * **Day two**
@@ -54,7 +70,6 @@ All course materials can be found at:
   * **16:15-17:00** | 07: Final Exercise & Wrap-up
   
 ---
-<!-- .slide: data-visibility="hidden" -->
 
 ### Blackboard collaborate
 
@@ -68,7 +83,7 @@ Let us know how you're getting on with the course.
 
 
 ---
-
+<!-- .slide: data-visibility="hidden" -->
 ### Google meet
 
 Let us know how you're getting on with the course. 
@@ -78,7 +93,7 @@ Let us know how you're getting on with the course.
 
 
 ---
-
+<!-- .slide: data-visibility="hidden" -->
 ### Google meet
 
 Let us know how you're getting on with the course. 
@@ -88,7 +103,7 @@ Let us know how you're getting on with the course.
 
 
 ---
-
+<!-- .slide: data-visibility="hidden" -->
 ### Google meet
 
 Let us know how you're getting on with the course. 
@@ -98,7 +113,7 @@ Let us know how you're getting on with the course.
 
 
 ---
-
+<!-- .slide: data-visibility="hidden" -->
 ### Google meet
 
 Let us know how you're getting on with the course. 
