@@ -86,7 +86,7 @@ They can be used for:
 
 In NLP, it is common to have sequence of words as input and output. 
 
-It's common practice tokenize and index every word.
+It's common practice to tokenize and index every word.
 
 <object type="image/svg+xml" data="assets/img/word-to-index.svg" style="background: white; width: 60%; height: auto;">
 <param id="layer2" class="fragment" data-fragment-index="1" />
