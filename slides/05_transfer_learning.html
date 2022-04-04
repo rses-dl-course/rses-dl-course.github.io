@@ -20,27 +20,6 @@
 
 # 5. Deployment and Transfer Learning
 </script></section><section  data-markdown><script type="text/template">
-### Course Materials
-
-All course materials can be found at:
-
-[https://sres-dl-course.github.io/](https://sres-dl-course.github.io/)
-</script></section><section  data-markdown><script type="text/template">
-### Course Schedule
-
-* **09:00-10:05** | 01: Introduction to Deep Learning
-* **10:05-10:20** | Break
-* **10:20-12:00** | 02: Neural Networks
-* **12:00-12:45** | Lunch
-* **12:45-13:45** | 03: Classification and Convolutional Neural Networks
-* **13:45-13:50** | Short break
-* **13:50-15:15** | 04: Refining the model
-* **15:15-15:30** | Break
-* **15:30-17:00**
-  * 05: Deployment & Transfer Learning
-  * 06: DL in other fields & Wrapup
-  </script></section><section  data-markdown><script type="text/template">
-
 ### Lesson contents
 
 * Saving and checkpointing your network
@@ -959,7 +938,7 @@ When training large models or for many epochs, checkpoint your model.
 We're only saving the model's `weigths` as we have the code to build the network graph. 
 
 * Use `Model.save_weight()` and manage your checkpoint manually
-* Use `tf.train.Checkpoint` and `tf.train.CheckpointManager` to automatically manage multiple checkpoint files 
+* Use `tf.keras.callbacks.ModelCheckpoint` to automatically create checkpoint files 
 </script></section><section  data-markdown><script type="text/template">
 ### Deployment
 
@@ -970,11 +949,11 @@ How and where will your model run?
 * On desktop or as part of another software?
   * Using tensorflow directly
 * On the server doing high volume inferencing?
-    * [Tensorflow serve](https://www.tensorflow.org/tfx)
-    * HPCs Bede, JADE and JADE II (batch inferencing)
-        * Bede has 2 nodes dedicated to inference!
+  * [Tensorflow serve](https://www.tensorflow.org/tfx)
+  * High Performance Computing (HPC)
+  * Cloud service providers
 * For systems with Nvidia GPU
-    * [TensorRT](https://developer.nvidia.com/TensorRT)
+  * [TensorRT](https://developer.nvidia.com/TensorRT)
     
 </script></section><section  data-markdown><script type="text/template">
 ### Deployment
