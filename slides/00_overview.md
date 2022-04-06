@@ -28,7 +28,7 @@ Twin Karmakharm & Fariba Yousefi
 
 All course materials can be found at:
 
-[https://rses-dl-course-ukhsa.github.io/](https://rses-dl-course-ukhsa.github.io/)
+[https://rses-dl-course.github.io/](https://rses-dl-course.github.io/)
 
 
 ---
