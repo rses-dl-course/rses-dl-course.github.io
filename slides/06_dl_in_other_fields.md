@@ -181,8 +181,8 @@ This is just the start!
 * Version control your code, models, and data (e.g. git, git LFS, dvc, etc.).
 * Various HPC resources available to Sheffield researchers:
   * [Sharc](https://docs.hpc.shef.ac.uk/en/latest/sharc/index.html) & [Bessemer](https://docs.hpc.shef.ac.uk/en/latest/bessemer/index.html)
-  * [JADE](https://docs.hpc.shef.ac.uk/en/latest/jade.html) & [JADE 2 (Coming soon)](https://docs.hpc.shef.ac.uk/en/latest/jade2.html)
-  * [Bede](https://docs.hpc.shef.ac.uk/en/latest/bede.html)
+  * [JADE 2](https://docs.hpc.shef.ac.uk/en/latest/other-uk-hpc-resources/jade2.html)
+  * [Bede](https://docs.hpc.shef.ac.uk/en/latest/other-uk-hpc-resources/bede.html)
 
 ---
 
