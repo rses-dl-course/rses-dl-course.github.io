@@ -23,8 +23,8 @@ By the end of this course, participants will be able to:
 * **09:00-10:05** | 01: Introduction to Deep Learning
 * **10:05-10:20** | Break
 * **10:20-12:00** | 02: Neural Networks
-* **12:00-12:45** | Lunch
-* **12:45-13:45** | 03: Classification and Convolutional Neural Networks
+* **12:00-13:00** | Lunch
+* **13:00-13:45** | 03: Classification and Convolutional Neural Networks
 * **13:45-13:50** | Short break
 * **13:50-15:15** | 04: Refining the model
 * **15:15-15:30** | Break
