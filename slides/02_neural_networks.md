@@ -395,7 +395,7 @@ Parameters used to control the learning process, e.g.:
 
 ### Learning rate
 
-Too large learning rate ($\eta$) can miss the minima and the cause the learning to diverge.
+Too large learning rate ($\eta$) can miss the minima and causes the learning to diverge.
 
 <img src="assets/img/gradient-descentlarglr.svg"  style="width:40%"/>
 
@@ -405,7 +405,7 @@ Too large learning rate ($\eta$) can miss the minima and the cause the learning 
 
 ### Learning rate
 
-Too small learning rate $\eta$ means our network takes longer to converge.
+Too small learning rate ($\eta$) means our network takes longer to converge.
 
 <img src="assets/img/gradient-descentsmalllr.svg"  style="width:40%"/>
 
