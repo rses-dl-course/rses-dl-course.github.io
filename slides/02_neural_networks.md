@@ -362,7 +362,7 @@ We do this by calculating the gradient direction for each parameter and taking a
 ### Gradient descent
 Perform differentiation of our weight or bias with respect to the loss. 
 
-$\frac{{\delta}L}{{\delta}w^l_k}$ or $\frac{{\delta}L}{{\delta}b^l_k}$ 
+$\frac{{\partial}L}{{\partial}w^l_k}$ and $\frac{{\partial}L}{{\partial}b^l_k}$ 
 
 <img src="assets/img/gradient-descent.svg"  style="width:40%"/>
 
@@ -372,7 +372,9 @@ $\frac{{\delta}L}{{\delta}w^l_k}$ or $\frac{{\delta}L}{{\delta}b^l_k}$
 
 We then move step-by-step towards negative gradient with learning rate hyperparameter $\eta$.
 
-$w^l_k = w^l_k -\eta{\nabla}L(w^l_k)$
+$w^l_{k+1} = w^l_k -\eta\frac{{\partial}L}{{\partial}w^l_k}$ and $b^l_{k+1} = b^l_k -\eta\frac{{\partial}L}{{\partial}b^l_k}$
+
+
 
 <img src="assets/img/gradient-descent.svg"  style="width:40%"/>
 
