@@ -215,7 +215,7 @@ This is the cost of a single training example. During training we will actually 
 
 ### Error and Loss
 
-Let's simplify our example to a 1 node network:
+Let's simplify our example to a single node:
 
 <object type="image/svg+xml" data="assets/img/neuralnetwork-1node.svg" style="background: white; width: auto; height: auto; margin-top: 1em">
 </object>
