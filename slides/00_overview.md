@@ -4,7 +4,7 @@ title: "0. Overview"
 
 # RSES: Introduction to Deep Learning Course
 
-Twin Karmakharm & Fariba Yousefi
+Twin Karmakharm & Max Gamill
 
 
 ---
