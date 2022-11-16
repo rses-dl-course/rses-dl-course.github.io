@@ -205,6 +205,7 @@ This is just the start!
 * Training, outreach and education activities
 * Led by Dr. Paul Richmond
 * Visit us at [https://rse.shef.ac.uk](https://rse.shef.ac.uk)
+* [Apply for up to 12 days of RSE time on AI/HPC related project](https://rse.shef.ac.uk/collaboration/tier2)
 
 ---
 
