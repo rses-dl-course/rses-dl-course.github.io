@@ -76,6 +76,11 @@ This research applies state-of-the-art algorithms in deep learning to two key pr
 
 <font size='6'> *https://www.algotive.ai/blog/machine-learning-what-is-ml-and-how-does-it-work* </font>
 
+Note:
+Point out some of the more interesting events:
+    - Alan Turing first proposing machines can learn patterns
+    - Point out how early first neural networks were built
+    - 2012 is when DL kicked off.
 ---
 
 ### Definitions
@@ -101,6 +106,10 @@ These definitions are very debatable and are simplified.
 Statistical models that learns from data
 
 <img src="assets/img/ml_paradigm.png" class="plain" style="background: white; " />
+
+Note:
+    - Classifical programming depends on rules. I.E. Do certain mathematical processing to transform x to y.
+    - Machine learning allows the algorithm to build its own rules simply by observing patterns between x and y.
 
 ---
 
