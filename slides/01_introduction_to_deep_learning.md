@@ -11,7 +11,7 @@ title: "1. Introduction to Deep Learning"
 ---
 
 ### Self-driving cars
- 
+
 ![LIDAR DNN](assets/img/lidar-dnn.png)
 
 <span class="small-note">[https://blogs.nvidia.com/blog/2020/03/11/drive-labs-multi-view-lidarnet-self-driving-cars/](https://blogs.nvidia.com/blog/2020/03/11/drive-labs-multi-view-lidarnet-self-driving-cars/)</span>
@@ -55,7 +55,7 @@ Obviously dangerous but there is also ongoing research into using deep learning 
 <span class="small-note">DeepTerramechanics: Terrain Classification and Slip Estimation for Ground Robots via Deep Learning, R. Gonzalez, K. Iagnemma</span>
 
 Note:
-Terramechanics plays a critical role in the areas of ground vehicles and ground mobile robots since understanding and estimating the variables influencing the vehicle-terrain interaction may mean the success or the failure of an entire mission. 
+Terramechanics plays a critical role in the areas of ground vehicles and ground mobile robots since understanding and estimating the variables influencing the vehicle-terrain interaction may mean the success or the failure of an entire mission.
 
 This research applies state-of-the-art algorithms in deep learning to two key problems: estimating wheel slip and classifying the terrain being traversed by a ground robot
 ---
@@ -83,7 +83,7 @@ Note:
 
 ### Machine Learning (ML)
 
-Statistical models that learns from data 
+Statistical models that learns from data
 
 ---
 
@@ -135,7 +135,7 @@ It's possible to use multiple features in our model...
 What other features should we collect?
 
 Note:
-Feature engineering is the process of using domain knowledge to extract features from raw data. 
+Feature engineering is the process of using domain knowledge to extract features from raw data.
 ---
 
 
@@ -157,7 +157,7 @@ Examples of features with higher correlation:
 ### Feature engineering
 * We want to choose features most relevant to our model e.g. ones with high correlation
 
-* It's possible to combine and transform multiple features to increase correlation and help our ML algorithms e.g. 
+* It's possible to combine and transform multiple features to increase correlation and help our ML algorithms e.g.
 
     ```html
     Total area = Garden area + Ground floor area + Second floor area + ...
@@ -167,17 +167,17 @@ Examples of features with higher correlation:
 
 ---
 
-### Feature engineering
+### ML vs Deep Learning
 
-What if we want to create a model that detect cats?
+What if we want to create a model that can classify images of cats?
 
 <img src="assets/img/cat.jpeg" class="plain" style="background: white; width: 30%" />
 
-Each feature is a scalar value
+How would you design an algorithm to do this?
 
 ---
 
-### Feature engineering
+### ML vs Deep Learning
 
 Cat detector:
 
@@ -199,24 +199,11 @@ Cat detector:
 
 ---
 
-### Feature engineering
+### ML vs Deep Learning
 
 Cat detector:
 
 <img src="assets/img/ml-cat-detector.svg" class="plain" style="background: transparent"/>
-
----
-
-### ML Methodologies
-We can use various algorithms as the 'model', DL is one of them...
-
-* Clustering (e.g. K-means)
-* Bayes
-* Decision trees
-* Regression
-* State vector machines (SVM)
-* Deep Learning (Neural Networks)
-* etc.
 
 ---
 
@@ -241,7 +228,7 @@ Deep layers acts as both model and feature detectors
 
 ---
 
-### Hierarchical feature representaion 
+### Hierarchical feature representaion
 Deep neural networks learn larger and more abstract features deeper into the network.
 
 <object type="image/svg+xml" data="assets/img/convolution-hierachy.svg" style="background: white; width: 60%; height: auto;">
@@ -250,8 +237,8 @@ Deep neural networks learn larger and more abstract features deeper into the net
 
 ---
 
-### Why use Deep Networks 
-Why is this important? 
+### Why use Deep Networks
+Why is this important?
 
 Imagine trying to convert our cat detector to a car detector:
 
@@ -293,15 +280,31 @@ Alexnet network won the 2012 Imagenet competition with almost half error rate of
 <img src="assets/img/alexnet.png" class="plain"/><br/>
 [Alexnet (https://doi.org/10.1145/3065386)](https://doi.org/10.1145/3065386)<!-- .element: class="small-note" -->
 
-Today's state-of-the-art is around 98.7% 
+Today's state-of-the-art is around 98.7%
 
 Note:
 The rise of deep learning has had a clear impact on state of the art performance of machine learning models
 ---
 
-### DL performance 
+### When is Deep Learning used?
 
-DL is able to use **more** data to increase performance 
+---
+
+### Some More Definitions
+
+Supervised -
+
+Unsupervised -
+
+Regresssion -
+
+Classification -
+
+---
+
+### DL performance
+
+DL is able to use **more** data to increase performance
 
 <img src="assets/img/ml-dl-data.svg" class="plain" style="background: white; width: 30%"/>
 
@@ -321,7 +324,7 @@ Many DL frameworks are available, most popular being:
 * [PyTorch](https://pytorch.org/)
   * Dynamic network graph
   * Network debuggable
-  
+
 
 ---
 
@@ -357,7 +360,7 @@ Linear regression with neural networks.
 
 ### Installing Tensorflow using conda
 
-[conda(conda.io)](https://conda.io) is a virtual environment and package manager for many languages. 
+[conda(conda.io)](https://conda.io) is a virtual environment and package manager for many languages.
 It can be used to create a virtual python environment for installing tensorflow.
 
 It's recommended if you plan to install tensorflow on your machine.
@@ -383,7 +386,7 @@ You must then activate your virtual environment before running any tensorflow co
 
 ```bash
 source activate my_tensorflow_environment
-python my_dl_script.py 
+python my_dl_script.py
 ```
 
 ---
