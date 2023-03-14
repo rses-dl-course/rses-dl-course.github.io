@@ -72,7 +72,7 @@ This research applies state-of-the-art algorithms in deep learning to two key pr
 
 ### Timeline
 
-<img src="assets/img/ML_timeline.png" class="plain" style="background: white; " />
+<img src="assets/img/ML_timeline.png" class="plain" style="background: white; width: 70%" />
 
 <font size='6'> *https://www.algotive.ai/blog/machine-learning-what-is-ml-and-how-does-it-work* </font>
 
@@ -85,16 +85,17 @@ Point out some of the more interesting events:
 
 ### Definitions
 
-<img src="assets/img/ai-definition.svg" class="plain" style="width:70%"/>
+<img src="assets/img/ai-definition.svg" class="plain" style="width:40%"/>
 
 
-**Artificial Intelligence (AI)**:  The effort to automate intellectual tasks normally performed by humans.
+<font size='5'> **Artificial Intelligence (AI)**:  The effort to automate intellectual tasks normally performed by humans.
 
 **Machine Learning (ML)**: A sub topic in AI that aims to perform tasks by learning patterns in data.
 
 **Deep Learning (DL)**: A technique to perform ML based on neural networks.
+</font>
 
-<font size='6'> Reference: *Chollet, F., 2021. Deep learning with Python. Simon and Schuster.* </font>
+<font size='3'> Reference: *Chollet, F., 2021. Deep learning with Python. Simon and Schuster.* </font>
 
 Note:
 These definitions are very debatable and are simplified.
