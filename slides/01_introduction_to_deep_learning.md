@@ -11,7 +11,7 @@ title: "1. Introduction to Deep Learning"
 ---
 
 ### Self-driving cars
- 
+
 ![LIDAR DNN](assets/img/lidar-dnn.png)
 
 <span class="small-note">[https://blogs.nvidia.com/blog/2020/03/11/drive-labs-multi-view-lidarnet-self-driving-cars/](https://blogs.nvidia.com/blog/2020/03/11/drive-labs-multi-view-lidarnet-self-driving-cars/)</span>
@@ -55,7 +55,7 @@ Obviously dangerous but there is also ongoing research into using deep learning 
 <span class="small-note">DeepTerramechanics: Terrain Classification and Slip Estimation for Ground Robots via Deep Learning, R. Gonzalez, K. Iagnemma</span>
 
 Note:
-Terramechanics plays a critical role in the areas of ground vehicles and ground mobile robots since understanding and estimating the variables influencing the vehicle-terrain interaction may mean the success or the failure of an entire mission. 
+Terramechanics plays a critical role in the areas of ground vehicles and ground mobile robots since understanding and estimating the variables influencing the vehicle-terrain interaction may mean the success or the failure of an entire mission.
 
 This research applies state-of-the-art algorithms in deep learning to two key problems: estimating wheel slip and classifying the terrain being traversed by a ground robot
 ---
@@ -70,20 +70,47 @@ This research applies state-of-the-art algorithms in deep learning to two key pr
 
 ---
 
-### Definitions
+### Timeline
 
-<img src="assets/img/ai-definition.svg" class="plain" style="width:70%"/>
+<img src="assets/img/ML_timeline.png" class="plain" style="background: white; width: 70%" />
+
+<font size='6'> *https://www.algotive.ai/blog/machine-learning-what-is-ml-and-how-does-it-work* </font>
 
 Note:
-- AI: Mimicking the intelligence or behaviour of humans or any other living entity
-- Machine Learning: A technique by which a computer can learn from data without using a complex set of rules.
-- Deep Learning: A technique to perform machine learning based on neural networks.
+Point out some of the more interesting events:
+    - Alan Turing first proposing machines can learn patterns
+    - Point out how early first neural networks were built
+    - 2012 is when DL kicked off.
+---
+
+### Definitions
+
+<img src="assets/img/ai-definition.svg" class="plain" style="width:40%"/>
+
+
+<font size='5'> **Artificial Intelligence (AI)**:  The effort to automate intellectual tasks normally performed by humans.
+
+**Machine Learning (ML)**: A sub topic in AI that aims to perform tasks by learning patterns in data.
+
+**Deep Learning (DL)**: A technique to perform ML based on neural networks.
+</font>
+
+<font size='3'> Reference: *Chollet, F., 2021. Deep learning with Python. Simon and Schuster.* </font>
+
+Note:
+These definitions are very debatable and are simplified.
 
 ---
 
 ### Machine Learning (ML)
 
-Statistical models that learns from data 
+Statistical models that learns from data
+
+<img src="assets/img/ml_paradigm.png" class="plain" style="background: white; " />
+
+Note:
+    - Classical programming depends on rules. I.E. Do certain mathematical processing to transform x to y.
+    - Machine learning allows the algorithm to build its own rules simply by observing patterns between x and y.
 
 ---
 
@@ -135,7 +162,7 @@ It's possible to use multiple features in our model...
 What other features should we collect?
 
 Note:
-Feature engineering is the process of using domain knowledge to extract features from raw data. 
+Feature engineering is the process of using domain knowledge to extract features from raw data.
 ---
 
 
@@ -157,7 +184,7 @@ Examples of features with higher correlation:
 ### Feature engineering
 * We want to choose features most relevant to our model e.g. ones with high correlation
 
-* It's possible to combine and transform multiple features to increase correlation and help our ML algorithms e.g. 
+* It's possible to combine and transform multiple features to increase correlation and help our ML algorithms e.g.
 
     ```html
     Total area = Garden area + Ground floor area + Second floor area + ...
@@ -241,7 +268,7 @@ Deep layers acts as both model and feature detectors
 
 ---
 
-### Hierarchical feature representaion 
+### Hierarchical feature representaion
 Deep neural networks learn larger and more abstract features deeper into the network.
 
 <object type="image/svg+xml" data="assets/img/convolution-hierachy.svg" style="background: white; width: 60%; height: auto;">
@@ -250,8 +277,8 @@ Deep neural networks learn larger and more abstract features deeper into the net
 
 ---
 
-### Why use Deep Networks 
-Why is this important? 
+### Why use Deep Networks
+Why is this important?
 
 Imagine trying to convert our cat detector to a car detector:
 
@@ -293,15 +320,15 @@ Alexnet network won the 2012 Imagenet competition with almost half error rate of
 <img src="assets/img/alexnet.png" class="plain"/><br/>
 [Alexnet (https://doi.org/10.1145/3065386)](https://doi.org/10.1145/3065386)<!-- .element: class="small-note" -->
 
-Today's state-of-the-art is around 98.7% 
+Today's state-of-the-art is around 98.7%
 
 Note:
 The rise of deep learning has had a clear impact on state of the art performance of machine learning models
 ---
 
-### DL performance 
+### DL performance
 
-DL is able to use **more** data to increase performance 
+DL is able to use **more** data to increase performance
 
 <img src="assets/img/ml-dl-data.svg" class="plain" style="background: white; width: 30%"/>
 
@@ -321,7 +348,7 @@ Many DL frameworks are available, most popular being:
 * [PyTorch](https://pytorch.org/)
   * Dynamic network graph
   * Network debuggable
-  
+
 
 ---
 
@@ -357,7 +384,7 @@ Linear regression with neural networks.
 
 ### Installing Tensorflow using conda
 
-[conda(conda.io)](https://conda.io) is a virtual environment and package manager for many languages. 
+[conda(conda.io)](https://conda.io) is a virtual environment and package manager for many languages.
 It can be used to create a virtual python environment for installing tensorflow.
 
 It's recommended if you plan to install tensorflow on your machine.
@@ -383,7 +410,7 @@ You must then activate your virtual environment before running any tensorflow co
 
 ```bash
 source activate my_tensorflow_environment
-python my_dl_script.py 
+python my_dl_script.py
 ```
 
 ---
