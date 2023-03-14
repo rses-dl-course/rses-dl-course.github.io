@@ -163,6 +163,16 @@ Especially when there are big differences between the magnitude of your features
 
 ---
 
+### Image Data Differences
+* Tabular data specifies features but in images, these are the pixels.
+* Image features are spatially related, i.e. ears are located on a head.
+* The 2-D (greyscale) or 3-D (colour) input can be flattened to work with `Dense` NN's, similar to tabular data.
+
+<object type="image/svg+xml" data="assets/img/cat-flatten.svg" style="background: white; width: 60%; height: auto;">
+</object>
+
+---
+
 ### Hierarchical feature representaion 
 Deep neural networks learn larger and more abstract features deeper into the network.
 
@@ -191,6 +201,15 @@ Each node in layer is connected to **every node** in the **previous** layer.
 
 <object type="image/svg+xml" data="assets/img/convolution-dense2.svg" style="background: white; width: auto; height: auto;">
 <param id="layer2" class="fragment" data-fragment-index="1" />
+</object>
+
+---
+
+### Images in Dense Networks
+* `Dense` NN's are unable to effectively utilise spatial information.
+* This is because a node in the next layer is connected to all previous nodes, not just local nodes like in convolutional layers.
+
+<object type="image/svg+xml" data="assets/img/cat-px-relations.svg" style="background: white; width: 60%; height: auto;">
 </object>
 
 ---
