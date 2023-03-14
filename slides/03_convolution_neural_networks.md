@@ -195,6 +195,13 @@ Each node in layer is connected to **every node** in the **previous** layer.
 
 ---
 
+### Performace vs Dense Neural Networks
+* The model trained in lab 2 gave ~88% accuracy.
+* The `Dense` layers poorly generalise positional and orientational features.
+* Convolutional layers better generalise spatial features by looking at local pixel areas and also use fewer parameters.
+
+---
+
 ### Convolution Layer
 
 <object type="image/svg+xml" data="assets/img/convolution-1d.svg" style="background: white; width: auto; height: auto;">
