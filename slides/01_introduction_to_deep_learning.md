@@ -108,7 +108,7 @@ Statistical models that learns from data
 <img src="assets/img/ml_paradigm.png" class="plain" style="background: white; " />
 
 Note:
-    - Classifical programming depends on rules. I.E. Do certain mathematical processing to transform x to y.
+    - Classical programming depends on rules. I.E. Do certain mathematical processing to transform x to y.
     - Machine learning allows the algorithm to build its own rules simply by observing patterns between x and y.
 
 ---
