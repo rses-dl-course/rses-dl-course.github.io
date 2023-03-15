@@ -81,6 +81,7 @@ Note:
 
 ---
 
+
 ### Machine Learning (ML)
 
 Statistical models that learns from data
@@ -286,20 +287,21 @@ Note:
 The rise of deep learning has had a clear impact on state of the art performance of machine learning models
 ---
 
-### When is Deep Learning used?
 
----
+### When is Deep Learning preferred to ML?
 
-### Some More Definitions
+<font size="6">
 
-Supervised -
+**Feature engineering is challenging** - Scenario where it is difficult to manually extract useful features from the data.
 
-Unsupervised -
+**High dimensional data types** - Images, Audio, Text opposed to tabular data.
 
-Regresssion -
+**Highly complex problems** - The relationship between features and target is highly non-linear.
 
-Classification -
+**Large amounts of data** - An actual number here is subjective but at least thousands of data points.
 
+
+</font>
 ---
 
 ### DL performance
@@ -311,6 +313,25 @@ DL is able to use **more** data to increase performance
 <div>
 ... but also means you need <strong>more</strong> data to train DL algorithms
 </div>
+
+---
+
+### More Definitions
+
+<font size="6">
+
+**Supervised Learning** - A setup where true labels are provided to guide the learning process
+
+**Unsupervised Learning** - No labels are provided to guide the training process. The algorithm attemps to learn patterns purely from the data.
+
+**Classification** - The target is a category. e.g. Identifying emails as spam
+
+**Regression** - The target is a numerical value. e.g. Predicting stock prices
+</font>
+
+Note:
+    Ask audience to respond which definitions these examples fall under:
+        - I have audo files of seagulls and pigeons with a text file that lists what bird is responsbile for each audo file. I want to train an model to predict what bird is present based on the audio file.
 
 ---
 
